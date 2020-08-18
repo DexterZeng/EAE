@@ -30,5 +30,5 @@ The new mono-lingual dataset can be found in the **dataset** directory
 We also offer a solution that combines the modules in exsiting methods, which can achieve competitive performance.
 
 
-### Aknowledgement
+### Acknowledgement
 We thank the authors of aforementioned papers for their great works and for making the source codes publicly available.
