@@ -1,0 +1,23 @@
+sample path time elapsed: 1016.2517 s
+{'hidden_size': 300, 'num_layers': 2, 'batch_size': 512, 'learning_rate': 0.003, 'num_samples': 8192, 'keep_prob': 0.5, 'max_length': 15, 'alpha': 0.9, 'beta': 0.9, 'data_path': 'data/en_fr_15k_V1/mapping/0_3/', 'log_file_path': 'data-en_fr_15k_V1-mapping-0_3-15l_19-12-22-17-12.log'}
+epoch:0, Hits@1:0.000, Hits@10:0.002, MR:5353.082, MRR:0.001, mean_loss:10000.000
+epoch:1, Hits@1:0.292, Hits@10:0.544, MR:305.564, MRR:0.374, mean_loss:2813.095
+epoch:2, Hits@1:0.308, Hits@10:0.587, MR:200.506, MRR:0.402, mean_loss:36.512
+epoch:3, Hits@1:0.322, Hits@10:0.613, MR:173.579, MRR:0.421, mean_loss:35.183
+epoch:4, Hits@1:0.331, Hits@10:0.619, MR:159.878, MRR:0.429, mean_loss:34.507
+epoch:5, Hits@1:0.332, Hits@10:0.625, MR:143.518, MRR:0.427, mean_loss:34.117
+epoch:6, Hits@1:0.329, Hits@10:0.625, MR:135.324, MRR:0.429, mean_loss:33.811
+epoch:7, Hits@1:0.342, Hits@10:0.625, MR:134.838, MRR:0.436, mean_loss:33.598
+epoch:8, Hits@1:0.343, Hits@10:0.637, MR:130.135, MRR:0.443, mean_loss:33.392
+epoch:9, Hits@1:0.346, Hits@10:0.639, MR:146.034, MRR:0.445, mean_loss:33.246
+epoch:10, Hits@1:0.356, Hits@10:0.650, MR:137.967, MRR:0.451, mean_loss:33.161
+epoch:11, Hits@1:0.355, Hits@10:0.648, MR:141.837, MRR:0.447, mean_loss:33.022
+epoch:12, Hits@1:0.358, Hits@10:0.641, MR:149.337, MRR:0.451, mean_loss:32.917
+epoch:13, Hits@1:0.355, Hits@10:0.649, MR:146.690, MRR:0.450, mean_loss:32.838
+epoch:14, Hits@1:0.352, Hits@10:0.637, MR:150.156, MRR:0.448, mean_loss:32.780
+epoch:15, Hits@1:0.370, Hits@10:0.650, MR:149.946, MRR:0.457, mean_loss:32.695
+epoch:16, Hits@1:0.361, Hits@10:0.650, MR:133.784, MRR:0.454, mean_loss:32.644
+epoch:17, Hits@1:0.358, Hits@10:0.650, MR:147.216, MRR:0.455, mean_loss:32.563
+epoch:18, Hits@1:0.353, Hits@10:0.648, MR:142.180, MRR:0.449, mean_loss:32.498
+epoch:18, Hits@1:0.350, Hits@10:0.636, MR:146.575, MRR:0.444, mean_loss:32.498
+total time elapsed: 2979.4498 s

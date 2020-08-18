@@ -1,0 +1,141 @@
+(p3) weixin@weixin-All-Series:~/PycharmProjects/EA/Crosslingula-KG-Matching-master/DBP15K$ python preprocessor.py dbp_wd train 20
+generating candidate file for training ...
+100%|██████████████████████████████████| 30000/30000 [35:28:00<00:00,  4.26s/it]
+correct at #1 acc: 0.7846846846846847
+correct at #10 acc: 0.906054054054054
+correct at #20 acc: 0.9396396396396396
+generating training data for graph matching model...
+
+(p3) weixin@weixin-All-Series:~/PycharmProjects/EA/Crosslingula-KG-Matching-master/DBP15K$ python preprocessor.py dbp_wd test 1000
+generating candidate file for test ...
+100%|██████████████████████████████████| 70000/70000 [78:15:29<00:00,  4.02s/it]
+correct at #1 acc: 0.8326857885856694
+correct at #10 acc: 0.9476959274337106
+correct at #1000 acc: 1.0
+generating test data for graph matching model...
+100%|█████████████████████████████████████| 17344/17344 [25:24<00:00, 11.38it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 64603/64603 [16:13<00:00, 66.37it/s]
+Already saved model to saved_model/dbp_wd_model_win1_1_win2_2_node1dim_100_node2dim_100_word_embedding_dim_300_layer1_1_layer2_1_first_gcn_type_mean_pooling_second_gcn_type_mean_pooling_cosine_MP_dim_10_drop_out_0.0_use_Glove_True_pm_graph_level_sample_size_per_layer_1/model-0
+writing prediction file...
+-----------------------
+time:2020-01-03T12:43:00.000709
+Epoch 1
+Loss on train:564.1450332131717
+acc @1 on Dev:0.935111372536879
+acc @10 on Dev:0.9654660000309583
+best acc @1 on Dev:0.935111372536879
+-----------------------
+100%|█████████████████████████████████████| 17344/17344 [25:37<00:00, 11.28it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 64603/64603 [16:10<00:00, 66.60it/s]
+-----------------------
+time:2020-01-03T13:24:48.415867
+Epoch 2
+Loss on train:336.70273106999866
+acc @1 on Dev:0.9221707970218102
+acc @10 on Dev:0.9654660000309583
+best acc @1 on Dev:0.935111372536879
+-----------------------
+100%|█████████████████████████████████████| 17344/17344 [25:29<00:00, 11.34it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 64603/64603 [16:09<00:00, 66.63it/s]
+-----------------------
+time:2020-01-03T14:06:27.915736
+Epoch 3
+Loss on train:289.73608986882846
+acc @1 on Dev:0.934832747705215
+acc @10 on Dev:0.9654969583455877
+best acc @1 on Dev:0.935111372536879
+-----------------------
+100%|█████████████████████████████████████| 17344/17344 [25:23<00:00, 11.39it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 64603/64603 [16:11<00:00, 66.46it/s]
+Already saved model to saved_model/dbp_wd_model_win1_1_win2_2_node1dim_100_node2dim_100_word_embedding_dim_300_layer1_1_layer2_1_first_gcn_type_mean_pooling_second_gcn_type_mean_pooling_cosine_MP_dim_10_drop_out_0.0_use_Glove_True_pm_graph_level_sample_size_per_layer_1/model-0
+writing prediction file...
+-----------------------
+time:2020-01-03T14:48:06.007457
+Epoch 4
+Loss on train:255.58592754458596
+acc @1 on Dev:0.9361329969196477
+acc @10 on Dev:0.965481479188273
+best acc @1 on Dev:0.9361329969196477
+-----------------------
+100%|█████████████████████████████████████| 17344/17344 [25:22<00:00, 11.39it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 64603/64603 [16:07<00:00, 66.77it/s]
+-----------------------
+time:2020-01-03T15:29:36.996620
+Epoch 5
+Loss on train:230.71976233500038
+acc @1 on Dev:0.9329597696701392
+acc @10 on Dev:0.9654040834016996
+best acc @1 on Dev:0.9361329969196477
+-----------------------
+100%|█████████████████████████████████████| 17344/17344 [25:29<00:00, 11.34it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 64603/64603 [16:25<00:00, 65.58it/s]
+Already saved model to saved_model/dbp_wd_model_win1_1_win2_2_node1dim_100_node2dim_100_word_embedding_dim_300_layer1_1_layer2_1_first_gcn_type_mean_pooling_second_gcn_type_mean_pooling_cosine_MP_dim_10_drop_out_0.0_use_Glove_True_pm_graph_level_sample_size_per_layer_1/model-0
+writing prediction file...
+-----------------------
+time:2020-01-03T16:11:34.140286
+Epoch 6
+Loss on train:209.39011732602557
+acc @1 on Dev:0.9372320170889896
+acc @10 on Dev:0.965481479188273
+best acc @1 on Dev:0.9372320170889896
+-----------------------
+100%|█████████████████████████████████████| 17344/17344 [26:12<00:00, 11.03it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 64603/64603 [16:11<00:00, 66.49it/s]
+-----------------------
+time:2020-01-03T16:53:58.676717
+Epoch 7
+Loss on train:193.47450760029864
+acc @1 on Dev:0.9323715616921815
+acc @10 on Dev:0.965481479188273
+best acc @1 on Dev:0.9372320170889896
+-----------------------
+100%|█████████████████████████████████████| 17344/17344 [25:43<00:00, 11.24it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 64603/64603 [16:09<00:00, 66.63it/s]
+-----------------------
+time:2020-01-03T17:35:52.441846
+Epoch 8
+Loss on train:176.22985969675392
+acc @1 on Dev:0.9319691036019999
+acc @10 on Dev:0.9653886042443849
+best acc @1 on Dev:0.9372320170889896
+-----------------------
+100%|█████████████████████████████████████| 17344/17344 [25:36<00:00, 11.29it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 64603/64603 [16:09<00:00, 66.67it/s]
+-----------------------
+time:2020-01-03T18:17:38.503663
+Epoch 9
+Loss on train:161.24314684134322
+acc @1 on Dev:0.9328668947262511
+acc @10 on Dev:0.9654040834016996
+best acc @1 on Dev:0.9372320170889896
+-----------------------
+100%|█████████████████████████████████████| 17344/17344 [25:37<00:00, 11.28it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 64603/64603 [16:08<00:00, 66.74it/s]
+time:2020-01-03T18:59:24.806288
+Epoch 10
+Loss on train:151.7163225061372
+acc @1 on Dev:0.9272324814637091
+acc @10 on Dev:0.9653886042443849
+best acc @1 on Dev:0.9372320170889896
+-----------------------
+HEEEEEE
+HEEEEEE
+100%|████████████████████████████████| 646030/646030 [12:32:09<00:00, 14.31it/s]
+64603
+-----------------------
+acc @1 on Test:0.9353126015819698
+acc @10 on Test:0.9987926257294553
+MRR:0.963176357811303
+-----------------------
+writing prediction file...
+

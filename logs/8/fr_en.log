@@ -1,0 +1,2390 @@
+*******************dataset-DBP15K-fr_en-********************
+data folder: ../dataset/DBP15K/fr_en/
+total ents: 35154
+total rels: 903 1208 2036
+total triples: 105998 + 115722 = 221720
+To aligned entities: 10500
+supervised triples: 51283, 55904
+now triples: 105998, 115722
+embed_init
+embed_init
+trunc ent num: 1966
+iteration  1
+generate neighbours: 7.105 s, size: 0.001573 G
+triple_loss = 778.693, time = 5.740 s
+triple_loss = 696.169, time = 5.540 s
+triple_loss = 645.365, time = 5.580 s
+triple_loss = 610.992, time = 5.540 s
+triple_loss = 579.662, time = 5.550 s
+ent alignment, hits@[1, 5, 10, 50] = [0.001  0.0052 0.008  0.0238], mr = 4109.066, mrr = 0.004, time = 2.433 s 
+testing ent alignment costs: 3.237 s
+
+generate neighbours: 7.033 s, size: 0.001573 G
+triple_loss = 563.382, time = 5.570 s
+triple_loss = 546.445, time = 5.550 s
+triple_loss = 526.413, time = 5.560 s
+triple_loss = 513.222, time = 5.530 s
+triple_loss = 497.472, time = 5.520 s
+ent alignment, hits@[1, 5, 10, 50] = [0.0091 0.0231 0.0341 0.0742], mr = 2980.369, mrr = 0.018, time = 2.433 s 
+testing ent alignment costs: 3.273 s
+
+mat mul costs: 0.357
+ent alignment, hits@[1, 5, 10, 50] = [0.0091 0.0231 0.0341 0.0742], mr = 2980.369, mrr = 0.018, time = 2.421 s 
+testing ent alignment costs: 3.241 s
+
+calculate likelihood matrix costs 13.17 s
+likelihood_loss = 8702.488, time = 26.665 s
+ent alignment, hits@[1, 5, 10, 50] = [0.0091 0.0232 0.0341 0.0742], mr = 2980.471, mrr = 0.018, time = 2.416 s 
+testing ent alignment costs: 3.226 s
+
+iteration  2
+generate neighbours: 7.055 s, size: 0.001573 G
+triple_loss = 490.726, time = 5.580 s
+triple_loss = 479.484, time = 5.550 s
+triple_loss = 468.298, time = 5.550 s
+triple_loss = 456.663, time = 5.550 s
+triple_loss = 447.285, time = 5.590 s
+ent alignment, hits@[1, 5, 10, 50] = [0.028  0.0634 0.0851 0.1599], mr = 2181.841, mrr = 0.049, time = 2.416 s 
+testing ent alignment costs: 3.263 s
+
+generate neighbours: 7.053 s, size: 0.001573 G
+triple_loss = 442.951, time = 5.590 s
+triple_loss = 437.592, time = 5.550 s
+triple_loss = 428.776, time = 5.530 s
+triple_loss = 423.136, time = 5.570 s
+triple_loss = 415.967, time = 5.550 s
+ent alignment, hits@[1, 5, 10, 50] = [0.0581 0.1218 0.1564 0.2551], mr = 1644.365, mrr = 0.093, time = 2.430 s 
+testing ent alignment costs: 3.258 s
+
+mat mul costs: 0.363
+after sim filtered, right alignment: 22/47=0.468
+precision=0.468085, recall=0.002095, f1=0.004171
+after sim and neighbours filtered, right alignment: 22/47=0.468
+precision=0.468085, recall=0.002095, f1=0.004171
+graph via graph_tool <Graph object, directed, with 63 vertices and 47 edges at 0x7fc4e7ac59e8>
+selected_pairs, right alignment: 17/28=0.607
+precision=0.607143, recall=0.001619, f1=0.003229
+mwgm costs time: 0.005 s
+selecting potential alignment costs time: 1.399 s
+update wrongly:  0 greedy update wrongly:  0
+after editing labeled alignment (<-), right alignment: 17/28=0.607
+precision=0.607143, recall=0.001619, f1=0.003229
+after editing labeled alignment (->), right alignment: 17/28=0.607
+precision=0.607143, recall=0.001619, f1=0.003229
+newly triples: 844, 1058
+alignment_loss = 1.609, time = 0.141 s
+ent alignment, hits@[1, 5, 10, 50] = [0.0581 0.1228 0.1568 0.2556], mr = 1641.920, mrr = 0.093, time = 2.438 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.0577 0.1228 0.1568 0.2556], mr = 1641.920, mrr = 0.093, time = 2.439 s 
+testing ent alignment costs: 3.243 s
+
+calculate likelihood matrix costs 12.66 s
+likelihood_loss = 8692.863, time = 13.732 s
+ent alignment, hits@[1, 5, 10, 50] = [0.0578 0.1228 0.1568 0.2555], mr = 1642.122, mrr = 0.093, time = 2.420 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.0574 0.1228 0.1568 0.2555], mr = 1642.123, mrr = 0.093, time = 2.420 s 
+testing ent alignment costs: 3.268 s
+
+iteration  3
+generate neighbours: 6.939 s, size: 0.001573 G
+triple_loss = 412.041, time = 5.520 s
+triple_loss = 406.306, time = 5.530 s
+triple_loss = 402.411, time = 5.550 s
+triple_loss = 394.054, time = 5.580 s
+triple_loss = 390.581, time = 5.570 s
+ent alignment, hits@[1, 5, 10, 50] = [0.094  0.1887 0.2298 0.3439], mr = 1272.248, mrr = 0.142, time = 2.420 s 
+testing ent alignment costs: 3.250 s
+
+newly triples: 844, 1058
+alignment_loss = 1.438, time = 0.005 s
+generate neighbours: 6.998 s, size: 0.001573 G
+triple_loss = 383.661, time = 5.510 s
+triple_loss = 382.925, time = 5.510 s
+triple_loss = 377.839, time = 5.500 s
+triple_loss = 375.052, time = 5.510 s
+triple_loss = 368.227, time = 5.490 s
+ent alignment, hits@[1, 5, 10, 50] = [0.1265 0.243  0.2948 0.4249], mr = 1012.901, mrr = 0.186, time = 2.436 s 
+testing ent alignment costs: 3.282 s
+
+mat mul costs: 0.361
+after sim filtered, right alignment: 196/664=0.295
+precision=0.295181, recall=0.018667, f1=0.035113
+after sim and neighbours filtered, right alignment: 196/664=0.295
+precision=0.295181, recall=0.018667, f1=0.035113
+graph via graph_tool <Graph object, directed, with 485 vertices and 664 edges at 0x7fc3853e6fd0>
+selected_pairs, right alignment: 145/210=0.690
+precision=0.690476, recall=0.01381, f1=0.027078
+mwgm costs time: 0.040 s
+selecting potential alignment costs time: 1.404 s
+update wrongly:  0 greedy update wrongly:  6
+after editing labeled alignment (<-), right alignment: 150/211=0.711
+precision=0.7109, recall=0.014286, f1=0.028009
+after editing labeled alignment (->), right alignment: 149/200=0.745
+precision=0.745, recall=0.01419, f1=0.02785
+newly triples: 5203, 6185
+alignment_loss = 1.521, time = 0.007 s
+ent alignment, hits@[1, 5, 10, 50] = [0.1257 0.2456 0.2982 0.429 ], mr = 1001.924, mrr = 0.186, time = 2.424 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.1249 0.2456 0.2982 0.429 ], mr = 1001.925, mrr = 0.186, time = 2.425 s 
+testing ent alignment costs: 3.239 s
+
+calculate likelihood matrix costs 13.18 s
+likelihood_loss = 8635.095, time = 14.270 s
+ent alignment, hits@[1, 5, 10, 50] = [0.1255 0.2457 0.298  0.429 ], mr = 1002.095, mrr = 0.186, time = 2.400 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.1248 0.2457 0.298  0.429 ], mr = 1002.096, mrr = 0.185, time = 2.400 s 
+testing ent alignment costs: 3.240 s
+
+iteration  4
+generate neighbours: 6.941 s, size: 0.001573 G
+triple_loss = 369.251, time = 5.510 s
+triple_loss = 362.474, time = 5.510 s
+triple_loss = 359.263, time = 5.510 s
+triple_loss = 355.855, time = 5.530 s
+triple_loss = 354.514, time = 5.520 s
+ent alignment, hits@[1, 5, 10, 50] = [0.1493 0.2943 0.3551 0.4941], mr = 818.649, mrr = 0.221, time = 2.407 s 
+testing ent alignment costs: 3.245 s
+
+newly triples: 5203, 6185
+alignment_loss = 1.387, time = 0.009 s
+generate neighbours: 6.970 s, size: 0.001573 G
+triple_loss = 351.129, time = 5.560 s
+triple_loss = 350.149, time = 5.520 s
+triple_loss = 344.506, time = 5.500 s
+triple_loss = 342.627, time = 5.530 s
+triple_loss = 340.448, time = 5.550 s
+ent alignment, hits@[1, 5, 10, 50] = [0.1711 0.3335 0.4013 0.554 ], mr = 678.634, mrr = 0.250, time = 2.444 s 
+testing ent alignment costs: 3.281 s
+
+mat mul costs: 0.366
+after sim filtered, right alignment: 598/3087=0.194
+precision=0.193716, recall=0.056952, f1=0.088025
+after sim and neighbours filtered, right alignment: 598/3054=0.196
+precision=0.195809, recall=0.056952, f1=0.088239
+graph via graph_tool <Graph object, directed, with 1634 vertices and 3054 edges at 0x7fc4ec72edd8>
+selected_pairs, right alignment: 371/655=0.566
+precision=0.566412, recall=0.035333, f1=0.066517
+mwgm costs time: 0.173 s
+selecting potential alignment costs time: 1.562 s
+update wrongly:  2 greedy update wrongly:  49
+after editing labeled alignment (<-), right alignment: 413/661=0.625
+precision=0.624811, recall=0.039333, f1=0.074007
+after editing labeled alignment (->), right alignment: 407/589=0.691
+precision=0.691002, recall=0.038762, f1=0.073406
+newly triples: 14972, 16128
+alignment_loss = 1.423, time = 0.020 s
+ent alignment, hits@[1, 5, 10, 50] = [0.1716 0.337  0.408  0.5633], mr = 660.149, mrr = 0.252, time = 2.544 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.1707 0.337  0.408  0.5633], mr = 660.150, mrr = 0.251, time = 2.544 s 
+testing ent alignment costs: 3.350 s
+
+calculate likelihood matrix costs 12.68 s
+likelihood_loss = 8500.594, time = 13.759 s
+ent alignment, hits@[1, 5, 10, 50] = [0.1708 0.3364 0.408  0.563 ], mr = 660.353, mrr = 0.251, time = 2.511 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.1696 0.3364 0.408  0.563 ], mr = 660.354, mrr = 0.251, time = 2.511 s 
+testing ent alignment costs: 3.369 s
+
+iteration  5
+generate neighbours: 6.945 s, size: 0.001573 G
+triple_loss = 339.677, time = 5.540 s
+triple_loss = 336.167, time = 5.540 s
+triple_loss = 336.965, time = 5.530 s
+triple_loss = 333.826, time = 5.520 s
+triple_loss = 331.018, time = 5.550 s
+ent alignment, hits@[1, 5, 10, 50] = [0.1891 0.369  0.446  0.609 ], mr = 561.412, mrr = 0.276, time = 2.332 s 
+testing ent alignment costs: 3.170 s
+
+newly triples: 14972, 16128
+alignment_loss = 1.321, time = 0.021 s
+generate neighbours: 6.792 s, size: 0.001573 G
+triple_loss = 328.367, time = 5.530 s
+triple_loss = 327.411, time = 5.570 s
+triple_loss = 323.473, time = 5.530 s
+triple_loss = 323.158, time = 5.550 s
+triple_loss = 321.904, time = 5.510 s
+ent alignment, hits@[1, 5, 10, 50] = [0.2051 0.397  0.4806 0.6494], mr = 477.000, mrr = 0.298, time = 2.444 s 
+testing ent alignment costs: 3.292 s
+
+mat mul costs: 0.364
+after sim filtered, right alignment: 1409/12661=0.111
+precision=0.111287, recall=0.13419, f1=0.12167
+after sim and neighbours filtered, right alignment: 1398/11763=0.119
+precision=0.118847, recall=0.133143, f1=0.125589
+graph via graph_tool <Graph object, directed, with 4000 vertices and 11763 edges at 0x7fc4ec72e400>
+selected_pairs, right alignment: 699/1563=0.447
+precision=0.447217, recall=0.066571, f1=0.115891
+mwgm costs time: 0.637 s
+selecting potential alignment costs time: 2.019 s
+update wrongly:  6 greedy update wrongly:  165
+after editing labeled alignment (<-), right alignment: 859/1585=0.542
+precision=0.541956, recall=0.08181, f1=0.14216
+after editing labeled alignment (->), right alignment: 834/1352=0.617
+precision=0.616864, recall=0.079429, f1=0.140736
+newly triples: 32531, 32987
+alignment_loss = 1.356, time = 0.053 s
+ent alignment, hits@[1, 5, 10, 50] = [0.2116 0.4059 0.4903 0.6589], mr = 456.046, mrr = 0.305, time = 2.635 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.2107 0.4059 0.4903 0.6589], mr = 456.048, mrr = 0.305, time = 2.635 s 
+testing ent alignment costs: 3.463 s
+
+calculate likelihood matrix costs 11.12 s
+likelihood_loss = 8234.959, time = 12.209 s
+ent alignment, hits@[1, 5, 10, 50] = [0.212  0.4055 0.49   0.659 ], mr = 456.233, mrr = 0.305, time = 2.733 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.2103 0.4056 0.49   0.659 ], mr = 456.236, mrr = 0.304, time = 2.734 s 
+testing ent alignment costs: 3.581 s
+
+iteration  6
+generate neighbours: 7.135 s, size: 0.001573 G
+triple_loss = 321.277, time = 5.530 s
+triple_loss = 319.942, time = 5.520 s
+triple_loss = 320.992, time = 5.530 s
+triple_loss = 316.164, time = 5.520 s
+triple_loss = 313.753, time = 5.570 s
+ent alignment, hits@[1, 5, 10, 50] = [0.2244 0.4321 0.5181 0.6857], mr = 399.797, mrr = 0.322, time = 2.431 s 
+testing ent alignment costs: 3.286 s
+
+newly triples: 32531, 32987
+alignment_loss = 1.274, time = 0.046 s
+generate neighbours: 7.115 s, size: 0.001573 G
+triple_loss = 313.087, time = 5.520 s
+triple_loss = 313.563, time = 5.550 s
+triple_loss = 312.558, time = 5.520 s
+triple_loss = 311.880, time = 5.480 s
+triple_loss = 308.075, time = 5.460 s
+ent alignment, hits@[1, 5, 10, 50] = [0.2406 0.4567 0.5427 0.7151], mr = 345.903, mrr = 0.342, time = 2.408 s 
+testing ent alignment costs: 3.248 s
+
+mat mul costs: 0.369
+after sim filtered, right alignment: 2507/34798=0.072
+precision=0.072044, recall=0.238762, f1=0.110689
+after sim and neighbours filtered, right alignment: 2446/27804=0.088
+precision=0.087973, recall=0.232952, f1=0.127715
+graph via graph_tool <Graph object, directed, with 6699 vertices and 27804 edges at 0x7fc39d14f470>
+selected_pairs, right alignment: 1164/2699=0.431
+precision=0.431271, recall=0.110857, f1=0.176377
+mwgm costs time: 1.479 s
+selecting potential alignment costs time: 2.888 s
+update wrongly:  7 greedy update wrongly:  295
+after editing labeled alignment (<-), right alignment: 1421/2762=0.514
+precision=0.514482, recall=0.135333, f1=0.214296
+after editing labeled alignment (->), right alignment: 1371/2255=0.608
+precision=0.607982, recall=0.130571, f1=0.214974
+newly triples: 49380, 50832
+alignment_loss = 1.293, time = 0.077 s
+ent alignment, hits@[1, 5, 10, 50] = [0.2517 0.4664 0.553  0.7212], mr = 327.958, mrr = 0.353, time = 2.837 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.254  0.4665 0.553  0.7212], mr = 327.953, mrr = 0.354, time = 2.838 s 
+testing ent alignment costs: 3.679 s
+
+calculate likelihood matrix costs 10.33 s
+likelihood_loss = 7910.884, time = 11.406 s
+ent alignment, hits@[1, 5, 10, 50] = [0.2522 0.4655 0.5521 0.721 ], mr = 328.140, mrr = 0.353, time = 2.699 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.2537 0.4658 0.5522 0.721 ], mr = 328.137, mrr = 0.354, time = 2.699 s 
+testing ent alignment costs: 3.551 s
+
+iteration  7
+generate neighbours: 7.029 s, size: 0.001573 G
+triple_loss = 310.322, time = 5.540 s
+triple_loss = 307.882, time = 5.510 s
+triple_loss = 305.789, time = 5.470 s
+triple_loss = 304.867, time = 5.510 s
+triple_loss = 304.283, time = 5.560 s
+ent alignment, hits@[1, 5, 10, 50] = [0.2628 0.484  0.573  0.7402], mr = 295.953, mrr = 0.366, time = 2.427 s 
+testing ent alignment costs: 3.275 s
+
+newly triples: 49380, 50832
+alignment_loss = 1.234, time = 0.076 s
+generate neighbours: 7.065 s, size: 0.001573 G
+triple_loss = 303.270, time = 5.530 s
+triple_loss = 302.762, time = 5.500 s
+triple_loss = 300.136, time = 5.540 s
+triple_loss = 298.217, time = 5.510 s
+triple_loss = 299.496, time = 5.580 s
+ent alignment, hits@[1, 5, 10, 50] = [0.2759 0.5026 0.5975 0.7598], mr = 262.090, mrr = 0.383, time = 2.441 s 
+testing ent alignment costs: 3.285 s
+
+mat mul costs: 0.369
+after sim filtered, right alignment: 3587/68022=0.053
+precision=0.052733, recall=0.341619, f1=0.091363
+after sim and neighbours filtered, right alignment: 3464/45990=0.075
+precision=0.075321, recall=0.329905, f1=0.122642
+graph via graph_tool <Graph object, directed, with 9185 vertices and 45990 edges at 0x7fc38b08f278>
+selected_pairs, right alignment: 1603/3777=0.424
+precision=0.424411, recall=0.152667, f1=0.224557
+mwgm costs time: 2.482 s
+selecting potential alignment costs time: 3.940 s
+update wrongly:  18 greedy update wrongly:  453
+after editing labeled alignment (<-), right alignment: 1991/3893=0.511
+precision=0.511431, recall=0.189619, f1=0.276662
+after editing labeled alignment (->), right alignment: 1915/3160=0.606
+precision=0.606013, recall=0.182381, f1=0.280381
+newly triples: 63272, 66583
+alignment_loss = 1.246, time = 0.088 s
+ent alignment, hits@[1, 5, 10, 50] = [0.2915 0.5172 0.6067 0.7649], mr = 250.388, mrr = 0.397, time = 2.978 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.2937 0.5178 0.6067 0.7649], mr = 250.380, mrr = 0.399, time = 2.979 s 
+testing ent alignment costs: 3.806 s
+
+calculate likelihood matrix costs 9.00 s
+likelihood_loss = 7579.780, time = 10.076 s
+ent alignment, hits@[1, 5, 10, 50] = [0.2913 0.5169 0.6052 0.7649], mr = 250.544, mrr = 0.397, time = 2.939 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.2928 0.517  0.6053 0.7649], mr = 250.539, mrr = 0.398, time = 2.940 s 
+testing ent alignment costs: 3.799 s
+
+iteration  8
+generate neighbours: 6.999 s, size: 0.001573 G
+triple_loss = 298.791, time = 5.540 s
+triple_loss = 297.993, time = 5.510 s
+triple_loss = 297.166, time = 5.550 s
+triple_loss = 294.471, time = 5.580 s
+triple_loss = 297.168, time = 5.520 s
+ent alignment, hits@[1, 5, 10, 50] = [0.3003 0.531  0.6201 0.7778], mr = 230.511, mrr = 0.407, time = 2.433 s 
+testing ent alignment costs: 3.278 s
+
+newly triples: 63272, 66583
+alignment_loss = 1.204, time = 0.093 s
+generate neighbours: 6.978 s, size: 0.001573 G
+triple_loss = 295.184, time = 5.560 s
+triple_loss = 292.706, time = 5.500 s
+triple_loss = 292.531, time = 5.480 s
+triple_loss = 291.594, time = 5.500 s
+triple_loss = 292.596, time = 5.480 s
+ent alignment, hits@[1, 5, 10, 50] = [0.3158 0.5495 0.6396 0.7926], mr = 208.673, mrr = 0.424, time = 2.389 s 
+testing ent alignment costs: 3.243 s
+
+mat mul costs: 0.372
+after sim filtered, right alignment: 4551/105243=0.043
+precision=0.043243, recall=0.433429, f1=0.07864
+after sim and neighbours filtered, right alignment: 4360/63657=0.068
+precision=0.068492, recall=0.415238, f1=0.117588
+graph via graph_tool <Graph object, directed, with 11204 vertices and 63657 edges at 0x7fc38b98ee10>
+selected_pairs, right alignment: 1978/4704=0.420
+precision=0.420493, recall=0.188381, f1=0.260195
+mwgm costs time: 3.396 s
+selecting potential alignment costs time: 4.849 s
+update wrongly:  37 greedy update wrongly:  608
+after editing labeled alignment (<-), right alignment: 2469/4888=0.505
+precision=0.505115, recall=0.235143, f1=0.3209
+after editing labeled alignment (->), right alignment: 2360/3910=0.604
+precision=0.603581, recall=0.224762, f1=0.32755
+newly triples: 73094, 77866
+alignment_loss = 1.212, time = 0.112 s
+ent alignment, hits@[1, 5, 10, 50] = [0.328 0.559 0.647 0.796], mr = 201.668, mrr = 0.435, time = 3.005 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.331  0.5601 0.647  0.796 ], mr = 201.654, mrr = 0.437, time = 3.005 s 
+testing ent alignment costs: 3.842 s
+
+calculate likelihood matrix costs 8.16 s
+likelihood_loss = 7298.906, time = 9.251 s
+ent alignment, hits@[1, 5, 10, 50] = [0.3286 0.5585 0.6456 0.7958], mr = 201.802, mrr = 0.435, time = 3.048 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.3307 0.5594 0.6457 0.7958], mr = 201.790, mrr = 0.437, time = 3.049 s 
+testing ent alignment costs: 3.933 s
+
+iteration  9
+generate neighbours: 7.024 s, size: 0.001573 G
+triple_loss = 293.103, time = 5.550 s
+triple_loss = 294.552, time = 5.530 s
+triple_loss = 291.476, time = 5.560 s
+triple_loss = 286.333, time = 5.540 s
+triple_loss = 288.156, time = 5.540 s
+ent alignment, hits@[1, 5, 10, 50] = [0.3345 0.5678 0.657  0.8054], mr = 188.856, mrr = 0.442, time = 2.420 s 
+testing ent alignment costs: 3.274 s
+
+newly triples: 73094, 77866
+alignment_loss = 1.182, time = 0.111 s
+generate neighbours: 7.035 s, size: 0.001573 G
+triple_loss = 289.890, time = 5.600 s
+triple_loss = 287.808, time = 5.570 s
+triple_loss = 286.431, time = 5.530 s
+triple_loss = 287.775, time = 5.530 s
+triple_loss = 287.701, time = 5.580 s
+ent alignment, hits@[1, 5, 10, 50] = [0.3476 0.5808 0.6699 0.8167], mr = 174.057, mrr = 0.455, time = 2.449 s 
+testing ent alignment costs: 3.311 s
+
+mat mul costs: 0.376
+after sim filtered, right alignment: 5379/140394=0.038
+precision=0.038314, recall=0.512286, f1=0.071296
+after sim and neighbours filtered, right alignment: 5115/78466=0.065
+precision=0.065187, recall=0.487143, f1=0.114987
+graph via graph_tool <Graph object, directed, with 12701 vertices and 78466 edges at 0x7fc4e496e1d0>
+selected_pairs, right alignment: 2305/5437=0.424
+precision=0.423947, recall=0.219524, f1=0.289264
+mwgm costs time: 4.189 s
+selecting potential alignment costs time: 5.677 s
+update wrongly:  50 greedy update wrongly:  726
+after editing labeled alignment (<-), right alignment: 2864/5656=0.506
+precision=0.506365, recall=0.272762, f1=0.354543
+after editing labeled alignment (->), right alignment: 2737/4548=0.602
+precision=0.601803, recall=0.260667, f1=0.36377
+newly triples: 81315, 86902
+alignment_loss = 1.189, time = 0.110 s
+ent alignment, hits@[1, 5, 10, 50] = [0.3618 0.5903 0.6783 0.8213], mr = 167.938, mrr = 0.467, time = 3.181 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.3615 0.5906 0.6782 0.8213], mr = 167.938, mrr = 0.467, time = 3.181 s 
+testing ent alignment costs: 4.019 s
+
+calculate likelihood matrix costs 7.63 s
+likelihood_loss = 7056.840, time = 8.710 s
+ent alignment, hits@[1, 5, 10, 50] = [0.3617 0.5897 0.6779 0.8211], mr = 168.060, mrr = 0.467, time = 3.148 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.361  0.5896 0.6778 0.8211], mr = 168.062, mrr = 0.467, time = 3.149 s 
+testing ent alignment costs: 4.017 s
+
+iteration  10
+generate neighbours: 6.954 s, size: 0.001573 G
+triple_loss = 289.364, time = 5.590 s
+triple_loss = 287.511, time = 5.580 s
+triple_loss = 286.998, time = 5.540 s
+triple_loss = 285.227, time = 5.600 s
+triple_loss = 288.868, time = 5.580 s
+ent alignment, hits@[1, 5, 10, 50] = [0.3673 0.5999 0.685  0.8312], mr = 159.547, mrr = 0.474, time = 2.408 s 
+testing ent alignment costs: 3.268 s
+
+newly triples: 81315, 86902
+alignment_loss = 1.166, time = 0.122 s
+generate neighbours: 7.062 s, size: 0.001573 G
+triple_loss = 284.376, time = 5.600 s
+triple_loss = 285.413, time = 5.590 s
+triple_loss = 281.905, time = 5.580 s
+triple_loss = 284.775, time = 5.560 s
+triple_loss = 283.888, time = 5.550 s
+ent alignment, hits@[1, 5, 10, 50] = [0.3781 0.6135 0.696  0.8411], mr = 148.642, mrr = 0.485, time = 2.423 s 
+testing ent alignment costs: 3.280 s
+
+mat mul costs: 0.378
+after sim filtered, right alignment: 5985/171230=0.035
+precision=0.034953, recall=0.57, f1=0.065867
+after sim and neighbours filtered, right alignment: 5662/90286=0.063
+precision=0.062712, recall=0.539238, f1=0.112357
+graph via graph_tool <Graph object, directed, with 13870 vertices and 90286 edges at 0x7fc4e69455c0>
+selected_pairs, right alignment: 2704/5998=0.451
+precision=0.450817, recall=0.257524, f1=0.327797
+mwgm costs time: 4.764 s
+selecting potential alignment costs time: 6.267 s
+update wrongly:  28 greedy update wrongly:  705
+after editing labeled alignment (<-), right alignment: 3260/6252=0.521
+precision=0.521433, recall=0.310476, f1=0.389207
+after editing labeled alignment (->), right alignment: 3099/5094=0.608
+precision=0.608363, recall=0.295143, f1=0.397461
+newly triples: 87064, 93908
+alignment_loss = 1.170, time = 0.128 s
+ent alignment, hits@[1, 5, 10, 50] = [0.3902 0.619  0.7003 0.8434], mr = 144.589, mrr = 0.495, time = 3.267 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.389  0.6196 0.7003 0.8434], mr = 144.588, mrr = 0.494, time = 3.268 s 
+testing ent alignment costs: 4.115 s
+
+calculate likelihood matrix costs 6.76 s
+likelihood_loss = 6848.299, time = 7.829 s
+ent alignment, hits@[1, 5, 10, 50] = [0.3902 0.6184 0.6999 0.8433], mr = 144.707, mrr = 0.495, time = 3.272 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.3884 0.619  0.6999 0.8433], mr = 144.708, mrr = 0.494, time = 3.272 s 
+testing ent alignment costs: 4.152 s
+
+iteration  11
+generate neighbours: 7.076 s, size: 0.001573 G
+triple_loss = 285.240, time = 5.620 s
+triple_loss = 287.997, time = 5.590 s
+triple_loss = 284.672, time = 5.580 s
+triple_loss = 283.364, time = 5.660 s
+triple_loss = 284.731, time = 5.590 s
+ent alignment, hits@[1, 5, 10, 50] = [0.3925 0.626  0.7077 0.8511], mr = 138.485, mrr = 0.499, time = 2.459 s 
+testing ent alignment costs: 3.325 s
+
+newly triples: 87064, 93908
+alignment_loss = 1.153, time = 0.133 s
+generate neighbours: 7.012 s, size: 0.001573 G
+triple_loss = 283.524, time = 5.590 s
+triple_loss = 283.541, time = 5.600 s
+triple_loss = 282.852, time = 5.550 s
+triple_loss = 279.258, time = 5.590 s
+triple_loss = 280.038, time = 5.610 s
+ent alignment, hits@[1, 5, 10, 50] = [0.3995 0.6355 0.7178 0.858 ], mr = 130.682, mrr = 0.508, time = 2.411 s 
+testing ent alignment costs: 3.281 s
+
+mat mul costs: 0.372
+after sim filtered, right alignment: 6463/198182=0.033
+precision=0.032611, recall=0.615524, f1=0.06194
+after sim and neighbours filtered, right alignment: 6113/99444=0.061
+precision=0.061472, recall=0.58219, f1=0.111202
+graph via graph_tool <Graph object, directed, with 14740 vertices and 99444 edges at 0x7fc4e685a8d0>
+selected_pairs, right alignment: 2913/6483=0.449
+precision=0.449329, recall=0.277429, f1=0.343049
+mwgm costs time: 5.312 s
+selecting potential alignment costs time: 6.860 s
+update wrongly:  35 greedy update wrongly:  812
+after editing labeled alignment (<-), right alignment: 3582/6745=0.531
+precision=0.53106, recall=0.341143, f1=0.415425
+after editing labeled alignment (->), right alignment: 3432/5561=0.617
+precision=0.617155, recall=0.326857, f1=0.42737
+newly triples: 91943, 99829
+alignment_loss = 1.157, time = 0.133 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4101 0.6418 0.7216 0.8585], mr = 127.732, mrr = 0.516, time = 3.296 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.4088 0.6423 0.7216 0.8585], mr = 127.728, mrr = 0.516, time = 3.297 s 
+testing ent alignment costs: 4.156 s
+
+calculate likelihood matrix costs 6.31 s
+likelihood_loss = 6668.444, time = 7.385 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4102 0.6421 0.7211 0.8585], mr = 127.822, mrr = 0.516, time = 3.388 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.4087 0.6423 0.7211 0.8585], mr = 127.819, mrr = 0.516, time = 3.389 s 
+testing ent alignment costs: 4.276 s
+
+iteration  12
+generate neighbours: 7.110 s, size: 0.001573 G
+triple_loss = 283.632, time = 5.590 s
+triple_loss = 283.679, time = 5.570 s
+triple_loss = 280.001, time = 5.570 s
+triple_loss = 278.172, time = 5.570 s
+triple_loss = 280.077, time = 5.590 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4146 0.6476 0.7286 0.8651], mr = 123.597, mrr = 0.521, time = 2.459 s 
+testing ent alignment costs: 3.329 s
+
+newly triples: 91943, 99829
+alignment_loss = 1.144, time = 0.135 s
+generate neighbours: 6.969 s, size: 0.001573 G
+triple_loss = 283.640, time = 5.620 s
+triple_loss = 280.508, time = 5.590 s
+triple_loss = 276.183, time = 5.570 s
+triple_loss = 279.637, time = 5.570 s
+triple_loss = 279.027, time = 5.600 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4229 0.6555 0.7357 0.8706], mr = 117.678, mrr = 0.529, time = 2.442 s 
+testing ent alignment costs: 3.323 s
+
+mat mul costs: 0.389
+after sim filtered, right alignment: 6843/220717=0.031
+precision=0.031004, recall=0.651714, f1=0.059192
+after sim and neighbours filtered, right alignment: 6458/106586=0.061
+precision=0.06059, recall=0.615048, f1=0.110313
+graph via graph_tool <Graph object, directed, with 15416 vertices and 106586 edges at 0x7fc4e40a0a90>
+selected_pairs, right alignment: 3211/6829=0.470
+precision=0.470201, recall=0.30581, f1=0.370593
+mwgm costs time: 5.680 s
+selecting potential alignment costs time: 7.251 s
+update wrongly:  35 greedy update wrongly:  815
+after editing labeled alignment (<-), right alignment: 3866/7115=0.543
+precision=0.543359, recall=0.36819, f1=0.438944
+after editing labeled alignment (->), right alignment: 3693/5907=0.625
+precision=0.62519, recall=0.351714, f1=0.450173
+newly triples: 95231, 104158
+alignment_loss = 1.146, time = 0.145 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4305 0.6602 0.7408 0.8715], mr = 115.017, mrr = 0.535, time = 3.496 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.4303 0.6612 0.741  0.8715], mr = 115.009, mrr = 0.536, time = 3.496 s 
+testing ent alignment costs: 4.354 s
+
+calculate likelihood matrix costs 5.93 s
+likelihood_loss = 6531.457, time = 7.000 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4308 0.6598 0.7402 0.8714], mr = 115.082, mrr = 0.536, time = 3.334 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.43   0.6608 0.7404 0.8714], mr = 115.076, mrr = 0.536, time = 3.335 s 
+testing ent alignment costs: 4.231 s
+
+iteration  13
+generate neighbours: 7.103 s, size: 0.001573 G
+triple_loss = 278.763, time = 5.530 s
+triple_loss = 278.617, time = 5.550 s
+triple_loss = 278.774, time = 5.530 s
+triple_loss = 276.462, time = 5.530 s
+triple_loss = 275.637, time = 5.490 s
+ent alignment, hits@[1, 5, 10, 50] = [0.435  0.6661 0.747  0.8754], mr = 111.671, mrr = 0.540, time = 2.460 s 
+testing ent alignment costs: 3.338 s
+
+newly triples: 95231, 104158
+alignment_loss = 1.135, time = 0.141 s
+generate neighbours: 7.145 s, size: 0.001573 G
+triple_loss = 275.896, time = 5.590 s
+triple_loss = 277.678, time = 5.560 s
+triple_loss = 272.821, time = 5.580 s
+triple_loss = 275.570, time = 5.600 s
+triple_loss = 274.292, time = 5.590 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4411 0.6713 0.753  0.8801], mr = 106.810, mrr = 0.547, time = 2.428 s 
+testing ent alignment costs: 3.309 s
+
+mat mul costs: 0.390
+after sim filtered, right alignment: 7188/238687=0.030
+precision=0.030115, recall=0.684571, f1=0.057692
+after sim and neighbours filtered, right alignment: 6782/112282=0.060
+precision=0.060401, recall=0.645905, f1=0.110471
+graph via graph_tool <Graph object, directed, with 16029 vertices and 112282 edges at 0x7fc4e45c5630>
+selected_pairs, right alignment: 3461/7129=0.485
+precision=0.485482, recall=0.329619, f1=0.392648
+mwgm costs time: 5.943 s
+selecting potential alignment costs time: 7.525 s
+update wrongly:  45 greedy update wrongly:  820
+after editing labeled alignment (<-), right alignment: 4092/7421=0.551
+precision=0.551408, recall=0.389714, f1=0.456671
+after editing labeled alignment (->), right alignment: 3912/6219=0.629
+precision=0.62904, recall=0.372571, f1=0.46797
+newly triples: 98514, 107925
+alignment_loss = 1.138, time = 0.153 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4477 0.6761 0.7544 0.8812], mr = 105.024, mrr = 0.552, time = 3.286 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.4471 0.6767 0.7545 0.8812], mr = 105.019, mrr = 0.553, time = 3.286 s 
+testing ent alignment costs: 4.147 s
+
+calculate likelihood matrix costs 5.60 s
+likelihood_loss = 6409.748, time = 6.678 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4488 0.6766 0.7536 0.881 ], mr = 105.090, mrr = 0.553, time = 3.415 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.4468 0.6772 0.7537 0.881 ], mr = 105.087, mrr = 0.552, time = 3.416 s 
+testing ent alignment costs: 4.300 s
+
+iteration  14
+generate neighbours: 7.071 s, size: 0.001573 G
+triple_loss = 279.455, time = 5.590 s
+triple_loss = 278.144, time = 5.600 s
+triple_loss = 275.340, time = 5.620 s
+triple_loss = 273.317, time = 5.610 s
+triple_loss = 274.063, time = 5.570 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4507 0.6798 0.7583 0.885 ], mr = 101.986, mrr = 0.556, time = 2.404 s 
+testing ent alignment costs: 3.278 s
+
+newly triples: 98514, 107925
+alignment_loss = 1.129, time = 0.140 s
+generate neighbours: 7.073 s, size: 0.001573 G
+triple_loss = 276.196, time = 5.600 s
+triple_loss = 275.103, time = 5.500 s
+triple_loss = 275.106, time = 5.520 s
+triple_loss = 275.511, time = 5.510 s
+triple_loss = 275.083, time = 5.500 s
+ent alignment, hits@[1, 5, 10, 50] = [0.457  0.6859 0.7639 0.8875], mr = 98.222, mrr = 0.561, time = 2.392 s 
+testing ent alignment costs: 3.273 s
+
+mat mul costs: 0.393
+after sim filtered, right alignment: 7432/253450=0.029
+precision=0.029323, recall=0.70781, f1=0.056313
+after sim and neighbours filtered, right alignment: 7020/117190=0.060
+precision=0.059903, recall=0.668571, f1=0.109954
+graph via graph_tool <Graph object, directed, with 16497 vertices and 117190 edges at 0x7fc4e6b80940>
+selected_pairs, right alignment: 3659/7386=0.495
+precision=0.495397, recall=0.348476, f1=0.409147
+mwgm costs time: 6.251 s
+selecting potential alignment costs time: 7.848 s
+update wrongly:  40 greedy update wrongly:  787
+after editing labeled alignment (<-), right alignment: 4295/7694=0.558
+precision=0.558227, recall=0.409048, f1=0.472134
+after editing labeled alignment (->), right alignment: 4117/6497=0.634
+precision=0.633677, recall=0.392095, f1=0.484438
+newly triples: 101729, 111302
+alignment_loss = 1.134, time = 0.141 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4642 0.6899 0.7666 0.8877], mr = 96.360, mrr = 0.567, time = 3.296 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.4644 0.691  0.7668 0.8877], mr = 96.355, mrr = 0.568, time = 3.297 s 
+testing ent alignment costs: 4.150 s
+
+calculate likelihood matrix costs 5.02 s
+likelihood_loss = 6302.098, time = 6.096 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4646 0.6899 0.7664 0.8879], mr = 96.429, mrr = 0.567, time = 3.460 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.4637 0.6909 0.7666 0.8879], mr = 96.426, mrr = 0.567, time = 3.460 s 
+testing ent alignment costs: 4.347 s
+
+iteration  15
+generate neighbours: 7.113 s, size: 0.001573 G
+triple_loss = 277.443, time = 5.560 s
+triple_loss = 274.509, time = 5.550 s
+triple_loss = 274.223, time = 5.530 s
+triple_loss = 273.505, time = 5.560 s
+triple_loss = 270.544, time = 5.570 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4667 0.6915 0.7704 0.8904], mr = 94.227, mrr = 0.570, time = 2.409 s 
+testing ent alignment costs: 3.286 s
+
+newly triples: 101729, 111302
+alignment_loss = 1.126, time = 0.149 s
+generate neighbours: 7.160 s, size: 0.001573 G
+triple_loss = 275.646, time = 5.580 s
+triple_loss = 273.752, time = 5.550 s
+triple_loss = 270.510, time = 5.530 s
+triple_loss = 270.753, time = 5.540 s
+triple_loss = 273.738, time = 5.540 s
+ent alignment, hits@[1, 5, 10, 50] = [0.473  0.6968 0.7749 0.8927], mr = 90.888, mrr = 0.576, time = 2.425 s 
+testing ent alignment costs: 3.315 s
+
+mat mul costs: 0.397
+after sim filtered, right alignment: 7656/265900=0.029
+precision=0.028793, recall=0.729143, f1=0.055398
+after sim and neighbours filtered, right alignment: 7230/121315=0.060
+precision=0.059597, recall=0.688571, f1=0.109699
+graph via graph_tool <Graph object, directed, with 16903 vertices and 121315 edges at 0x7fc4e6b80940>
+selected_pairs, right alignment: 3798/7612=0.499
+precision=0.498949, recall=0.361714, f1=0.41939
+mwgm costs time: 6.427 s
+selecting potential alignment costs time: 8.037 s
+update wrongly:  51 greedy update wrongly:  827
+after editing labeled alignment (<-), right alignment: 4444/7922=0.561
+precision=0.560969, recall=0.423238, f1=0.482466
+after editing labeled alignment (->), right alignment: 4278/6733=0.635
+precision=0.635378, recall=0.407429, f1=0.49649
+newly triples: 104361, 114074
+alignment_loss = 1.130, time = 0.171 s
+ent alignment, hits@[1, 5, 10, 50] = [0.479  0.7014 0.7774 0.8942], mr = 89.436, mrr = 0.580, time = 3.484 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.4767 0.7014 0.7776 0.8942], mr = 89.435, mrr = 0.579, time = 3.485 s 
+testing ent alignment costs: 4.339 s
+
+calculate likelihood matrix costs 4.75 s
+likelihood_loss = 6209.454, time = 5.823 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4783 0.701  0.7772 0.8941], mr = 89.502, mrr = 0.580, time = 3.457 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.476  0.7009 0.7774 0.8941], mr = 89.502, mrr = 0.579, time = 3.458 s 
+testing ent alignment costs: 4.353 s
+
+iteration  16
+generate neighbours: 7.099 s, size: 0.001573 G
+triple_loss = 274.043, time = 5.570 s
+triple_loss = 272.781, time = 5.520 s
+triple_loss = 273.267, time = 5.500 s
+triple_loss = 269.987, time = 5.500 s
+triple_loss = 271.733, time = 5.510 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4804 0.7036 0.7784 0.8951], mr = 87.823, mrr = 0.582, time = 2.395 s 
+testing ent alignment costs: 3.284 s
+
+newly triples: 104361, 114074
+alignment_loss = 1.123, time = 0.154 s
+generate neighbours: 7.105 s, size: 0.001573 G
+triple_loss = 273.975, time = 5.600 s
+triple_loss = 272.095, time = 5.590 s
+triple_loss = 275.158, time = 5.600 s
+triple_loss = 271.010, time = 5.580 s
+triple_loss = 269.770, time = 5.560 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4854 0.7073 0.783  0.897 ], mr = 85.133, mrr = 0.587, time = 2.385 s 
+testing ent alignment costs: 3.270 s
+
+mat mul costs: 0.401
+after sim filtered, right alignment: 7845/276479=0.028
+precision=0.028375, recall=0.747143, f1=0.054674
+after sim and neighbours filtered, right alignment: 7421/124829=0.059
+precision=0.059449, recall=0.706762, f1=0.109673
+graph via graph_tool <Graph object, directed, with 17265 vertices and 124829 edges at 0x7fc4e6b80940>
+selected_pairs, right alignment: 3985/7808=0.510
+precision=0.510374, recall=0.379524, f1=0.435329
+mwgm costs time: 6.608 s
+selecting potential alignment costs time: 8.226 s
+update wrongly:  38 greedy update wrongly:  800
+after editing labeled alignment (<-), right alignment: 4633/8135=0.570
+precision=0.569514, recall=0.441238, f1=0.497236
+after editing labeled alignment (->), right alignment: 4445/6965=0.638
+precision=0.638191, recall=0.423333, f1=0.509018
+newly triples: 106747, 116900
+alignment_loss = 1.125, time = 0.162 s
+ent alignment, hits@[1, 5, 10, 50] = [0.491  0.7106 0.7862 0.8985], mr = 83.478, mrr = 0.591, time = 3.459 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.489  0.7123 0.7866 0.8985], mr = 83.468, mrr = 0.590, time = 3.459 s 
+testing ent alignment costs: 4.335 s
+
+calculate likelihood matrix costs 4.54 s
+likelihood_loss = 6120.073, time = 5.612 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4906 0.7111 0.7858 0.8983], mr = 83.541, mrr = 0.590, time = 3.444 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.4887 0.7121 0.7862 0.8983], mr = 83.532, mrr = 0.590, time = 3.444 s 
+testing ent alignment costs: 4.346 s
+
+iteration  17
+generate neighbours: 7.093 s, size: 0.001573 G
+triple_loss = 271.276, time = 5.690 s
+triple_loss = 272.820, time = 5.650 s
+triple_loss = 270.889, time = 5.600 s
+triple_loss = 270.704, time = 5.620 s
+triple_loss = 269.772, time = 5.580 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4931 0.7123 0.7874 0.9007], mr = 82.122, mrr = 0.593, time = 2.534 s 
+testing ent alignment costs: 3.423 s
+
+newly triples: 106747, 116900
+alignment_loss = 1.119, time = 0.159 s
+generate neighbours: 7.125 s, size: 0.001573 G
+triple_loss = 272.453, time = 5.580 s
+triple_loss = 271.215, time = 5.580 s
+triple_loss = 270.998, time = 5.590 s
+triple_loss = 269.580, time = 5.560 s
+triple_loss = 268.681, time = 5.560 s
+ent alignment, hits@[1, 5, 10, 50] = [0.4964 0.7157 0.7909 0.903 ], mr = 79.469, mrr = 0.596, time = 2.430 s 
+testing ent alignment costs: 3.324 s
+
+mat mul costs: 0.399
+after sim filtered, right alignment: 8031/285364=0.028
+precision=0.028143, recall=0.764857, f1=0.054288
+after sim and neighbours filtered, right alignment: 7599/127922=0.059
+precision=0.059403, recall=0.723714, f1=0.109794
+graph via graph_tool <Graph object, directed, with 17521 vertices and 127922 edges at 0x7fc4e6b80940>
+selected_pairs, right alignment: 4101/7981=0.514
+precision=0.513845, recall=0.390571, f1=0.443807
+mwgm costs time: 6.753 s
+selecting potential alignment costs time: 8.379 s
+update wrongly:  38 greedy update wrongly:  833
+after editing labeled alignment (<-), right alignment: 4785/8297=0.577
+precision=0.576714, recall=0.455714, f1=0.509123
+after editing labeled alignment (->), right alignment: 4604/7166=0.642
+precision=0.642478, recall=0.438476, f1=0.521227
+newly triples: 108517, 118948
+alignment_loss = 1.121, time = 0.168 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5007 0.7199 0.7915 0.9036], mr = 78.071, mrr = 0.600, time = 3.479 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.4982 0.7207 0.7914 0.9036], mr = 78.070, mrr = 0.599, time = 3.480 s 
+testing ent alignment costs: 4.353 s
+
+calculate likelihood matrix costs 4.51 s
+likelihood_loss = 6041.351, time = 5.582 s
+ent alignment, hits@[1, 5, 10, 50] = [0.501  0.72   0.7916 0.9034], mr = 78.136, mrr = 0.600, time = 3.453 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.4984 0.7206 0.7916 0.9034], mr = 78.136, mrr = 0.599, time = 3.453 s 
+testing ent alignment costs: 4.362 s
+
+iteration  18
+generate neighbours: 7.261 s, size: 0.001573 G
+triple_loss = 271.354, time = 5.580 s
+triple_loss = 271.359, time = 5.610 s
+triple_loss = 267.396, time = 5.590 s
+triple_loss = 269.536, time = 5.530 s
+triple_loss = 270.215, time = 5.560 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5029 0.7204 0.7945 0.9052], mr = 76.872, mrr = 0.602, time = 2.439 s 
+testing ent alignment costs: 3.339 s
+
+newly triples: 108517, 118948
+alignment_loss = 1.117, time = 0.164 s
+generate neighbours: 7.226 s, size: 0.001573 G
+triple_loss = 271.257, time = 5.610 s
+triple_loss = 270.422, time = 5.610 s
+triple_loss = 269.690, time = 5.600 s
+triple_loss = 266.839, time = 5.570 s
+triple_loss = 271.255, time = 5.540 s
+ent alignment, hits@[1, 5, 10, 50] = [0.507  0.7237 0.7966 0.9069], mr = 74.718, mrr = 0.605, time = 2.436 s 
+testing ent alignment costs: 3.326 s
+
+mat mul costs: 0.404
+after sim filtered, right alignment: 8183/292965=0.028
+precision=0.027932, recall=0.779333, f1=0.053931
+after sim and neighbours filtered, right alignment: 7756/130671=0.059
+precision=0.059355, recall=0.738667, f1=0.109881
+graph via graph_tool <Graph object, directed, with 17762 vertices and 130671 edges at 0x7fc4e68a5a20>
+selected_pairs, right alignment: 4197/8114=0.517
+precision=0.517254, recall=0.399714, f1=0.450951
+mwgm costs time: 6.903 s
+selecting potential alignment costs time: 8.537 s
+update wrongly:  40 greedy update wrongly:  824
+after editing labeled alignment (<-), right alignment: 4886/8443=0.579
+precision=0.578704, recall=0.465333, f1=0.515863
+after editing labeled alignment (->), right alignment: 4727/7347=0.643
+precision=0.643392, recall=0.45019, f1=0.529725
+newly triples: 110219, 120840
+alignment_loss = 1.118, time = 0.171 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5102 0.7258 0.7977 0.9074], mr = 73.487, mrr = 0.608, time = 3.495 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5063 0.7261 0.7975 0.9074], mr = 73.487, mrr = 0.606, time = 3.496 s 
+testing ent alignment costs: 4.378 s
+
+calculate likelihood matrix costs 4.23 s
+likelihood_loss = 5971.312, time = 5.297 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5103 0.7258 0.7973 0.9073], mr = 73.547, mrr = 0.608, time = 3.474 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5062 0.7261 0.7973 0.9073], mr = 73.548, mrr = 0.606, time = 3.475 s 
+testing ent alignment costs: 4.388 s
+
+iteration  19
+generate neighbours: 7.159 s, size: 0.001573 G
+triple_loss = 267.805, time = 5.540 s
+triple_loss = 269.536, time = 5.560 s
+triple_loss = 268.489, time = 5.580 s
+triple_loss = 267.131, time = 5.570 s
+triple_loss = 269.232, time = 5.560 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5112 0.727  0.7999 0.9095], mr = 72.282, mrr = 0.609, time = 2.413 s 
+testing ent alignment costs: 3.315 s
+
+newly triples: 110219, 120840
+alignment_loss = 1.114, time = 0.160 s
+generate neighbours: 7.249 s, size: 0.001573 G
+triple_loss = 269.968, time = 5.620 s
+triple_loss = 272.328, time = 5.620 s
+triple_loss = 268.481, time = 5.580 s
+triple_loss = 266.784, time = 5.570 s
+triple_loss = 265.206, time = 5.580 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5152 0.7289 0.8011 0.9115], mr = 70.414, mrr = 0.613, time = 2.442 s 
+testing ent alignment costs: 3.347 s
+
+mat mul costs: 0.406
+after sim filtered, right alignment: 8298/299279=0.028
+precision=0.027727, recall=0.790286, f1=0.053574
+after sim and neighbours filtered, right alignment: 7859/133073=0.059
+precision=0.059058, recall=0.748476, f1=0.109478
+graph via graph_tool <Graph object, directed, with 17980 vertices and 133073 edges at 0x7fc3881107f0>
+selected_pairs, right alignment: 4390/8247=0.532
+precision=0.532315, recall=0.418095, f1=0.468342
+mwgm costs time: 7.010 s
+selecting potential alignment costs time: 8.640 s
+update wrongly:  38 greedy update wrongly:  767
+after editing labeled alignment (<-), right alignment: 5031/8590=0.586
+precision=0.585681, recall=0.479143, f1=0.527082
+after editing labeled alignment (->), right alignment: 4836/7457=0.649
+precision=0.648518, recall=0.460571, f1=0.53862
+newly triples: 111164, 122059
+alignment_loss = 1.115, time = 0.157 s
+ent alignment, hits@[1, 5, 10, 50] = [0.517  0.731  0.8026 0.9114], mr = 69.452, mrr = 0.614, time = 3.501 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5164 0.7326 0.8026 0.9114], mr = 69.445, mrr = 0.615, time = 3.501 s 
+testing ent alignment costs: 4.371 s
+
+calculate likelihood matrix costs 4.05 s
+likelihood_loss = 5926.327, time = 5.126 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5177 0.731  0.8022 0.9115], mr = 69.520, mrr = 0.614, time = 3.571 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5162 0.7322 0.8022 0.9115], mr = 69.515, mrr = 0.614, time = 3.572 s 
+testing ent alignment costs: 4.486 s
+
+iteration  20
+generate neighbours: 7.142 s, size: 0.001573 G
+triple_loss = 268.665, time = 5.610 s
+triple_loss = 267.060, time = 5.580 s
+triple_loss = 268.056, time = 5.600 s
+triple_loss = 265.210, time = 5.580 s
+triple_loss = 266.030, time = 5.550 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5189 0.731  0.8042 0.9132], mr = 68.603, mrr = 0.616, time = 2.433 s 
+testing ent alignment costs: 3.335 s
+
+newly triples: 111164, 122059
+alignment_loss = 1.111, time = 0.167 s
+generate neighbours: 7.176 s, size: 0.001573 G
+triple_loss = 268.723, time = 5.620 s
+triple_loss = 267.411, time = 5.640 s
+triple_loss = 268.065, time = 5.640 s
+triple_loss = 265.948, time = 5.600 s
+triple_loss = 266.169, time = 5.600 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5217 0.7334 0.8065 0.9147], mr = 66.926, mrr = 0.619, time = 2.445 s 
+testing ent alignment costs: 3.363 s
+
+mat mul costs: 0.412
+after sim filtered, right alignment: 8394/304781=0.028
+precision=0.027541, recall=0.799429, f1=0.053248
+after sim and neighbours filtered, right alignment: 7964/135292=0.059
+precision=0.058865, recall=0.758476, f1=0.109251
+graph via graph_tool <Graph object, directed, with 18130 vertices and 135292 edges at 0x7fc4e6888eb8>
+selected_pairs, right alignment: 4495/8318=0.540
+precision=0.540394, recall=0.428095, f1=0.477734
+mwgm costs time: 7.133 s
+selecting potential alignment costs time: 8.775 s
+update wrongly:  50 greedy update wrongly:  740
+after editing labeled alignment (<-), right alignment: 5090/8643=0.589
+precision=0.588916, recall=0.484762, f1=0.531787
+after editing labeled alignment (->), right alignment: 4912/7573=0.649
+precision=0.64862, recall=0.46781, f1=0.543574
+newly triples: 112469, 123157
+alignment_loss = 1.112, time = 0.156 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5227 0.7354 0.8073 0.9141], mr = 66.246, mrr = 0.620, time = 3.602 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5213 0.7364 0.8073 0.9141], mr = 66.240, mrr = 0.620, time = 3.603 s 
+testing ent alignment costs: 4.485 s
+
+calculate likelihood matrix costs 3.93 s
+likelihood_loss = 5879.647, time = 4.994 s
+ent alignment, hits@[1, 5, 10, 50] = [0.523  0.735  0.8072 0.9139], mr = 66.296, mrr = 0.620, time = 3.546 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5214 0.7358 0.8072 0.9139], mr = 66.291, mrr = 0.620, time = 3.547 s 
+testing ent alignment costs: 4.460 s
+
+iteration  21
+generate neighbours: 7.146 s, size: 0.001573 G
+triple_loss = 270.828, time = 5.570 s
+triple_loss = 267.063, time = 5.540 s
+triple_loss = 268.513, time = 5.550 s
+triple_loss = 267.644, time = 5.580 s
+triple_loss = 268.393, time = 5.560 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5244 0.7352 0.809  0.9157], mr = 65.450, mrr = 0.622, time = 2.519 s 
+testing ent alignment costs: 3.428 s
+
+newly triples: 112469, 123157
+alignment_loss = 1.108, time = 0.175 s
+generate neighbours: 7.071 s, size: 0.001573 G
+triple_loss = 266.554, time = 5.650 s
+triple_loss = 264.329, time = 5.630 s
+triple_loss = 269.226, time = 5.580 s
+triple_loss = 267.566, time = 5.590 s
+triple_loss = 266.874, time = 5.580 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5264 0.7386 0.81   0.9162], mr = 64.103, mrr = 0.624, time = 2.452 s 
+testing ent alignment costs: 3.369 s
+
+mat mul costs: 0.413
+after sim filtered, right alignment: 8475/309600=0.027
+precision=0.027374, recall=0.807143, f1=0.052952
+after sim and neighbours filtered, right alignment: 8043/137063=0.059
+precision=0.058681, recall=0.766, f1=0.109011
+graph via graph_tool <Graph object, directed, with 18270 vertices and 137063 edges at 0x7fc3881107f0>
+selected_pairs, right alignment: 4579/8406=0.545
+precision=0.54473, recall=0.436095, f1=0.484396
+mwgm costs time: 7.255 s
+selecting potential alignment costs time: 8.940 s
+update wrongly:  44 greedy update wrongly:  750
+after editing labeled alignment (<-), right alignment: 5184/8742=0.593
+precision=0.592999, recall=0.493714, f1=0.538821
+after editing labeled alignment (->), right alignment: 4992/7675=0.650
+precision=0.650423, recall=0.475429, f1=0.549326
+newly triples: 113180, 124388
+alignment_loss = 1.110, time = 0.157 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5274 0.7415 0.8096 0.9164], mr = 63.333, mrr = 0.625, time = 3.545 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5267 0.7419 0.8095 0.9164], mr = 63.332, mrr = 0.625, time = 3.546 s 
+testing ent alignment costs: 4.427 s
+
+calculate likelihood matrix costs 3.70 s
+likelihood_loss = 5839.247, time = 4.775 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5268 0.741  0.8098 0.9162], mr = 63.394, mrr = 0.625, time = 3.562 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.526  0.7411 0.8097 0.9162], mr = 63.394, mrr = 0.624, time = 3.563 s 
+testing ent alignment costs: 4.487 s
+
+iteration  22
+generate neighbours: 7.097 s, size: 0.001573 G
+triple_loss = 266.323, time = 5.630 s
+triple_loss = 267.312, time = 5.640 s
+triple_loss = 262.127, time = 5.610 s
+triple_loss = 267.975, time = 5.600 s
+triple_loss = 265.211, time = 5.600 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5284 0.743  0.8106 0.917 ], mr = 62.473, mrr = 0.626, time = 2.446 s 
+testing ent alignment costs: 3.366 s
+
+newly triples: 113180, 124388
+alignment_loss = 1.107, time = 0.162 s
+generate neighbours: 7.175 s, size: 0.001573 G
+triple_loss = 268.404, time = 5.630 s
+triple_loss = 265.159, time = 5.590 s
+triple_loss = 263.340, time = 5.570 s
+triple_loss = 264.665, time = 5.560 s
+triple_loss = 265.041, time = 5.570 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5318 0.7446 0.8119 0.9188], mr = 61.342, mrr = 0.629, time = 2.443 s 
+testing ent alignment costs: 3.361 s
+
+mat mul costs: 0.416
+after sim filtered, right alignment: 8551/313589=0.027
+precision=0.027268, recall=0.814381, f1=0.052769
+after sim and neighbours filtered, right alignment: 8105/138595=0.058
+precision=0.05848, recall=0.771905, f1=0.108723
+graph via graph_tool <Graph object, directed, with 18397 vertices and 138595 edges at 0x7fc4e689e4e0>
+selected_pairs, right alignment: 4666/8470=0.551
+precision=0.550885, recall=0.444381, f1=0.491934
+mwgm costs time: 7.413 s
+selecting potential alignment costs time: 9.049 s
+update wrongly:  36 greedy update wrongly:  733
+after editing labeled alignment (<-), right alignment: 5241/8803=0.595
+precision=0.595365, recall=0.499143, f1=0.543024
+after editing labeled alignment (->), right alignment: 5055/7751=0.652
+precision=0.652174, recall=0.481429, f1=0.553943
+newly triples: 113763, 124858
+alignment_loss = 1.108, time = 0.157 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5329 0.745  0.8117 0.918 ], mr = 60.850, mrr = 0.630, time = 3.496 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5327 0.7451 0.8116 0.918 ], mr = 60.848, mrr = 0.630, time = 3.496 s 
+testing ent alignment costs: 4.386 s
+
+calculate likelihood matrix costs 3.70 s
+likelihood_loss = 5808.397, time = 4.775 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5337 0.745  0.8121 0.9179], mr = 60.906, mrr = 0.630, time = 3.552 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5327 0.745  0.812  0.9179], mr = 60.907, mrr = 0.630, time = 3.552 s 
+testing ent alignment costs: 4.479 s
+
+iteration  23
+generate neighbours: 7.221 s, size: 0.001573 G
+triple_loss = 263.983, time = 5.640 s
+triple_loss = 264.715, time = 5.610 s
+triple_loss = 264.708, time = 5.570 s
+triple_loss = 268.353, time = 5.630 s
+triple_loss = 263.903, time = 5.600 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5341 0.7468 0.8142 0.9198], mr = 60.187, mrr = 0.631, time = 2.450 s 
+testing ent alignment costs: 3.369 s
+
+newly triples: 113763, 124858
+alignment_loss = 1.105, time = 0.166 s
+generate neighbours: 7.262 s, size: 0.001573 G
+triple_loss = 268.360, time = 5.620 s
+triple_loss = 265.445, time = 5.540 s
+triple_loss = 262.906, time = 5.570 s
+triple_loss = 263.659, time = 5.540 s
+triple_loss = 261.809, time = 5.550 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5373 0.7476 0.8156 0.9209], mr = 59.248, mrr = 0.633, time = 2.425 s 
+testing ent alignment costs: 3.340 s
+
+mat mul costs: 0.417
+after sim filtered, right alignment: 8613/317239=0.027
+precision=0.02715, recall=0.820286, f1=0.05256
+after sim and neighbours filtered, right alignment: 8157/139936=0.058
+precision=0.058291, recall=0.776857, f1=0.108445
+graph via graph_tool <Graph object, directed, with 18512 vertices and 139936 edges at 0x7fc4e718ea90>
+selected_pairs, right alignment: 4735/8536=0.555
+precision=0.554709, recall=0.450952, f1=0.497478
+mwgm costs time: 7.392 s
+selecting potential alignment costs time: 9.092 s
+update wrongly:  40 greedy update wrongly:  719
+after editing labeled alignment (<-), right alignment: 5307/8842=0.600
+precision=0.600204, recall=0.505429, f1=0.548754
+after editing labeled alignment (->), right alignment: 5122/7837=0.654
+precision=0.653566, recall=0.48781, f1=0.558652
+newly triples: 114748, 126007
+alignment_loss = 1.106, time = 0.163 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5384 0.7478 0.8155 0.9214], mr = 58.753, mrr = 0.634, time = 3.559 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5374 0.7482 0.8157 0.9214], mr = 58.750, mrr = 0.634, time = 3.560 s 
+testing ent alignment costs: 4.471 s
+
+calculate likelihood matrix costs 3.71 s
+likelihood_loss = 5773.507, time = 4.787 s
+ent alignment, hits@[1, 5, 10, 50] = [0.539  0.748  0.8152 0.921 ], mr = 58.807, mrr = 0.635, time = 3.568 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5371 0.7482 0.8152 0.921 ], mr = 58.805, mrr = 0.634, time = 3.568 s 
+testing ent alignment costs: 4.493 s
+
+iteration  24
+generate neighbours: 7.150 s, size: 0.001573 G
+triple_loss = 266.458, time = 5.590 s
+triple_loss = 264.596, time = 5.590 s
+triple_loss = 264.619, time = 5.670 s
+triple_loss = 263.940, time = 5.660 s
+triple_loss = 261.458, time = 5.620 s
+ent alignment, hits@[1, 5, 10, 50] = [0.54   0.7492 0.817  0.9223], mr = 58.213, mrr = 0.636, time = 2.439 s 
+testing ent alignment costs: 3.368 s
+
+newly triples: 114748, 126007
+alignment_loss = 1.104, time = 0.161 s
+generate neighbours: 7.029 s, size: 0.001573 G
+triple_loss = 267.519, time = 5.620 s
+triple_loss = 264.673, time = 5.580 s
+triple_loss = 264.829, time = 5.570 s
+triple_loss = 261.540, time = 5.610 s
+triple_loss = 261.676, time = 5.600 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5422 0.751  0.8182 0.923 ], mr = 57.361, mrr = 0.637, time = 2.451 s 
+testing ent alignment costs: 3.372 s
+
+mat mul costs: 0.421
+after sim filtered, right alignment: 8666/320257=0.027
+precision=0.02706, recall=0.825333, f1=0.052402
+after sim and neighbours filtered, right alignment: 8214/141135=0.058
+precision=0.0582, recall=0.782286, f1=0.10834
+graph via graph_tool <Graph object, directed, with 18608 vertices and 141135 edges at 0x7fc4e4b23d68>
+selected_pairs, right alignment: 4735/8610=0.550
+precision=0.549942, recall=0.450952, f1=0.495552
+mwgm costs time: 7.459 s
+selecting potential alignment costs time: 9.118 s
+update wrongly:  40 greedy update wrongly:  705
+after editing labeled alignment (<-), right alignment: 5335/8926=0.598
+precision=0.597692, recall=0.508095, f1=0.549264
+after editing labeled alignment (->), right alignment: 5179/7924=0.654
+precision=0.653584, recall=0.493238, f1=0.562201
+newly triples: 115772, 126956
+alignment_loss = 1.104, time = 0.166 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5438 0.7513 0.8182 0.9223], mr = 56.860, mrr = 0.639, time = 3.605 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5407 0.7521 0.8185 0.9223], mr = 56.857, mrr = 0.638, time = 3.605 s 
+testing ent alignment costs: 4.502 s
+
+calculate likelihood matrix costs 3.56 s
+likelihood_loss = 5739.714, time = 4.627 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5448 0.7509 0.8185 0.9223], mr = 56.914, mrr = 0.639, time = 3.586 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5407 0.7514 0.8186 0.9223], mr = 56.913, mrr = 0.638, time = 3.586 s 
+testing ent alignment costs: 4.512 s
+
+iteration  25
+generate neighbours: 7.185 s, size: 0.001573 G
+triple_loss = 264.296, time = 5.570 s
+triple_loss = 269.568, time = 5.570 s
+triple_loss = 266.281, time = 5.570 s
+triple_loss = 263.808, time = 5.550 s
+triple_loss = 262.718, time = 5.570 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5461 0.7519 0.8194 0.9238], mr = 56.495, mrr = 0.641, time = 2.439 s 
+testing ent alignment costs: 3.365 s
+
+newly triples: 115772, 126956
+alignment_loss = 1.102, time = 0.174 s
+generate neighbours: 7.203 s, size: 0.001573 G
+triple_loss = 265.461, time = 5.660 s
+triple_loss = 262.770, time = 5.650 s
+triple_loss = 264.924, time = 5.600 s
+triple_loss = 264.900, time = 5.620 s
+triple_loss = 261.451, time = 5.610 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5464 0.753  0.821  0.9246], mr = 55.557, mrr = 0.641, time = 2.428 s 
+testing ent alignment costs: 3.367 s
+
+mat mul costs: 0.424
+after sim filtered, right alignment: 8733/322673=0.027
+precision=0.027065, recall=0.831714, f1=0.052424
+after sim and neighbours filtered, right alignment: 8280/142212=0.058
+precision=0.058223, recall=0.788571, f1=0.10844
+graph via graph_tool <Graph object, directed, with 18712 vertices and 142212 edges at 0x7fc4e51529e8>
+selected_pairs, right alignment: 4806/8662=0.555
+precision=0.554837, recall=0.457714, f1=0.501618
+mwgm costs time: 7.539 s
+selecting potential alignment costs time: 9.187 s
+update wrongly:  49 greedy update wrongly:  718
+after editing labeled alignment (<-), right alignment: 5372/8983=0.598
+precision=0.598018, recall=0.511619, f1=0.551455
+after editing labeled alignment (->), right alignment: 5213/7971=0.654
+precision=0.653996, recall=0.496476, f1=0.564452
+newly triples: 115869, 127176
+alignment_loss = 1.103, time = 0.195 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5475 0.7542 0.8217 0.9247], mr = 55.044, mrr = 0.642, time = 3.555 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5437 0.755  0.8219 0.9247], mr = 55.042, mrr = 0.641, time = 3.555 s 
+testing ent alignment costs: 4.449 s
+
+calculate likelihood matrix costs 3.44 s
+likelihood_loss = 5721.099, time = 4.508 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5477 0.7545 0.8216 0.9244], mr = 55.096, mrr = 0.642, time = 3.443 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.544  0.7551 0.8219 0.9244], mr = 55.095, mrr = 0.641, time = 3.444 s 
+testing ent alignment costs: 4.381 s
+
+iteration  26
+generate neighbours: 7.187 s, size: 0.001573 G
+triple_loss = 267.157, time = 5.560 s
+triple_loss = 266.493, time = 5.580 s
+triple_loss = 264.586, time = 5.570 s
+triple_loss = 264.629, time = 5.550 s
+triple_loss = 261.792, time = 5.570 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5489 0.7557 0.8223 0.9253], mr = 54.701, mrr = 0.643, time = 2.441 s 
+testing ent alignment costs: 3.377 s
+
+newly triples: 115869, 127176
+alignment_loss = 1.101, time = 0.168 s
+generate neighbours: 7.221 s, size: 0.001573 G
+triple_loss = 262.514, time = 5.680 s
+triple_loss = 263.234, time = 5.560 s
+triple_loss = 262.369, time = 5.600 s
+triple_loss = 262.089, time = 5.560 s
+triple_loss = 262.839, time = 5.600 s
+ent alignment, hits@[1, 5, 10, 50] = [0.551  0.7567 0.8225 0.9256], mr = 54.004, mrr = 0.645, time = 2.459 s 
+testing ent alignment costs: 3.395 s
+
+mat mul costs: 0.428
+after sim filtered, right alignment: 8786/324784=0.027
+precision=0.027052, recall=0.836762, f1=0.05241
+after sim and neighbours filtered, right alignment: 8330/143208=0.058
+precision=0.058167, recall=0.793333, f1=0.108387
+graph via graph_tool <Graph object, directed, with 18790 vertices and 143208 edges at 0x7fc4e72749b0>
+selected_pairs, right alignment: 4831/8709=0.555
+precision=0.554714, recall=0.460095, f1=0.502993
+mwgm costs time: 7.624 s
+selecting potential alignment costs time: 9.284 s
+update wrongly:  34 greedy update wrongly:  708
+after editing labeled alignment (<-), right alignment: 5444/9032=0.603
+precision=0.602746, recall=0.518476, f1=0.557444
+after editing labeled alignment (->), right alignment: 5279/8043=0.656
+precision=0.656347, recall=0.502762, f1=0.569379
+newly triples: 116547, 127751
+alignment_loss = 1.102, time = 0.181 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5524 0.7577 0.823  0.9258], mr = 53.607, mrr = 0.646, time = 3.561 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5507 0.7583 0.823  0.9258], mr = 53.606, mrr = 0.645, time = 3.562 s 
+testing ent alignment costs: 4.472 s
+
+calculate likelihood matrix costs 3.36 s
+likelihood_loss = 5693.391, time = 4.426 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5526 0.7581 0.8229 0.9257], mr = 53.658, mrr = 0.646, time = 3.598 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5508 0.7585 0.8227 0.9257], mr = 53.658, mrr = 0.645, time = 3.599 s 
+testing ent alignment costs: 4.543 s
+
+iteration  27
+generate neighbours: 7.273 s, size: 0.001573 G
+triple_loss = 262.923, time = 5.540 s
+triple_loss = 263.038, time = 5.530 s
+triple_loss = 265.432, time = 5.550 s
+triple_loss = 263.550, time = 5.540 s
+triple_loss = 261.478, time = 5.540 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5532 0.7585 0.8237 0.9265], mr = 53.205, mrr = 0.647, time = 2.529 s 
+testing ent alignment costs: 3.479 s
+
+newly triples: 116547, 127751
+alignment_loss = 1.100, time = 0.167 s
+generate neighbours: 7.299 s, size: 0.001573 G
+triple_loss = 263.175, time = 5.620 s
+triple_loss = 264.244, time = 5.580 s
+triple_loss = 264.281, time = 5.670 s
+triple_loss = 265.208, time = 5.610 s
+triple_loss = 261.562, time = 5.640 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5543 0.7592 0.8245 0.9275], mr = 52.623, mrr = 0.648, time = 2.544 s 
+testing ent alignment costs: 3.476 s
+
+mat mul costs: 0.433
+after sim filtered, right alignment: 8824/326934=0.027
+precision=0.02699, recall=0.840381, f1=0.0523
+after sim and neighbours filtered, right alignment: 8370/144165=0.058
+precision=0.058058, recall=0.797143, f1=0.108233
+graph via graph_tool <Graph object, directed, with 18861 vertices and 144165 edges at 0x7fc4e6cc3e80>
+selected_pairs, right alignment: 4915/8763=0.561
+precision=0.560881, recall=0.468095, f1=0.510305
+mwgm costs time: 7.675 s
+selecting potential alignment costs time: 9.336 s
+update wrongly:  28 greedy update wrongly:  709
+after editing labeled alignment (<-), right alignment: 5509/9085=0.606
+precision=0.606384, recall=0.524667, f1=0.562574
+after editing labeled alignment (->), right alignment: 5333/8085=0.660
+precision=0.659617, recall=0.507905, f1=0.573904
+newly triples: 116774, 128282
+alignment_loss = 1.101, time = 0.189 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5559 0.7603 0.8242 0.927 ], mr = 52.344, mrr = 0.649, time = 3.657 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.555  0.761  0.8246 0.927 ], mr = 52.336, mrr = 0.649, time = 3.657 s 
+testing ent alignment costs: 4.574 s
+
+calculate likelihood matrix costs 3.32 s
+likelihood_loss = 5676.197, time = 4.402 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5568 0.7598 0.824  0.9269], mr = 52.402, mrr = 0.649, time = 3.710 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5552 0.7605 0.8244 0.9269], mr = 52.396, mrr = 0.649, time = 3.710 s 
+testing ent alignment costs: 4.654 s
+
+iteration  28
+generate neighbours: 7.133 s, size: 0.001573 G
+triple_loss = 267.053, time = 5.590 s
+triple_loss = 262.032, time = 5.600 s
+triple_loss = 264.222, time = 5.540 s
+triple_loss = 263.037, time = 5.610 s
+triple_loss = 260.380, time = 5.570 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5557 0.7607 0.8257 0.928 ], mr = 52.155, mrr = 0.649, time = 2.517 s 
+testing ent alignment costs: 3.455 s
+
+newly triples: 116774, 128282
+alignment_loss = 1.099, time = 0.175 s
+generate neighbours: 7.453 s, size: 0.001573 G
+triple_loss = 262.475, time = 5.600 s
+triple_loss = 261.769, time = 5.600 s
+triple_loss = 262.234, time = 5.550 s
+triple_loss = 264.265, time = 5.540 s
+triple_loss = 261.281, time = 5.580 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5574 0.7617 0.826  0.9281], mr = 51.634, mrr = 0.651, time = 2.429 s 
+testing ent alignment costs: 3.378 s
+
+mat mul costs: 0.432
+after sim filtered, right alignment: 8869/328985=0.027
+precision=0.026959, recall=0.844667, f1=0.05225
+after sim and neighbours filtered, right alignment: 8421/145042=0.058
+precision=0.058059, recall=0.802, f1=0.108279
+graph via graph_tool <Graph object, directed, with 18942 vertices and 145042 edges at 0x7fc4e67e2da0>
+selected_pairs, right alignment: 5020/8804=0.570
+precision=0.570195, recall=0.478095, f1=0.520099
+mwgm costs time: 7.692 s
+selecting potential alignment costs time: 9.367 s
+update wrongly:  36 greedy update wrongly:  672
+after editing labeled alignment (<-), right alignment: 5547/9125=0.608
+precision=0.60789, recall=0.528286, f1=0.565299
+after editing labeled alignment (->), right alignment: 5367/8149=0.659
+precision=0.658608, recall=0.511143, f1=0.57558
+newly triples: 117243, 128939
+alignment_loss = 1.100, time = 0.183 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5579 0.7614 0.8259 0.9279], mr = 51.400, mrr = 0.651, time = 3.574 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5569 0.7621 0.8259 0.9279], mr = 51.397, mrr = 0.651, time = 3.574 s 
+testing ent alignment costs: 4.494 s
+
+calculate likelihood matrix costs 3.23 s
+likelihood_loss = 5651.444, time = 4.301 s
+ent alignment, hits@[1, 5, 10, 50] = [0.558  0.761  0.826  0.9278], mr = 51.455, mrr = 0.651, time = 3.598 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5567 0.7613 0.826  0.9278], mr = 51.453, mrr = 0.651, time = 3.598 s 
+testing ent alignment costs: 4.544 s
+
+iteration  29
+generate neighbours: 7.239 s, size: 0.001573 G
+triple_loss = 263.658, time = 5.590 s
+triple_loss = 263.967, time = 5.550 s
+triple_loss = 261.505, time = 5.580 s
+triple_loss = 262.662, time = 5.550 s
+triple_loss = 262.053, time = 5.560 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5582 0.7628 0.8283 0.929 ], mr = 51.176, mrr = 0.652, time = 2.423 s 
+testing ent alignment costs: 3.369 s
+
+newly triples: 117243, 128939
+alignment_loss = 1.098, time = 0.165 s
+generate neighbours: 7.371 s, size: 0.001573 G
+triple_loss = 265.149, time = 5.580 s
+triple_loss = 264.573, time = 5.580 s
+triple_loss = 262.686, time = 5.540 s
+triple_loss = 262.741, time = 5.610 s
+triple_loss = 258.038, time = 5.610 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5596 0.7627 0.8286 0.9297], mr = 50.730, mrr = 0.653, time = 2.453 s 
+testing ent alignment costs: 3.396 s
+
+mat mul costs: 0.438
+after sim filtered, right alignment: 8899/330667=0.027
+precision=0.026912, recall=0.847524, f1=0.052167
+after sim and neighbours filtered, right alignment: 8456/145769=0.058
+precision=0.05801, recall=0.805333, f1=0.108224
+graph via graph_tool <Graph object, directed, with 19002 vertices and 145769 edges at 0x7fc4e4b1b8d0>
+selected_pairs, right alignment: 4977/8829=0.564
+precision=0.56371, recall=0.474, f1=0.514977
+mwgm costs time: 7.693 s
+selecting potential alignment costs time: 9.353 s
+update wrongly:  45 greedy update wrongly:  693
+after editing labeled alignment (<-), right alignment: 5552/9152=0.607
+precision=0.606643, recall=0.528762, f1=0.565031
+after editing labeled alignment (->), right alignment: 5389/8180=0.659
+precision=0.658802, recall=0.513238, f1=0.576981
+newly triples: 117272, 128903
+alignment_loss = 1.099, time = 0.166 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5609 0.7634 0.8284 0.929 ], mr = 50.406, mrr = 0.654, time = 3.566 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5594 0.7631 0.8283 0.929 ], mr = 50.408, mrr = 0.653, time = 3.567 s 
+testing ent alignment costs: 4.497 s
+
+calculate likelihood matrix costs 3.17 s
+likelihood_loss = 5638.454, time = 4.232 s
+ent alignment, hits@[1, 5, 10, 50] = [0.561  0.7633 0.8281 0.9287], mr = 50.456, mrr = 0.654, time = 3.710 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5592 0.763  0.828  0.9287], mr = 50.458, mrr = 0.653, time = 3.710 s 
+testing ent alignment costs: 4.681 s
+
+iteration  30
+generate neighbours: 7.315 s, size: 0.001573 G
+triple_loss = 264.521, time = 5.560 s
+triple_loss = 263.014, time = 5.500 s
+triple_loss = 262.590, time = 5.570 s
+triple_loss = 260.752, time = 5.590 s
+triple_loss = 260.886, time = 5.600 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5607 0.7635 0.8296 0.9301], mr = 50.213, mrr = 0.654, time = 2.440 s 
+testing ent alignment costs: 3.393 s
+
+newly triples: 117272, 128903
+alignment_loss = 1.098, time = 0.178 s
+generate neighbours: 7.371 s, size: 0.001573 G
+triple_loss = 262.841, time = 5.670 s
+triple_loss = 263.271, time = 5.590 s
+triple_loss = 262.231, time = 5.590 s
+triple_loss = 259.438, time = 5.630 s
+triple_loss = 264.230, time = 5.570 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5623 0.764  0.8302 0.9303], mr = 49.636, mrr = 0.655, time = 2.463 s 
+testing ent alignment costs: 3.413 s
+
+mat mul costs: 0.438
+after sim filtered, right alignment: 8941/332109=0.027
+precision=0.026922, recall=0.851524, f1=0.052194
+after sim and neighbours filtered, right alignment: 8498/146465=0.058
+precision=0.058021, recall=0.809333, f1=0.108279
+graph via graph_tool <Graph object, directed, with 19068 vertices and 146465 edges at 0x7fc4e6c95550>
+selected_pairs, right alignment: 5019/8865=0.566
+precision=0.566159, recall=0.478, f1=0.518358
+mwgm costs time: 7.761 s
+selecting potential alignment costs time: 9.417 s
+update wrongly:  34 greedy update wrongly:  690
+after editing labeled alignment (<-), right alignment: 5594/9201=0.608
+precision=0.607977, recall=0.532762, f1=0.56789
+after editing labeled alignment (->), right alignment: 5432/8230=0.660
+precision=0.660024, recall=0.517333, f1=0.580032
+newly triples: 117950, 129470
+alignment_loss = 1.098, time = 0.163 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5631 0.7636 0.83   0.9297], mr = 49.310, mrr = 0.655, time = 3.641 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5606 0.7641 0.8299 0.9297], mr = 49.310, mrr = 0.654, time = 3.641 s 
+testing ent alignment costs: 4.561 s
+
+calculate likelihood matrix costs 3.24 s
+likelihood_loss = 5619.109, time = 4.321 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5627 0.7634 0.8298 0.9295], mr = 49.356, mrr = 0.655, time = 3.608 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5605 0.7637 0.8297 0.9295], mr = 49.357, mrr = 0.654, time = 3.608 s 
+testing ent alignment costs: 4.574 s
+
+iteration  31
+generate neighbours: 7.251 s, size: 0.001573 G
+triple_loss = 260.746, time = 5.590 s
+triple_loss = 264.161, time = 5.600 s
+triple_loss = 264.540, time = 5.620 s
+triple_loss = 259.822, time = 5.590 s
+triple_loss = 260.601, time = 5.630 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5638 0.765  0.831  0.931 ], mr = 49.147, mrr = 0.656, time = 2.443 s 
+testing ent alignment costs: 3.402 s
+
+newly triples: 117950, 129470
+alignment_loss = 1.097, time = 0.165 s
+generate neighbours: 7.310 s, size: 0.001573 G
+triple_loss = 263.575, time = 5.690 s
+triple_loss = 261.796, time = 5.610 s
+triple_loss = 263.199, time = 5.630 s
+triple_loss = 263.802, time = 5.590 s
+triple_loss = 258.250, time = 5.570 s
+ent alignment, hits@[1, 5, 10, 50] = [0.565  0.7648 0.8314 0.9313], mr = 48.683, mrr = 0.657, time = 2.442 s 
+testing ent alignment costs: 3.395 s
+
+mat mul costs: 0.442
+after sim filtered, right alignment: 8971/333346=0.027
+precision=0.026912, recall=0.854381, f1=0.05218
+after sim and neighbours filtered, right alignment: 8533/147131=0.058
+precision=0.057996, recall=0.812667, f1=0.108266
+graph via graph_tool <Graph object, directed, with 19127 vertices and 147131 edges at 0x7fc4e6f56f60>
+selected_pairs, right alignment: 5090/8891=0.572
+precision=0.572489, recall=0.484762, f1=0.524986
+mwgm costs time: 7.783 s
+selecting potential alignment costs time: 9.441 s
+update wrongly:  34 greedy update wrongly:  689
+after editing labeled alignment (<-), right alignment: 5636/9200=0.613
+precision=0.612609, recall=0.536762, f1=0.572183
+after editing labeled alignment (->), right alignment: 5453/8252=0.661
+precision=0.66081, recall=0.519333, f1=0.581591
+newly triples: 118177, 129763
+alignment_loss = 1.098, time = 0.177 s
+ent alignment, hits@[1, 5, 10, 50] = [0.565  0.7648 0.8311 0.9304], mr = 48.429, mrr = 0.657, time = 3.702 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5631 0.765  0.8311 0.9304], mr = 48.429, mrr = 0.656, time = 3.702 s 
+testing ent alignment costs: 4.638 s
+
+calculate likelihood matrix costs 3.13 s
+likelihood_loss = 5609.812, time = 4.197 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5651 0.765  0.8313 0.9304], mr = 48.483, mrr = 0.657, time = 3.670 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5632 0.7651 0.8313 0.9304], mr = 48.483, mrr = 0.656, time = 3.670 s 
+testing ent alignment costs: 4.631 s
+
+iteration  32
+generate neighbours: 7.243 s, size: 0.001573 G
+triple_loss = 263.055, time = 5.570 s
+triple_loss = 261.484, time = 5.600 s
+triple_loss = 263.655, time = 5.630 s
+triple_loss = 260.941, time = 5.590 s
+triple_loss = 264.748, time = 5.570 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5657 0.7655 0.832  0.9318], mr = 48.171, mrr = 0.658, time = 2.447 s 
+testing ent alignment costs: 3.405 s
+
+newly triples: 118177, 129763
+alignment_loss = 1.097, time = 0.175 s
+generate neighbours: 7.376 s, size: 0.001573 G
+triple_loss = 261.127, time = 5.630 s
+triple_loss = 264.476, time = 5.610 s
+triple_loss = 259.570, time = 5.580 s
+triple_loss = 261.576, time = 5.580 s
+triple_loss = 259.929, time = 5.590 s
+ent alignment, hits@[1, 5, 10, 50] = [0.566  0.7661 0.8326 0.9323], mr = 47.729, mrr = 0.658, time = 2.546 s 
+testing ent alignment costs: 3.504 s
+
+mat mul costs: 0.442
+after sim filtered, right alignment: 8996/334515=0.027
+precision=0.026893, recall=0.856762, f1=0.052149
+after sim and neighbours filtered, right alignment: 8543/147685=0.058
+precision=0.057846, recall=0.813619, f1=0.108013
+graph via graph_tool <Graph object, directed, with 19184 vertices and 147685 edges at 0x7fc4e6c95550>
+selected_pairs, right alignment: 5018/8926=0.562
+precision=0.562178, recall=0.477905, f1=0.516627
+mwgm costs time: 7.860 s
+selecting potential alignment costs time: 9.522 s
+update wrongly:  42 greedy update wrongly:  726
+after editing labeled alignment (<-), right alignment: 5614/9252=0.607
+precision=0.606788, recall=0.534667, f1=0.568449
+after editing labeled alignment (->), right alignment: 5472/8294=0.660
+precision=0.659754, recall=0.521143, f1=0.582314
+newly triples: 118533, 130151
+alignment_loss = 1.097, time = 0.173 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5668 0.7663 0.8329 0.9311], mr = 47.523, mrr = 0.658, time = 3.600 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5621 0.7668 0.8329 0.9311], mr = 47.524, mrr = 0.656, time = 3.600 s 
+testing ent alignment costs: 4.539 s
+
+calculate likelihood matrix costs 3.15 s
+likelihood_loss = 5593.222, time = 4.225 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5668 0.7669 0.8328 0.931 ], mr = 47.569, mrr = 0.658, time = 3.580 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5619 0.7672 0.8328 0.931 ], mr = 47.572, mrr = 0.656, time = 3.580 s 
+testing ent alignment costs: 4.552 s
+
+iteration  33
+generate neighbours: 7.235 s, size: 0.001573 G
+triple_loss = 263.803, time = 5.580 s
+triple_loss = 262.930, time = 5.540 s
+triple_loss = 261.421, time = 5.590 s
+triple_loss = 260.799, time = 5.580 s
+triple_loss = 260.259, time = 5.570 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5678 0.7672 0.834  0.9323], mr = 47.340, mrr = 0.659, time = 2.533 s 
+testing ent alignment costs: 3.496 s
+
+newly triples: 118533, 130151
+alignment_loss = 1.096, time = 0.176 s
+generate neighbours: 7.432 s, size: 0.001573 G
+triple_loss = 260.223, time = 5.650 s
+triple_loss = 262.799, time = 5.620 s
+triple_loss = 260.743, time = 5.570 s
+triple_loss = 257.681, time = 5.600 s
+triple_loss = 261.262, time = 5.610 s
+ent alignment, hits@[1, 5, 10, 50] = [0.568  0.768  0.8338 0.9329], mr = 47.010, mrr = 0.660, time = 2.543 s 
+testing ent alignment costs: 3.507 s
+
+mat mul costs: 0.447
+after sim filtered, right alignment: 9033/335791=0.027
+precision=0.026901, recall=0.860286, f1=0.052171
+after sim and neighbours filtered, right alignment: 8578/148318=0.058
+precision=0.057835, recall=0.816952, f1=0.108023
+graph via graph_tool <Graph object, directed, with 19232 vertices and 148318 edges at 0x7fc4e4b334a8>
+selected_pairs, right alignment: 5115/8939=0.572
+precision=0.572212, recall=0.487143, f1=0.526262
+mwgm costs time: 7.898 s
+selecting potential alignment costs time: 9.561 s
+update wrongly:  23 greedy update wrongly:  701
+after editing labeled alignment (<-), right alignment: 5694/9254=0.615
+precision=0.615301, recall=0.542286, f1=0.576491
+after editing labeled alignment (->), right alignment: 5526/8339=0.663
+precision=0.662669, recall=0.526286, f1=0.586655
+newly triples: 118910, 130251
+alignment_loss = 1.097, time = 0.178 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5685 0.7679 0.8342 0.9324], mr = 46.879, mrr = 0.660, time = 3.612 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5688 0.7687 0.8341 0.9324], mr = 46.874, mrr = 0.661, time = 3.613 s 
+testing ent alignment costs: 4.546 s
+
+calculate likelihood matrix costs 3.04 s
+likelihood_loss = 5575.834, time = 4.109 s
+ent alignment, hits@[1, 5, 10, 50] = [0.569  0.7681 0.8344 0.9321], mr = 46.938, mrr = 0.660, time = 3.581 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5685 0.7686 0.8343 0.9321], mr = 46.934, mrr = 0.660, time = 3.582 s 
+testing ent alignment costs: 4.549 s
+
+iteration  34
+generate neighbours: 7.183 s, size: 0.001573 G
+triple_loss = 264.501, time = 5.700 s
+triple_loss = 261.539, time = 5.610 s
+triple_loss = 261.574, time = 5.580 s
+triple_loss = 260.060, time = 5.590 s
+triple_loss = 259.227, time = 5.620 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5683 0.7681 0.8344 0.9333], mr = 46.764, mrr = 0.660, time = 2.523 s 
+testing ent alignment costs: 3.490 s
+
+newly triples: 118910, 130251
+alignment_loss = 1.096, time = 0.164 s
+generate neighbours: 7.427 s, size: 0.001573 G
+triple_loss = 260.885, time = 5.600 s
+triple_loss = 261.161, time = 5.580 s
+triple_loss = 262.015, time = 5.540 s
+triple_loss = 263.294, time = 5.570 s
+triple_loss = 259.440, time = 5.620 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5686 0.7691 0.8351 0.9336], mr = 46.492, mrr = 0.661, time = 2.420 s 
+testing ent alignment costs: 3.397 s
+
+mat mul costs: 0.450
+after sim filtered, right alignment: 9055/337182=0.027
+precision=0.026855, recall=0.862381, f1=0.052088
+after sim and neighbours filtered, right alignment: 8598/148829=0.058
+precision=0.057771, recall=0.818857, f1=0.107928
+graph via graph_tool <Graph object, directed, with 19276 vertices and 148829 edges at 0x7fc4e6b854a8>
+selected_pairs, right alignment: 5121/8986=0.570
+precision=0.569886, recall=0.487714, f1=0.525608
+mwgm costs time: 7.833 s
+selecting potential alignment costs time: 9.487 s
+update wrongly:  37 greedy update wrongly:  697
+after editing labeled alignment (<-), right alignment: 5684/9285=0.612
+precision=0.61217, recall=0.541333, f1=0.574576
+after editing labeled alignment (->), right alignment: 5533/8375=0.661
+precision=0.660657, recall=0.526952, f1=0.586278
+newly triples: 119085, 130986
+alignment_loss = 1.096, time = 0.173 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5694 0.769  0.8347 0.9331], mr = 46.274, mrr = 0.661, time = 3.625 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5668 0.7689 0.8346 0.9331], mr = 46.276, mrr = 0.660, time = 3.626 s 
+testing ent alignment costs: 4.589 s
+
+calculate likelihood matrix costs 2.97 s
+likelihood_loss = 5560.967, time = 4.028 s
+ent alignment, hits@[1, 5, 10, 50] = [0.569  0.7693 0.835  0.9331], mr = 46.321, mrr = 0.661, time = 3.634 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5664 0.7692 0.8349 0.9331], mr = 46.324, mrr = 0.660, time = 3.634 s 
+testing ent alignment costs: 4.608 s
+
+iteration  35
+generate neighbours: 7.284 s, size: 0.001573 G
+triple_loss = 263.709, time = 5.660 s
+triple_loss = 262.178, time = 5.580 s
+triple_loss = 260.853, time = 5.590 s
+triple_loss = 260.269, time = 5.600 s
+triple_loss = 259.439, time = 5.600 s
+ent alignment, hits@[1, 5, 10, 50] = [0.569  0.7692 0.8355 0.9336], mr = 46.099, mrr = 0.661, time = 2.537 s 
+testing ent alignment costs: 3.508 s
+
+newly triples: 119085, 130986
+alignment_loss = 1.095, time = 0.179 s
+generate neighbours: 7.331 s, size: 0.001573 G
+triple_loss = 262.380, time = 5.570 s
+triple_loss = 262.040, time = 5.550 s
+triple_loss = 262.763, time = 5.550 s
+triple_loss = 261.267, time = 5.560 s
+triple_loss = 264.031, time = 5.570 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5696 0.7701 0.8362 0.9338], mr = 45.845, mrr = 0.662, time = 2.520 s 
+testing ent alignment costs: 3.499 s
+
+mat mul costs: 0.451
+after sim filtered, right alignment: 9082/338199=0.027
+precision=0.026854, recall=0.864952, f1=0.052091
+after sim and neighbours filtered, right alignment: 8624/149379=0.058
+precision=0.057732, recall=0.821333, f1=0.107881
+graph via graph_tool <Graph object, directed, with 19327 vertices and 149379 edges at 0x7fc4e4ac5b38>
+selected_pairs, right alignment: 5144/8989=0.572
+precision=0.572255, recall=0.489905, f1=0.527888
+mwgm costs time: 7.928 s
+selecting potential alignment costs time: 9.583 s
+update wrongly:  37 greedy update wrongly:  668
+after editing labeled alignment (<-), right alignment: 5698/9321=0.611
+precision=0.611308, recall=0.542667, f1=0.574946
+after editing labeled alignment (->), right alignment: 5552/8378=0.663
+precision=0.662688, recall=0.528762, f1=0.588198
+newly triples: 118919, 130684
+alignment_loss = 1.095, time = 0.181 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5699 0.7699 0.8364 0.9337], mr = 45.609, mrr = 0.662, time = 3.655 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5693 0.7702 0.8365 0.9337], mr = 45.607, mrr = 0.662, time = 3.656 s 
+testing ent alignment costs: 4.608 s
+
+calculate likelihood matrix costs 3.04 s
+likelihood_loss = 5558.790, time = 4.096 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5704 0.7702 0.836  0.9336], mr = 45.656, mrr = 0.662, time = 3.657 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5692 0.7704 0.8362 0.9336], mr = 45.654, mrr = 0.662, time = 3.658 s 
+testing ent alignment costs: 4.638 s
+
+iteration  36
+generate neighbours: 7.276 s, size: 0.001573 G
+triple_loss = 263.184, time = 5.600 s
+triple_loss = 259.562, time = 5.560 s
+triple_loss = 258.530, time = 5.540 s
+triple_loss = 261.617, time = 5.550 s
+triple_loss = 258.620, time = 5.630 s
+ent alignment, hits@[1, 5, 10, 50] = [0.57   0.7708 0.8367 0.9344], mr = 45.482, mrr = 0.663, time = 2.443 s 
+testing ent alignment costs: 3.417 s
+
+newly triples: 118919, 130684
+alignment_loss = 1.094, time = 0.178 s
+generate neighbours: 7.397 s, size: 0.001573 G
+triple_loss = 259.983, time = 5.660 s
+triple_loss = 262.251, time = 5.570 s
+triple_loss = 259.998, time = 5.580 s
+triple_loss = 261.040, time = 5.570 s
+triple_loss = 258.562, time = 5.550 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5706 0.7711 0.8375 0.9352], mr = 45.162, mrr = 0.663, time = 2.578 s 
+testing ent alignment costs: 3.558 s
+
+mat mul costs: 0.461
+after sim filtered, right alignment: 9106/338930=0.027
+precision=0.026867, recall=0.867238, f1=0.052119
+after sim and neighbours filtered, right alignment: 8651/149841=0.058
+precision=0.057735, recall=0.823905, f1=0.107908
+graph via graph_tool <Graph object, directed, with 19354 vertices and 149841 edges at 0x7fc4e6992160>
+selected_pairs, right alignment: 5142/9020=0.570
+precision=0.570067, recall=0.489714, f1=0.526844
+mwgm costs time: 7.908 s
+selecting potential alignment costs time: 9.577 s
+update wrongly:  35 greedy update wrongly:  676
+after editing labeled alignment (<-), right alignment: 5736/9354=0.613
+precision=0.613214, recall=0.546286, f1=0.577818
+after editing labeled alignment (->), right alignment: 5564/8422=0.661
+precision=0.660651, recall=0.529905, f1=0.588099
+newly triples: 119442, 131329
+alignment_loss = 1.095, time = 0.178 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5709 0.7708 0.8371 0.9348], mr = 45.030, mrr = 0.663, time = 3.674 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5704 0.7708 0.8373 0.9348], mr = 45.028, mrr = 0.663, time = 3.675 s 
+testing ent alignment costs: 4.625 s
+
+calculate likelihood matrix costs 2.93 s
+likelihood_loss = 5542.702, time = 3.989 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5714 0.7707 0.8374 0.9348], mr = 45.072, mrr = 0.663, time = 3.765 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5703 0.7708 0.8373 0.9348], mr = 45.072, mrr = 0.663, time = 3.766 s 
+testing ent alignment costs: 4.748 s
+
+iteration  37
+generate neighbours: 7.291 s, size: 0.001573 G
+triple_loss = 259.277, time = 5.620 s
+triple_loss = 260.847, time = 5.600 s
+triple_loss = 261.209, time = 5.590 s
+triple_loss = 257.637, time = 5.560 s
+triple_loss = 261.347, time = 5.530 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5715 0.7715 0.838  0.936 ], mr = 44.921, mrr = 0.664, time = 2.419 s 
+testing ent alignment costs: 3.404 s
+
+newly triples: 119442, 131329
+alignment_loss = 1.094, time = 0.167 s
+generate neighbours: 7.397 s, size: 0.001573 G
+triple_loss = 258.036, time = 5.630 s
+triple_loss = 259.306, time = 5.590 s
+triple_loss = 256.874, time = 5.580 s
+triple_loss = 259.055, time = 5.620 s
+triple_loss = 257.967, time = 5.580 s
+ent alignment, hits@[1, 5, 10, 50] = [0.572  0.7721 0.839  0.9363], mr = 44.709, mrr = 0.664, time = 2.433 s 
+testing ent alignment costs: 3.404 s
+
+mat mul costs: 0.458
+after sim filtered, right alignment: 9129/339763=0.027
+precision=0.026869, recall=0.869429, f1=0.052127
+after sim and neighbours filtered, right alignment: 8674/150307=0.058
+precision=0.057709, recall=0.826095, f1=0.107882
+graph via graph_tool <Graph object, directed, with 19392 vertices and 150307 edges at 0x7fc4e7111fd0>
+selected_pairs, right alignment: 5201/9039=0.575
+precision=0.575396, recall=0.495333, f1=0.532371
+mwgm costs time: 7.979 s
+selecting potential alignment costs time: 9.648 s
+update wrongly:  31 greedy update wrongly:  645
+after editing labeled alignment (<-), right alignment: 5734/9352=0.613
+precision=0.613131, recall=0.546095, f1=0.577675
+after editing labeled alignment (->), right alignment: 5592/8455=0.661
+precision=0.661384, recall=0.532571, f1=0.590029
+newly triples: 119758, 131292
+alignment_loss = 1.095, time = 0.190 s
+ent alignment, hits@[1, 5, 10, 50] = [0.573  0.7724 0.838  0.9357], mr = 44.539, mrr = 0.665, time = 3.593 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5714 0.7723 0.8381 0.9357], mr = 44.537, mrr = 0.664, time = 3.594 s 
+testing ent alignment costs: 4.549 s
+
+calculate likelihood matrix costs 2.88 s
+likelihood_loss = 5529.819, time = 3.951 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5735 0.7725 0.8382 0.9358], mr = 44.590, mrr = 0.665, time = 3.728 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5713 0.7725 0.8382 0.9358], mr = 44.589, mrr = 0.664, time = 3.729 s 
+testing ent alignment costs: 4.720 s
+
+iteration  38
+generate neighbours: 7.473 s, size: 0.001573 G
+triple_loss = 260.717, time = 5.660 s
+triple_loss = 263.750, time = 5.640 s
+triple_loss = 257.170, time = 5.640 s
+triple_loss = 258.413, time = 5.610 s
+triple_loss = 258.176, time = 5.620 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5733 0.7732 0.8392 0.9369], mr = 44.409, mrr = 0.665, time = 2.535 s 
+testing ent alignment costs: 3.516 s
+
+newly triples: 119758, 131292
+alignment_loss = 1.094, time = 0.175 s
+generate neighbours: 7.463 s, size: 0.001573 G
+triple_loss = 259.428, time = 5.580 s
+triple_loss = 261.976, time = 5.550 s
+triple_loss = 261.087, time = 5.580 s
+triple_loss = 257.785, time = 5.610 s
+triple_loss = 259.445, time = 5.540 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5733 0.7734 0.8388 0.9368], mr = 44.200, mrr = 0.666, time = 2.459 s 
+testing ent alignment costs: 3.443 s
+
+mat mul costs: 0.463
+after sim filtered, right alignment: 9147/340532=0.027
+precision=0.026861, recall=0.871143, f1=0.052115
+after sim and neighbours filtered, right alignment: 8691/150685=0.058
+precision=0.057677, recall=0.827714, f1=0.107839
+graph via graph_tool <Graph object, directed, with 19430 vertices and 150685 edges at 0x7fc3884f7cf8>
+selected_pairs, right alignment: 5250/9081=0.578
+precision=0.57813, recall=0.5, f1=0.536234
+mwgm costs time: 8.027 s
+selecting potential alignment costs time: 9.686 s
+update wrongly:  42 greedy update wrongly:  687
+after editing labeled alignment (<-), right alignment: 5793/9375=0.618
+precision=0.61792, recall=0.551714, f1=0.582943
+after editing labeled alignment (->), right alignment: 5616/8465=0.663
+precision=0.663438, recall=0.534857, f1=0.592249
+newly triples: 119482, 131339
+alignment_loss = 1.095, time = 0.167 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5747 0.7729 0.8387 0.9364], mr = 43.998, mrr = 0.666, time = 3.794 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.574  0.7735 0.8389 0.9364], mr = 43.992, mrr = 0.666, time = 3.795 s 
+testing ent alignment costs: 4.747 s
+
+calculate likelihood matrix costs 2.82 s
+likelihood_loss = 5525.875, time = 3.901 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5753 0.7726 0.8385 0.9365], mr = 44.047, mrr = 0.666, time = 3.741 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5741 0.7733 0.8387 0.9365], mr = 44.042, mrr = 0.666, time = 3.741 s 
+testing ent alignment costs: 4.731 s
+
+iteration  39
+generate neighbours: 7.396 s, size: 0.001573 G
+triple_loss = 260.910, time = 5.530 s
+triple_loss = 258.777, time = 5.500 s
+triple_loss = 259.398, time = 5.530 s
+triple_loss = 258.799, time = 5.540 s
+triple_loss = 259.533, time = 5.550 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5756 0.7743 0.8391 0.9369], mr = 43.958, mrr = 0.667, time = 2.546 s 
+testing ent alignment costs: 3.534 s
+
+newly triples: 119482, 131339
+alignment_loss = 1.094, time = 0.179 s
+generate neighbours: 7.294 s, size: 0.001573 G
+triple_loss = 260.717, time = 5.630 s
+triple_loss = 261.380, time = 5.550 s
+triple_loss = 261.416, time = 5.590 s
+triple_loss = 261.377, time = 5.560 s
+triple_loss = 258.896, time = 5.560 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5749 0.7745 0.8399 0.9366], mr = 43.698, mrr = 0.667, time = 2.440 s 
+testing ent alignment costs: 3.426 s
+
+mat mul costs: 0.466
+after sim filtered, right alignment: 9165/341315=0.027
+precision=0.026852, recall=0.872857, f1=0.052101
+after sim and neighbours filtered, right alignment: 8704/151055=0.058
+precision=0.057621, recall=0.828952, f1=0.107752
+graph via graph_tool <Graph object, directed, with 19441 vertices and 151055 edges at 0x7fc4e6ff9b70>
+selected_pairs, right alignment: 5189/9072=0.572
+precision=0.57198, recall=0.49419, f1=0.530247
+mwgm costs time: 8.033 s
+selecting potential alignment costs time: 9.701 s
+update wrongly:  36 greedy update wrongly:  734
+after editing labeled alignment (<-), right alignment: 5808/9399=0.618
+precision=0.617938, recall=0.553143, f1=0.583748
+after editing labeled alignment (->), right alignment: 5635/8462=0.666
+precision=0.665918, recall=0.536667, f1=0.594347
+newly triples: 119632, 131369
+alignment_loss = 1.094, time = 0.175 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5767 0.775  0.8396 0.9364], mr = 43.493, mrr = 0.668, time = 3.613 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5766 0.7756 0.8397 0.9364], mr = 43.490, mrr = 0.668, time = 3.614 s 
+testing ent alignment costs: 4.579 s
+
+calculate likelihood matrix costs 2.88 s
+likelihood_loss = 5525.660, time = 3.944 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5767 0.7751 0.8395 0.9359], mr = 43.536, mrr = 0.668, time = 3.698 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5764 0.7756 0.8396 0.9359], mr = 43.533, mrr = 0.668, time = 3.698 s 
+testing ent alignment costs: 4.687 s
+
+iteration  40
+generate neighbours: 7.382 s, size: 0.001573 G
+triple_loss = 261.427, time = 5.630 s
+triple_loss = 261.086, time = 5.500 s
+triple_loss = 260.240, time = 5.540 s
+triple_loss = 257.732, time = 5.540 s
+triple_loss = 259.124, time = 5.530 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5763 0.7748 0.8404 0.9366], mr = 43.376, mrr = 0.668, time = 2.530 s 
+testing ent alignment costs: 3.518 s
+
+newly triples: 119632, 131369
+alignment_loss = 1.094, time = 0.173 s
+generate neighbours: 7.410 s, size: 0.001573 G
+triple_loss = 260.570, time = 5.580 s
+triple_loss = 257.779, time = 5.590 s
+triple_loss = 258.378, time = 5.580 s
+triple_loss = 260.007, time = 5.570 s
+triple_loss = 260.530, time = 5.540 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5768 0.7747 0.8413 0.9367], mr = 43.198, mrr = 0.668, time = 2.471 s 
+testing ent alignment costs: 3.469 s
+
+mat mul costs: 0.472
+after sim filtered, right alignment: 9175/341908=0.027
+precision=0.026835, recall=0.87381, f1=0.052071
+after sim and neighbours filtered, right alignment: 8718/151390=0.058
+precision=0.057586, recall=0.830286, f1=0.107702
+graph via graph_tool <Graph object, directed, with 19465 vertices and 151390 edges at 0x7fc4e47779b0>
+selected_pairs, right alignment: 5191/9104=0.570
+precision=0.570189, recall=0.494381, f1=0.529586
+mwgm costs time: 8.051 s
+selecting potential alignment costs time: 9.732 s
+update wrongly:  31 greedy update wrongly:  718
+after editing labeled alignment (<-), right alignment: 5810/9413=0.617
+precision=0.617231, recall=0.553333, f1=0.583538
+after editing labeled alignment (->), right alignment: 5652/8513=0.664
+precision=0.663926, recall=0.538286, f1=0.594541
+newly triples: 120044, 131757
+alignment_loss = 1.094, time = 0.188 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5778 0.7754 0.8412 0.9363], mr = 43.062, mrr = 0.669, time = 3.604 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5766 0.7756 0.8412 0.9363], mr = 43.061, mrr = 0.668, time = 3.605 s 
+testing ent alignment costs: 4.568 s
+
+calculate likelihood matrix costs 2.82 s
+likelihood_loss = 5506.435, time = 3.894 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5781 0.7757 0.8414 0.9363], mr = 43.103, mrr = 0.668, time = 3.672 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5766 0.7759 0.8413 0.9363], mr = 43.103, mrr = 0.668, time = 3.672 s 
+testing ent alignment costs: 4.676 s
+
+iteration  41
+generate neighbours: 7.378 s, size: 0.001573 G
+triple_loss = 258.730, time = 5.600 s
+triple_loss = 260.857, time = 5.580 s
+triple_loss = 260.436, time = 5.600 s
+triple_loss = 260.518, time = 5.550 s
+triple_loss = 257.542, time = 5.650 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5775 0.7759 0.8417 0.9373], mr = 42.972, mrr = 0.669, time = 2.587 s 
+testing ent alignment costs: 3.585 s
+
+newly triples: 120044, 131757
+alignment_loss = 1.093, time = 0.175 s
+generate neighbours: 7.498 s, size: 0.001573 G
+triple_loss = 259.809, time = 5.650 s
+triple_loss = 259.562, time = 5.610 s
+triple_loss = 259.794, time = 5.650 s
+triple_loss = 261.153, time = 5.610 s
+triple_loss = 259.056, time = 5.620 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5771 0.7758 0.8424 0.9373], mr = 42.838, mrr = 0.668, time = 2.569 s 
+testing ent alignment costs: 3.576 s
+
+mat mul costs: 0.474
+after sim filtered, right alignment: 9195/342527=0.027
+precision=0.026845, recall=0.875714, f1=0.052093
+after sim and neighbours filtered, right alignment: 8734/151745=0.058
+precision=0.057557, recall=0.83181, f1=0.107664
+graph via graph_tool <Graph object, directed, with 19495 vertices and 151745 edges at 0x7fc4e6e969b0>
+selected_pairs, right alignment: 5260/9117=0.577
+precision=0.576944, recall=0.500952, f1=0.536269
+mwgm costs time: 8.052 s
+selecting potential alignment costs time: 9.725 s
+update wrongly:  37 greedy update wrongly:  699
+after editing labeled alignment (<-), right alignment: 5823/9437=0.617
+precision=0.617039, recall=0.554571, f1=0.58414
+after editing labeled alignment (->), right alignment: 5666/8547=0.663
+precision=0.662923, recall=0.539619, f1=0.594949
+newly triples: 120606, 132035
+alignment_loss = 1.094, time = 0.170 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5776 0.7753 0.8411 0.937 ], mr = 42.671, mrr = 0.669, time = 3.683 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5751 0.7756 0.8413 0.937 ], mr = 42.669, mrr = 0.668, time = 3.684 s 
+testing ent alignment costs: 4.656 s
+
+calculate likelihood matrix costs 2.78 s
+likelihood_loss = 5493.615, time = 3.873 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5779 0.775  0.8411 0.9366], mr = 42.715, mrr = 0.669, time = 3.629 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5751 0.7751 0.841  0.9366], mr = 42.714, mrr = 0.668, time = 3.629 s 
+testing ent alignment costs: 4.644 s
+
+iteration  42
+generate neighbours: 7.254 s, size: 0.001573 G
+triple_loss = 258.439, time = 5.560 s
+triple_loss = 260.387, time = 5.580 s
+triple_loss = 257.594, time = 5.550 s
+triple_loss = 258.873, time = 5.520 s
+triple_loss = 258.181, time = 5.600 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5779 0.7758 0.8422 0.9373], mr = 42.566, mrr = 0.669, time = 2.442 s 
+testing ent alignment costs: 3.447 s
+
+newly triples: 120606, 132035
+alignment_loss = 1.093, time = 0.178 s
+generate neighbours: 7.538 s, size: 0.001573 G
+triple_loss = 260.628, time = 5.640 s
+triple_loss = 258.662, time = 5.630 s
+triple_loss = 258.457, time = 5.580 s
+triple_loss = 258.317, time = 5.570 s
+triple_loss = 257.615, time = 5.520 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5784 0.7764 0.8433 0.9374], mr = 42.393, mrr = 0.670, time = 2.453 s 
+testing ent alignment costs: 3.453 s
+
+mat mul costs: 0.477
+after sim filtered, right alignment: 9206/343188=0.027
+precision=0.026825, recall=0.876762, f1=0.052057
+after sim and neighbours filtered, right alignment: 8747/152143=0.057
+precision=0.057492, recall=0.833048, f1=0.107561
+graph via graph_tool <Graph object, directed, with 19517 vertices and 152143 edges at 0x7fc4e69ff4a8>
+selected_pairs, right alignment: 5259/9137=0.576
+precision=0.575572, recall=0.500857, f1=0.535622
+mwgm costs time: 8.098 s
+selecting potential alignment costs time: 9.754 s
+update wrongly:  41 greedy update wrongly:  705
+after editing labeled alignment (<-), right alignment: 5832/9450=0.617
+precision=0.617143, recall=0.555429, f1=0.584662
+after editing labeled alignment (->), right alignment: 5677/8535=0.665
+precision=0.665144, recall=0.540667, f1=0.596481
+newly triples: 119910, 131511
+alignment_loss = 1.093, time = 0.173 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5782 0.7757 0.8421 0.9368], mr = 42.177, mrr = 0.669, time = 3.649 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5787 0.776  0.8424 0.9368], mr = 42.172, mrr = 0.670, time = 3.649 s 
+testing ent alignment costs: 4.624 s
+
+calculate likelihood matrix costs 2.78 s
+likelihood_loss = 5497.053, time = 3.849 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5784 0.7753 0.8424 0.9369], mr = 42.219, mrr = 0.669, time = 3.687 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5787 0.7756 0.8424 0.9369], mr = 42.215, mrr = 0.670, time = 3.688 s 
+testing ent alignment costs: 4.692 s
+
+iteration  43
+generate neighbours: 7.492 s, size: 0.001573 G
+triple_loss = 259.555, time = 5.580 s
+triple_loss = 260.260, time = 5.570 s
+triple_loss = 258.932, time = 5.520 s
+triple_loss = 258.132, time = 5.530 s
+triple_loss = 258.967, time = 5.520 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5788 0.7765 0.8431 0.9383], mr = 42.124, mrr = 0.670, time = 2.565 s 
+testing ent alignment costs: 3.565 s
+
+newly triples: 119910, 131511
+alignment_loss = 1.093, time = 0.174 s
+generate neighbours: 7.554 s, size: 0.001573 G
+triple_loss = 264.045, time = 5.570 s
+triple_loss = 261.552, time = 5.550 s
+triple_loss = 258.394, time = 5.540 s
+triple_loss = 257.420, time = 5.550 s
+triple_loss = 258.235, time = 5.550 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5788 0.776  0.8426 0.9383], mr = 41.873, mrr = 0.670, time = 2.572 s 
+testing ent alignment costs: 3.578 s
+
+mat mul costs: 0.475
+after sim filtered, right alignment: 9222/343793=0.027
+precision=0.026824, recall=0.878286, f1=0.052058
+after sim and neighbours filtered, right alignment: 8763/152444=0.057
+precision=0.057483, recall=0.834571, f1=0.107558
+graph via graph_tool <Graph object, directed, with 19550 vertices and 152444 edges at 0x7fc4e69d0d68>
+selected_pairs, right alignment: 5271/9139=0.577
+precision=0.576759, recall=0.502, f1=0.536789
+mwgm costs time: 8.126 s
+selecting potential alignment costs time: 9.788 s
+update wrongly:  35 greedy update wrongly:  692
+after editing labeled alignment (<-), right alignment: 5858/9467=0.619
+precision=0.618781, recall=0.557905, f1=0.586768
+after editing labeled alignment (->), right alignment: 5694/8559=0.665
+precision=0.665265, recall=0.542286, f1=0.597513
+newly triples: 120217, 132123
+alignment_loss = 1.093, time = 0.175 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5803 0.7765 0.8423 0.9378], mr = 41.743, mrr = 0.671, time = 3.704 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5798 0.7771 0.8425 0.9378], mr = 41.739, mrr = 0.671, time = 3.705 s 
+testing ent alignment costs: 4.686 s
+
+calculate likelihood matrix costs 2.75 s
+likelihood_loss = 5487.578, time = 3.819 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5804 0.7766 0.8424 0.9376], mr = 41.786, mrr = 0.671, time = 3.660 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5799 0.7772 0.8425 0.9376], mr = 41.782, mrr = 0.671, time = 3.660 s 
+testing ent alignment costs: 4.667 s
+
+iteration  44
+generate neighbours: 7.382 s, size: 0.001573 G
+triple_loss = 262.023, time = 5.590 s
+triple_loss = 259.340, time = 5.590 s
+triple_loss = 258.159, time = 5.580 s
+triple_loss = 258.070, time = 5.630 s
+triple_loss = 258.525, time = 5.620 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5807 0.777  0.8427 0.9389], mr = 41.718, mrr = 0.671, time = 2.458 s 
+testing ent alignment costs: 3.475 s
+
+newly triples: 120217, 132123
+alignment_loss = 1.092, time = 0.176 s
+generate neighbours: 7.486 s, size: 0.001573 G
+triple_loss = 259.016, time = 5.570 s
+triple_loss = 261.125, time = 5.580 s
+triple_loss = 257.089, time = 5.590 s
+triple_loss = 262.106, time = 5.520 s
+triple_loss = 257.387, time = 5.550 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5812 0.7776 0.843  0.9392], mr = 41.621, mrr = 0.671, time = 2.575 s 
+testing ent alignment costs: 3.587 s
+
+mat mul costs: 0.479
+after sim filtered, right alignment: 9239/344334=0.027
+precision=0.026832, recall=0.879905, f1=0.052076
+after sim and neighbours filtered, right alignment: 8771/152746=0.057
+precision=0.057422, recall=0.835333, f1=0.107457
+graph via graph_tool <Graph object, directed, with 19565 vertices and 152746 edges at 0x7fc4e69f5e48>
+selected_pairs, right alignment: 5302/9149=0.580
+precision=0.579517, recall=0.504952, f1=0.539671
+mwgm costs time: 8.058 s
+selecting potential alignment costs time: 9.718 s
+update wrongly:  33 greedy update wrongly:  658
+after editing labeled alignment (<-), right alignment: 5853/9463=0.619
+precision=0.618514, recall=0.557429, f1=0.586385
+after editing labeled alignment (->), right alignment: 5701/8567=0.665
+precision=0.66546, recall=0.542952, f1=0.597996
+newly triples: 120776, 132298
+alignment_loss = 1.092, time = 0.187 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5814 0.7773 0.8426 0.9384], mr = 41.509, mrr = 0.671, time = 3.728 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5796 0.7773 0.8427 0.9384], mr = 41.510, mrr = 0.671, time = 3.728 s 
+testing ent alignment costs: 4.711 s
+
+calculate likelihood matrix costs 2.81 s
+likelihood_loss = 5483.346, time = 3.881 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5817 0.777  0.8426 0.9385], mr = 41.544, mrr = 0.671, time = 3.695 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5796 0.777  0.8427 0.9385], mr = 41.546, mrr = 0.670, time = 3.695 s 
+testing ent alignment costs: 4.713 s
+
+iteration  45
+generate neighbours: 7.465 s, size: 0.001573 G
+triple_loss = 262.040, time = 5.600 s
+triple_loss = 260.154, time = 5.600 s
+triple_loss = 259.697, time = 5.570 s
+triple_loss = 256.900, time = 5.570 s
+triple_loss = 260.313, time = 5.640 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5814 0.7788 0.843  0.9395], mr = 41.515, mrr = 0.672, time = 2.428 s 
+testing ent alignment costs: 3.444 s
+
+newly triples: 120776, 132298
+alignment_loss = 1.092, time = 0.183 s
+generate neighbours: 7.321 s, size: 0.001573 G
+triple_loss = 259.698, time = 5.640 s
+triple_loss = 259.252, time = 5.560 s
+triple_loss = 258.311, time = 5.610 s
+triple_loss = 257.618, time = 5.520 s
+triple_loss = 256.942, time = 5.520 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5822 0.7791 0.8434 0.9397], mr = 41.418, mrr = 0.672, time = 2.561 s 
+testing ent alignment costs: 3.574 s
+
+mat mul costs: 0.486
+after sim filtered, right alignment: 9249/344729=0.027
+precision=0.02683, recall=0.880857, f1=0.052074
+after sim and neighbours filtered, right alignment: 8777/152997=0.057
+precision=0.057367, recall=0.835905, f1=0.107366
+graph via graph_tool <Graph object, directed, with 19586 vertices and 152997 edges at 0x7fc4e4584fd0>
+selected_pairs, right alignment: 5332/9186=0.580
+precision=0.580449, recall=0.50781, f1=0.541705
+mwgm costs time: 8.084 s
+selecting potential alignment costs time: 9.766 s
+update wrongly:  21 greedy update wrongly:  649
+after editing labeled alignment (<-), right alignment: 5884/9507=0.619
+precision=0.618912, recall=0.560381, f1=0.588194
+after editing labeled alignment (->), right alignment: 5731/8614=0.665
+precision=0.665312, recall=0.54581, f1=0.599665
+newly triples: 120576, 132640
+alignment_loss = 1.092, time = 0.178 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5817 0.779  0.8428 0.9389], mr = 41.241, mrr = 0.672, time = 3.605 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5818 0.7795 0.843  0.9389], mr = 41.237, mrr = 0.672, time = 3.605 s 
+testing ent alignment costs: 4.591 s
+
+calculate likelihood matrix costs 2.72 s
+likelihood_loss = 5466.755, time = 3.803 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5819 0.779  0.8427 0.9389], mr = 41.280, mrr = 0.672, time = 3.641 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5817 0.7795 0.843  0.9389], mr = 41.276, mrr = 0.672, time = 3.642 s 
+testing ent alignment costs: 4.662 s
+
+iteration  46
+generate neighbours: 7.495 s, size: 0.001573 G
+triple_loss = 259.995, time = 5.600 s
+triple_loss = 259.946, time = 5.630 s
+triple_loss = 256.844, time = 5.650 s
+triple_loss = 257.371, time = 5.660 s
+triple_loss = 257.952, time = 5.630 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5824 0.7797 0.8433 0.9392], mr = 41.276, mrr = 0.672, time = 2.501 s 
+testing ent alignment costs: 3.524 s
+
+newly triples: 120576, 132640
+alignment_loss = 1.092, time = 0.180 s
+generate neighbours: 7.517 s, size: 0.001573 G
+triple_loss = 260.002, time = 5.660 s
+triple_loss = 259.377, time = 5.630 s
+triple_loss = 259.491, time = 5.550 s
+triple_loss = 258.686, time = 5.650 s
+triple_loss = 258.747, time = 5.630 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5824 0.7805 0.844  0.9402], mr = 41.055, mrr = 0.673, time = 2.572 s 
+testing ent alignment costs: 3.592 s
+
+mat mul costs: 0.487
+after sim filtered, right alignment: 9268/345150=0.027
+precision=0.026852, recall=0.882667, f1=0.052118
+after sim and neighbours filtered, right alignment: 8793/153211=0.057
+precision=0.057391, recall=0.837429, f1=0.10742
+graph via graph_tool <Graph object, directed, with 19605 vertices and 153211 edges at 0x7fc4e45426d8>
+selected_pairs, right alignment: 5280/9177=0.575
+precision=0.575351, recall=0.502857, f1=0.536667
+mwgm costs time: 8.149 s
+selecting potential alignment costs time: 9.822 s
+update wrongly:  49 greedy update wrongly:  696
+after editing labeled alignment (<-), right alignment: 5872/9504=0.618
+precision=0.617845, recall=0.559238, f1=0.587082
+after editing labeled alignment (->), right alignment: 5713/8600=0.664
+precision=0.664302, recall=0.544095, f1=0.59822
+newly triples: 120192, 132337
+alignment_loss = 1.092, time = 0.182 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5822 0.78   0.8422 0.939 ], mr = 40.936, mrr = 0.672, time = 3.717 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5809 0.7798 0.8424 0.939 ], mr = 40.936, mrr = 0.672, time = 3.718 s 
+testing ent alignment costs: 4.718 s
+
+calculate likelihood matrix costs 2.66 s
+likelihood_loss = 5470.767, time = 3.723 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5821 0.7794 0.8422 0.9389], mr = 40.968, mrr = 0.672, time = 3.708 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5807 0.7792 0.8423 0.9389], mr = 40.968, mrr = 0.672, time = 3.709 s 
+testing ent alignment costs: 4.736 s
+
+iteration  47
+generate neighbours: 7.553 s, size: 0.001573 G
+triple_loss = 258.575, time = 5.520 s
+triple_loss = 257.308, time = 5.510 s
+triple_loss = 258.844, time = 5.550 s
+triple_loss = 256.695, time = 5.560 s
+triple_loss = 259.206, time = 5.500 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5829 0.7804 0.8431 0.9396], mr = 40.935, mrr = 0.673, time = 2.467 s 
+testing ent alignment costs: 3.490 s
+
+newly triples: 120192, 132337
+alignment_loss = 1.091, time = 0.173 s
+generate neighbours: 7.550 s, size: 0.001573 G
+triple_loss = 259.944, time = 5.640 s
+triple_loss = 258.967, time = 5.590 s
+triple_loss = 260.327, time = 5.610 s
+triple_loss = 257.608, time = 5.660 s
+triple_loss = 258.636, time = 5.660 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5829 0.7806 0.8436 0.9396], mr = 40.698, mrr = 0.673, time = 2.491 s 
+testing ent alignment costs: 3.512 s
+
+mat mul costs: 0.488
+after sim filtered, right alignment: 9273/345538=0.027
+precision=0.026836, recall=0.883143, f1=0.052089
+after sim and neighbours filtered, right alignment: 8802/153498=0.057
+precision=0.057343, recall=0.838286, f1=0.107343
+graph via graph_tool <Graph object, directed, with 19618 vertices and 153498 edges at 0x7fc4e6a62048>
+selected_pairs, right alignment: 5239/9178=0.571
+precision=0.570822, recall=0.498952, f1=0.532473
+mwgm costs time: 8.165 s
+selecting potential alignment costs time: 9.843 s
+update wrongly:  30 greedy update wrongly:  728
+after editing labeled alignment (<-), right alignment: 5898/9518=0.620
+precision=0.619668, recall=0.561714, f1=0.58927
+after editing labeled alignment (->), right alignment: 5735/8622=0.665
+precision=0.665159, recall=0.54619, f1=0.599832
+newly triples: 120774, 132881
+alignment_loss = 1.092, time = 0.176 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5827 0.7808 0.8437 0.9392], mr = 40.609, mrr = 0.673, time = 3.710 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5818 0.7812 0.8438 0.9392], mr = 40.606, mrr = 0.673, time = 3.711 s 
+testing ent alignment costs: 4.720 s
+
+calculate likelihood matrix costs 2.73 s
+likelihood_loss = 5462.314, time = 3.807 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5827 0.7807 0.8438 0.9393], mr = 40.648, mrr = 0.673, time = 3.675 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5819 0.7812 0.8439 0.9393], mr = 40.646, mrr = 0.673, time = 3.675 s 
+testing ent alignment costs: 4.702 s
+
+iteration  48
+generate neighbours: 7.629 s, size: 0.001573 G
+triple_loss = 259.564, time = 5.550 s
+triple_loss = 259.402, time = 5.530 s
+triple_loss = 261.591, time = 5.650 s
+triple_loss = 257.462, time = 5.530 s
+triple_loss = 255.272, time = 5.540 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5822 0.7814 0.8443 0.9399], mr = 40.634, mrr = 0.673, time = 2.611 s 
+testing ent alignment costs: 3.635 s
+
+newly triples: 120774, 132881
+alignment_loss = 1.091, time = 0.178 s
+generate neighbours: 7.547 s, size: 0.001573 G
+triple_loss = 258.356, time = 5.590 s
+triple_loss = 259.458, time = 5.580 s
+triple_loss = 260.626, time = 5.520 s
+triple_loss = 257.377, time = 5.580 s
+triple_loss = 257.078, time = 5.580 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5829 0.7812 0.8449 0.94  ], mr = 40.476, mrr = 0.673, time = 2.549 s 
+testing ent alignment costs: 3.582 s
+
+mat mul costs: 0.493
+after sim filtered, right alignment: 9290/345864=0.027
+precision=0.02686, recall=0.884762, f1=0.052137
+after sim and neighbours filtered, right alignment: 8820/153733=0.057
+precision=0.057372, recall=0.84, f1=0.107408
+graph via graph_tool <Graph object, directed, with 19642 vertices and 153733 edges at 0x7fc4e720c048>
+selected_pairs, right alignment: 5257/9199=0.571
+precision=0.571475, recall=0.500667, f1=0.533733
+mwgm costs time: 8.124 s
+selecting potential alignment costs time: 9.801 s
+update wrongly:  38 greedy update wrongly:  698
+after editing labeled alignment (<-), right alignment: 5889/9511=0.619
+precision=0.619178, recall=0.560857, f1=0.588576
+after editing labeled alignment (->), right alignment: 5741/8638=0.665
+precision=0.664621, recall=0.546762, f1=0.599958
+newly triples: 120652, 133019
+alignment_loss = 1.091, time = 0.178 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5833 0.7811 0.8446 0.9398], mr = 40.376, mrr = 0.674, time = 3.677 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5807 0.7813 0.8447 0.9398], mr = 40.378, mrr = 0.672, time = 3.678 s 
+testing ent alignment costs: 4.679 s
+
+calculate likelihood matrix costs 2.71 s
+likelihood_loss = 5456.146, time = 3.785 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5832 0.7808 0.8445 0.9398], mr = 40.420, mrr = 0.673, time = 3.725 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5806 0.781  0.8446 0.9398], mr = 40.423, mrr = 0.672, time = 3.725 s 
+testing ent alignment costs: 4.758 s
+
+iteration  49
+generate neighbours: 7.673 s, size: 0.001573 G
+triple_loss = 257.782, time = 5.600 s
+triple_loss = 258.284, time = 5.550 s
+triple_loss = 256.487, time = 5.570 s
+triple_loss = 257.619, time = 5.590 s
+triple_loss = 257.894, time = 5.600 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5826 0.7813 0.8449 0.9402], mr = 40.362, mrr = 0.673, time = 2.448 s 
+testing ent alignment costs: 3.483 s
+
+newly triples: 120652, 133019
+alignment_loss = 1.090, time = 0.176 s
+generate neighbours: 7.540 s, size: 0.001573 G
+triple_loss = 259.800, time = 5.640 s
+triple_loss = 256.128, time = 5.630 s
+triple_loss = 257.682, time = 5.610 s
+triple_loss = 258.471, time = 5.560 s
+triple_loss = 257.475, time = 5.660 s
+ent alignment, hits@[1, 5, 10, 50] = [0.583  0.7816 0.845  0.9403], mr = 40.264, mrr = 0.674, time = 2.516 s 
+testing ent alignment costs: 3.571 s
+
+mat mul costs: 0.497
+after sim filtered, right alignment: 9296/346326=0.027
+precision=0.026842, recall=0.885333, f1=0.052104
+after sim and neighbours filtered, right alignment: 8826/153973=0.057
+precision=0.057322, recall=0.840571, f1=0.107325
+graph via graph_tool <Graph object, directed, with 19676 vertices and 153973 edges at 0x7fc4e6c83b00>
+selected_pairs, right alignment: 5283/9202=0.574
+precision=0.574114, recall=0.503143, f1=0.536291
+mwgm costs time: 8.128 s
+selecting potential alignment costs time: 9.851 s
+update wrongly:  31 greedy update wrongly:  695
+after editing labeled alignment (<-), right alignment: 5912/9530=0.620
+precision=0.620357, recall=0.563048, f1=0.590315
+after editing labeled alignment (->), right alignment: 5745/8620=0.666
+precision=0.666473, recall=0.547143, f1=0.600941
+newly triples: 120501, 132505
+alignment_loss = 1.091, time = 0.173 s
+ent alignment, hits@[1, 5, 10, 50] = [0.583  0.7814 0.8454 0.94  ], mr = 40.164, mrr = 0.673, time = 3.747 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5822 0.7819 0.8457 0.94  ], mr = 40.161, mrr = 0.673, time = 3.748 s 
+testing ent alignment costs: 4.759 s
+
+calculate likelihood matrix costs 2.74 s
+likelihood_loss = 5462.622, time = 3.804 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5835 0.7812 0.845  0.94  ], mr = 40.201, mrr = 0.674, time = 3.630 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5821 0.7818 0.8452 0.94  ], mr = 40.199, mrr = 0.673, time = 3.631 s 
+testing ent alignment costs: 4.674 s
+
+iteration  50
+generate neighbours: 7.491 s, size: 0.001573 G
+triple_loss = 258.365, time = 5.620 s
+triple_loss = 258.959, time = 5.780 s
+triple_loss = 258.751, time = 5.580 s
+triple_loss = 259.737, time = 5.610 s
+triple_loss = 256.657, time = 5.630 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5837 0.7823 0.845  0.9401], mr = 40.152, mrr = 0.674, time = 2.456 s 
+testing ent alignment costs: 3.491 s
+
+newly triples: 120501, 132505
+alignment_loss = 1.091, time = 0.169 s
+generate neighbours: 7.480 s, size: 0.001573 G
+triple_loss = 258.243, time = 5.680 s
+triple_loss = 256.471, time = 5.640 s
+triple_loss = 257.377, time = 5.570 s
+triple_loss = 257.118, time = 5.550 s
+triple_loss = 257.309, time = 5.630 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5838 0.7822 0.846  0.9407], mr = 40.018, mrr = 0.674, time = 2.580 s 
+testing ent alignment costs: 3.632 s
+
+mat mul costs: 0.503
+after sim filtered, right alignment: 9309/346642=0.027
+precision=0.026855, recall=0.886571, f1=0.052131
+after sim and neighbours filtered, right alignment: 8841/154268=0.057
+precision=0.057309, recall=0.842, f1=0.107314
+graph via graph_tool <Graph object, directed, with 19693 vertices and 154268 edges at 0x7fc4e4a38978>
+selected_pairs, right alignment: 5352/9227=0.580
+precision=0.580037, recall=0.509714, f1=0.542606
+mwgm costs time: 8.177 s
+selecting potential alignment costs time: 9.853 s
+update wrongly:  20 greedy update wrongly:  642
+after editing labeled alignment (<-), right alignment: 5916/9566=0.618
+precision=0.61844, recall=0.563429, f1=0.589654
+after editing labeled alignment (->), right alignment: 5780/8675=0.666
+precision=0.666282, recall=0.550476, f1=0.602868
+newly triples: 121135, 133311
+alignment_loss = 1.091, time = 0.181 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5843 0.7821 0.845  0.9402], mr = 39.878, mrr = 0.675, time = 3.682 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5838 0.783  0.845  0.9402], mr = 39.872, mrr = 0.675, time = 3.682 s 
+testing ent alignment costs: 4.689 s
+
+calculate likelihood matrix costs 2.62 s
+likelihood_loss = 5442.186, time = 3.690 s
+ent alignment, hits@[1, 5, 10, 50] = [0.5845 0.7814 0.845  0.94  ], mr = 39.915, mrr = 0.675, time = 3.721 s 
+ent alignment, hits@[1, 5, 10, 50] = [0.5838 0.782  0.845  0.94  ], mr = 39.910, mrr = 0.675, time = 3.722 s 
+testing ent alignment costs: 4.772 s
+
+total time = 5115.246 s

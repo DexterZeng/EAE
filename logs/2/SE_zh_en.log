@@ -1,0 +1,271 @@
+16-55-05
+
+0/1000, relation_loss = 443553.047, time = 0.260 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.0002  0.0017  0.0073  0.0134], mean = 4915.342, mrr = 0.001, time = 5.814 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.0003  0.0019  0.0075  0.0133], mean = 4915.000, mrr = 0.001, time = 5.659 s 
+1/1000, relation_loss = 374886.020, time = 0.257 s
+2/1000, relation_loss = 334536.523, time = 0.250 s
+3/1000, relation_loss = 305391.807, time = 0.249 s
+4/1000, relation_loss = 282812.992, time = 0.248 s
+5/1000, relation_loss = 264642.018, time = 0.267 s
+6/1000, relation_loss = 249662.582, time = 0.254 s
+7/1000, relation_loss = 236992.768, time = 0.259 s
+8/1000, relation_loss = 226129.517, time = 0.250 s
+9/1000, relation_loss = 216610.093, time = 0.256 s
+10/1000, relation_loss = 208312.175, time = 0.254 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.0321  0.0952  0.173   0.2231], mean = 2268.375, mrr = 0.054, time = 5.635 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.0295  0.0892  0.1704  0.2233], mean = 2268.104, mrr = 0.051, time = 5.656 s 
+11/1000, relation_loss = 200876.603, time = 0.258 s
+12/1000, relation_loss = 194084.691, time = 0.250 s
+13/1000, relation_loss = 188089.693, time = 0.275 s
+14/1000, relation_loss = 182628.123, time = 0.307 s
+15/1000, relation_loss = 177563.375, time = 0.265 s
+16/1000, relation_loss = 172909.390, time = 0.257 s
+17/1000, relation_loss = 168612.018, time = 0.254 s
+18/1000, relation_loss = 164548.613, time = 0.255 s
+19/1000, relation_loss = 160834.100, time = 0.257 s
+20/1000, relation_loss = 157356.868, time = 0.244 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.1083  0.2389  0.3635  0.427 ], mean = 1323.486, mrr = 0.154, time = 5.678 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.0994  0.2223  0.3488  0.414 ], mean = 1333.709, mrr = 0.143, time = 5.667 s 
+21/1000, relation_loss = 154162.004, time = 0.269 s
+22/1000, relation_loss = 150958.305, time = 0.267 s
+23/1000, relation_loss = 148060.418, time = 0.252 s
+24/1000, relation_loss = 145233.397, time = 0.257 s
+25/1000, relation_loss = 142633.679, time = 0.249 s
+26/1000, relation_loss = 140143.664, time = 0.251 s
+27/1000, relation_loss = 137738.646, time = 0.254 s
+28/1000, relation_loss = 135458.776, time = 0.250 s
+29/1000, relation_loss = 133230.356, time = 0.269 s
+30/1000, relation_loss = 131158.800, time = 0.292 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.1836  0.3603  0.4991  0.562 ], mean = 888.534, mrr = 0.245, time = 5.594 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.1622  0.3295  0.469   0.5367], mean = 909.521, mrr = 0.221, time = 5.631 s 
+31/1000, relation_loss = 129078.928, time = 0.256 s
+32/1000, relation_loss = 127217.820, time = 0.249 s
+33/1000, relation_loss = 125260.904, time = 0.262 s
+34/1000, relation_loss = 123494.613, time = 0.254 s
+35/1000, relation_loss = 121747.755, time = 0.249 s
+36/1000, relation_loss = 120035.470, time = 0.248 s
+37/1000, relation_loss = 118446.417, time = 0.261 s
+38/1000, relation_loss = 116859.240, time = 0.287 s
+39/1000, relation_loss = 115277.794, time = 0.248 s
+40/1000, relation_loss = 113827.051, time = 0.263 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.2419  0.4492  0.5872  0.6487], mean = 645.378, mrr = 0.313, time = 5.605 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.2073  0.4066  0.5494  0.6147], mean = 674.266, mrr = 0.277, time = 5.734 s 
+41/1000, relation_loss = 112361.706, time = 0.254 s
+42/1000, relation_loss = 111014.132, time = 0.260 s
+43/1000, relation_loss = 109655.261, time = 0.249 s
+44/1000, relation_loss = 108320.784, time = 0.261 s
+45/1000, relation_loss = 107095.224, time = 0.276 s
+46/1000, relation_loss = 105832.120, time = 0.276 s
+47/1000, relation_loss = 104659.045, time = 0.278 s
+48/1000, relation_loss = 103481.551, time = 0.248 s
+49/1000, relation_loss = 102359.670, time = 0.289 s
+50/1000, relation_loss = 101212.561, time = 0.262 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.2816  0.5128  0.6526  0.7132], mean = 491.137, mrr = 0.362, time = 5.712 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.2385  0.4591  0.6023  0.6697], mean = 526.609, mrr = 0.314, time = 5.609 s 
+51/1000, relation_loss = 100087.505, time = 0.261 s
+52/1000, relation_loss = 99064.584, time = 0.250 s
+53/1000, relation_loss = 98039.884, time = 0.256 s
+54/1000, relation_loss = 97070.505, time = 0.255 s
+55/1000, relation_loss = 96091.571, time = 0.256 s
+56/1000, relation_loss = 95091.569, time = 0.255 s
+57/1000, relation_loss = 94201.719, time = 0.249 s
+58/1000, relation_loss = 93323.486, time = 0.247 s
+59/1000, relation_loss = 92445.863, time = 0.261 s
+60/1000, relation_loss = 91628.069, time = 0.249 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3097  0.5583  0.6997  0.7561], mean = 387.499, mrr = 0.397, time = 5.635 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.2578  0.4949  0.6419  0.7062], mean = 428.260, mrr = 0.340, time = 5.627 s 
+61/1000, relation_loss = 90767.922, time = 0.253 s
+62/1000, relation_loss = 89956.655, time = 0.256 s
+63/1000, relation_loss = 89158.849, time = 0.249 s
+64/1000, relation_loss = 88433.963, time = 0.241 s
+65/1000, relation_loss = 87626.714, time = 0.254 s
+66/1000, relation_loss = 86975.586, time = 0.247 s
+67/1000, relation_loss = 86238.796, time = 0.252 s
+68/1000, relation_loss = 85575.074, time = 0.259 s
+69/1000, relation_loss = 84861.541, time = 0.250 s
+70/1000, relation_loss = 84165.851, time = 0.272 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3294  0.5927  0.7329  0.786 ], mean = 316.344, mrr = 0.422, time = 5.621 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.2734  0.522   0.669   0.731 ], mean = 361.636, mrr = 0.359, time = 5.641 s 
+71/1000, relation_loss = 83624.644, time = 0.262 s
+72/1000, relation_loss = 82933.706, time = 0.278 s
+73/1000, relation_loss = 82332.762, time = 0.254 s
+74/1000, relation_loss = 81739.782, time = 0.273 s
+75/1000, relation_loss = 81157.908, time = 0.284 s
+76/1000, relation_loss = 80610.273, time = 0.264 s
+77/1000, relation_loss = 80040.336, time = 0.268 s
+78/1000, relation_loss = 79525.386, time = 0.249 s
+79/1000, relation_loss = 78973.345, time = 0.264 s
+80/1000, relation_loss = 78415.913, time = 0.296 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3466  0.6166  0.761   0.8121], mean = 266.506, mrr = 0.441, time = 5.628 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.2839  0.5415  0.691   0.7507], mean = 314.686, mrr = 0.372, time = 5.683 s 
+81/1000, relation_loss = 77932.048, time = 0.270 s
+82/1000, relation_loss = 77447.792, time = 0.269 s
+83/1000, relation_loss = 76999.000, time = 0.292 s
+84/1000, relation_loss = 76513.575, time = 0.259 s
+85/1000, relation_loss = 76066.700, time = 0.259 s
+86/1000, relation_loss = 75585.417, time = 0.257 s
+87/1000, relation_loss = 75150.811, time = 0.248 s
+88/1000, relation_loss = 74700.306, time = 0.257 s
+89/1000, relation_loss = 74215.677, time = 0.268 s
+90/1000, relation_loss = 73860.916, time = 0.278 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.357   0.6371  0.7825  0.8299], mean = 230.484, mrr = 0.455, time = 5.584 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.2912  0.5544  0.7059  0.7667], mean = 280.397, mrr = 0.382, time = 5.635 s 
+91/1000, relation_loss = 73432.990, time = 0.272 s
+92/1000, relation_loss = 73012.250, time = 0.251 s
+93/1000, relation_loss = 72673.083, time = 0.275 s
+94/1000, relation_loss = 72276.010, time = 0.283 s
+95/1000, relation_loss = 71852.674, time = 0.262 s
+96/1000, relation_loss = 71507.381, time = 0.253 s
+97/1000, relation_loss = 71183.763, time = 0.244 s
+98/1000, relation_loss = 70816.933, time = 0.257 s
+99/1000, relation_loss = 70442.739, time = 0.262 s
+100/1000, relation_loss = 70171.028, time = 0.267 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3661  0.6557  0.7971  0.8448], mean = 203.330, mrr = 0.466, time = 5.643 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.297   0.5647  0.7166  0.7811], mean = 254.401, mrr = 0.389, time = 5.685 s 
+101/1000, relation_loss = 69802.542, time = 0.254 s
+102/1000, relation_loss = 69505.398, time = 0.263 s
+103/1000, relation_loss = 69130.371, time = 0.264 s
+104/1000, relation_loss = 68834.812, time = 0.273 s
+105/1000, relation_loss = 68553.927, time = 0.253 s
+106/1000, relation_loss = 68238.838, time = 0.256 s
+107/1000, relation_loss = 67946.928, time = 0.260 s
+108/1000, relation_loss = 67645.889, time = 0.266 s
+109/1000, relation_loss = 67366.512, time = 0.275 s
+110/1000, relation_loss = 67142.028, time = 0.257 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3742  0.6665  0.8087  0.8562], mean = 182.232, mrr = 0.475, time = 5.616 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.3013  0.5723  0.7269  0.7911], mean = 234.433, mrr = 0.394, time = 5.605 s 
+111/1000, relation_loss = 66810.698, time = 0.255 s
+112/1000, relation_loss = 66587.731, time = 0.257 s
+113/1000, relation_loss = 66299.741, time = 0.269 s
+114/1000, relation_loss = 65980.870, time = 0.259 s
+115/1000, relation_loss = 65743.278, time = 0.261 s
+116/1000, relation_loss = 65509.095, time = 0.278 s
+117/1000, relation_loss = 65265.956, time = 0.262 s
+118/1000, relation_loss = 65020.309, time = 0.256 s
+119/1000, relation_loss = 64762.077, time = 0.248 s
+120/1000, relation_loss = 64541.532, time = 0.239 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3785  0.6771  0.818   0.864 ], mean = 165.570, mrr = 0.482, time = 5.614 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.304   0.5785  0.7383  0.8008], mean = 218.397, mrr = 0.398, time = 5.682 s 
+121/1000, relation_loss = 64295.885, time = 0.255 s
+122/1000, relation_loss = 64070.418, time = 0.254 s
+123/1000, relation_loss = 63822.653, time = 0.261 s
+124/1000, relation_loss = 63609.192, time = 0.253 s
+125/1000, relation_loss = 63430.542, time = 0.246 s
+126/1000, relation_loss = 63225.400, time = 0.249 s
+127/1000, relation_loss = 62996.612, time = 0.257 s
+128/1000, relation_loss = 62826.300, time = 0.255 s
+129/1000, relation_loss = 62591.915, time = 0.252 s
+130/1000, relation_loss = 62411.777, time = 0.262 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3813  0.6823  0.8266  0.8711], mean = 152.339, mrr = 0.485, time = 5.661 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.3077  0.5829  0.7438  0.8073], mean = 205.428, mrr = 0.403, time = 5.729 s 
+131/1000, relation_loss = 62194.309, time = 0.262 s
+132/1000, relation_loss = 61985.836, time = 0.249 s
+133/1000, relation_loss = 61797.197, time = 0.294 s
+134/1000, relation_loss = 61645.038, time = 0.295 s
+135/1000, relation_loss = 61469.698, time = 0.279 s
+136/1000, relation_loss = 61232.050, time = 0.279 s
+137/1000, relation_loss = 61091.550, time = 0.269 s
+138/1000, relation_loss = 60947.979, time = 0.255 s
+139/1000, relation_loss = 60730.044, time = 0.292 s
+140/1000, relation_loss = 60541.569, time = 0.283 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3818  0.6842  0.8311  0.877 ], mean = 141.822, mrr = 0.487, time = 5.639 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.3109  0.5874  0.7494  0.8128], mean = 194.820, mrr = 0.406, time = 5.641 s 
+141/1000, relation_loss = 60390.245, time = 0.260 s
+142/1000, relation_loss = 60210.266, time = 0.259 s
+143/1000, relation_loss = 60040.565, time = 0.256 s
+144/1000, relation_loss = 59861.781, time = 0.250 s
+145/1000, relation_loss = 59740.600, time = 0.249 s
+146/1000, relation_loss = 59591.562, time = 0.256 s
+147/1000, relation_loss = 59410.622, time = 0.259 s
+148/1000, relation_loss = 59291.441, time = 0.288 s
+149/1000, relation_loss = 59150.100, time = 0.271 s
+150/1000, relation_loss = 58983.742, time = 0.286 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3826  0.6892  0.8374  0.8818], mean = 133.265, mrr = 0.488, time = 5.653 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.3107  0.5925  0.7541  0.8175], mean = 186.162, mrr = 0.406, time = 5.643 s 
+151/1000, relation_loss = 58888.281, time = 0.253 s
+152/1000, relation_loss = 58707.247, time = 0.248 s
+153/1000, relation_loss = 58550.260, time = 0.245 s
+154/1000, relation_loss = 58418.394, time = 0.250 s
+155/1000, relation_loss = 58280.546, time = 0.248 s
+156/1000, relation_loss = 58150.066, time = 0.251 s
+157/1000, relation_loss = 58006.491, time = 0.246 s
+158/1000, relation_loss = 57923.146, time = 0.252 s
+159/1000, relation_loss = 57696.579, time = 0.246 s
+160/1000, relation_loss = 57603.514, time = 0.244 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3837  0.6908  0.8408  0.8858], mean = 126.536, mrr = 0.489, time = 5.622 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.3094  0.5945  0.7562  0.8205], mean = 179.238, mrr = 0.406, time = 5.677 s 
+161/1000, relation_loss = 57425.258, time = 0.263 s
+162/1000, relation_loss = 57341.055, time = 0.250 s
+163/1000, relation_loss = 57202.195, time = 0.241 s
+164/1000, relation_loss = 57075.629, time = 0.248 s
+165/1000, relation_loss = 56940.459, time = 0.244 s
+166/1000, relation_loss = 56871.327, time = 0.248 s
+167/1000, relation_loss = 56743.881, time = 0.247 s
+168/1000, relation_loss = 56635.727, time = 0.255 s
+169/1000, relation_loss = 56528.842, time = 0.253 s
+170/1000, relation_loss = 56378.606, time = 0.247 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3812  0.6923  0.8428  0.8888], mean = 120.833, mrr = 0.488, time = 5.622 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.3107  0.5946  0.76    0.8229], mean = 173.441, mrr = 0.408, time = 5.600 s 
+171/1000, relation_loss = 56282.955, time = 0.250 s
+172/1000, relation_loss = 56131.042, time = 0.243 s
+173/1000, relation_loss = 56090.124, time = 0.243 s
+174/1000, relation_loss = 55950.769, time = 0.250 s
+175/1000, relation_loss = 55835.179, time = 0.244 s
+176/1000, relation_loss = 55675.739, time = 0.245 s
+177/1000, relation_loss = 55636.250, time = 0.248 s
+178/1000, relation_loss = 55476.452, time = 0.247 s
+179/1000, relation_loss = 55424.145, time = 0.244 s
+180/1000, relation_loss = 55306.926, time = 0.248 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3804  0.693   0.8447  0.8916], mean = 116.306, mrr = 0.487, time = 5.576 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.3107  0.5967  0.7637  0.8256], mean = 168.579, mrr = 0.409, time = 5.592 s 
+181/1000, relation_loss = 55259.279, time = 0.256 s
+182/1000, relation_loss = 55142.109, time = 0.248 s
+183/1000, relation_loss = 55062.570, time = 0.266 s
+184/1000, relation_loss = 54892.079, time = 0.249 s
+185/1000, relation_loss = 54798.589, time = 0.272 s
+186/1000, relation_loss = 54739.099, time = 0.246 s
+187/1000, relation_loss = 54646.928, time = 0.259 s
+188/1000, relation_loss = 54515.004, time = 0.245 s
+189/1000, relation_loss = 54440.076, time = 0.260 s
+190/1000, relation_loss = 54365.283, time = 0.291 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3774  0.694   0.8453  0.893 ], mean = 112.539, mrr = 0.486, time = 5.658 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.3123  0.5981  0.7656  0.8288], mean = 164.461, mrr = 0.410, time = 5.604 s 
+191/1000, relation_loss = 54295.143, time = 0.264 s
+192/1000, relation_loss = 54203.440, time = 0.261 s
+193/1000, relation_loss = 54071.968, time = 0.253 s
+194/1000, relation_loss = 53981.760, time = 0.250 s
+195/1000, relation_loss = 53923.387, time = 0.254 s
+196/1000, relation_loss = 53811.924, time = 0.261 s
+197/1000, relation_loss = 53710.887, time = 0.258 s
+198/1000, relation_loss = 53674.198, time = 0.267 s
+199/1000, relation_loss = 53624.193, time = 0.271 s
+200/1000, relation_loss = 53474.191, time = 0.258 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3779  0.6919  0.8466  0.8934], mean = 109.447, mrr = 0.485, time = 5.663 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.3111  0.5991  0.769   0.8296], mean = 161.069, mrr = 0.409, time = 5.632 s 
+201/1000, relation_loss = 53475.544, time = 0.255 s
+202/1000, relation_loss = 53311.618, time = 0.256 s
+203/1000, relation_loss = 53209.606, time = 0.249 s
+204/1000, relation_loss = 53190.975, time = 0.257 s
+205/1000, relation_loss = 53108.325, time = 0.253 s
+206/1000, relation_loss = 53045.496, time = 0.249 s
+207/1000, relation_loss = 52980.866, time = 0.249 s
+208/1000, relation_loss = 52881.376, time = 0.253 s
+209/1000, relation_loss = 52769.926, time = 0.244 s
+210/1000, relation_loss = 52760.971, time = 0.258 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3745  0.6915  0.8468  0.893 ], mean = 106.930, mrr = 0.482, time = 5.653 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.3119  0.5981  0.771   0.8307], mean = 158.228, mrr = 0.409, time = 5.743 s 
+211/1000, relation_loss = 52640.966, time = 0.247 s
+212/1000, relation_loss = 52573.903, time = 0.251 s
+213/1000, relation_loss = 52455.903, time = 0.259 s
+214/1000, relation_loss = 52475.495, time = 0.287 s
+215/1000, relation_loss = 52337.465, time = 0.273 s
+216/1000, relation_loss = 52328.356, time = 0.249 s
+217/1000, relation_loss = 52238.431, time = 0.256 s
+218/1000, relation_loss = 52156.254, time = 0.271 s
+219/1000, relation_loss = 52078.319, time = 0.257 s
+220/1000, relation_loss = 52007.843, time = 0.247 s
+X-EN: acc of top [1, 10, 50, 100] = [ 0.3718  0.6893  0.8466  0.8932], mean = 104.726, mrr = 0.480, time = 5.643 s 
+EN-X: acc of top [1, 10, 50, 100] = [ 0.3098  0.5981  0.7711  0.8331], mean = 155.746, mrr = 0.408, time = 5.620 s 
+total time = 323.810 s
+

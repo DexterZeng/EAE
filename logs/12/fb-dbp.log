@@ -1,0 +1,217 @@
+generating candidate file for training ...
+100%|█████████████████████████████████████| 7662/7662 [2:50:14<00:00,  1.33s/it]
+correct at #1 acc: 0.5874521805661821
+correct at #10 acc: 0.8612088752869166
+correct at #20 acc: 0.9190512624330528
+generating training data for graph matching model...
+
+generating candidate file for test ...
+100%|███████████████████████████████████| 17880/17880 [7:44:42<00:00,  1.56s/it]
+correct at #1 acc: 0.5543259557344065
+correct at #10 acc: 0.846579476861167
+correct at #1000 acc: 0.9928319919517102
+generating test data for graph matching model...
+
+loading pretrained embedding ...
+load 45680 pre-trained word embeddings from glove
+reading training data into the mem ...
+100%|██████████████████████████████████| 25542/25542 [00:01<00:00, 15348.79it/s]
+100%|█████████████████████████████████| 29861/29861 [00:00<00:00, 108693.41it/s]
+100%|███████████████████████████████| 130700/130700 [00:00<00:00, 186972.51it/s]
+reading development data into the mem ...
+100%|██████████████████████████████████| 25542/25542 [00:01<00:00, 15159.05it/s]
+100%|██████████████████████████████████| 29861/29861 [00:00<00:00, 89162.05it/s]
+100%|███████████████████████████████| 318080/318080 [00:00<00:00, 618585.42it/s]
+writing word-idx mapping ...
+2020-01-04 11:05:57.215079: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-01-04 11:05:57.331108: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:964] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-04 11:05:57.331543: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties:
+name: GeForce GTX TITAN X major: 5 minor: 2 memoryClockRate(GHz): 1.076
+pciBusID: 0000:01:00.0
+totalMemory: 11.92GiB freeMemory: 11.41GiB
+2020-01-04 11:05:57.331563: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2020-01-04 11:05:57.529346: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-01-04 11:05:57.529384: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2020-01-04 11:05:57.529391: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2020-01-04 11:05:57.529626: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11041 MB memory) -> physical GPU (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0, compute capability: 5.2)
+WARNING:tensorflow:From /home/weixin/PycharmProjects/EA/Crosslingula-KG-Matching-master/model.py:404: BasicLSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is deprecated, please use tf.nn.rnn_cell.LSTMCell, which supports all the feature this cell currently has. Please replace the existing code with tf.nn.rnn_cell.LSTMCell(name='basic_lstm_cell').
+WARNING:tensorflow:From /home/weixin/PycharmProjects/EA/Crosslingula-KG-Matching-master/graph_match_utils.py:146: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/weixin/PycharmProjects/EA/Crosslingula-KG-Matching-master/graph_match_utils.py:147: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/weixin/PycharmProjects/EA/Crosslingula-KG-Matching-master/model.py:392: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+/home/weixin/anaconda2/envs/p3/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py:112: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+WARNING:tensorflow:From /home/weixin/anaconda2/envs/p3/lib/python3.6/site-packages/tensorflow/python/util/tf_should_use.py:189: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+100%|███████████████████████████████████████| 4085/4085 [05:42<00:00, 11.91it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 15904/15904 [04:06<00:00, 64.63it/s]
+Already saved model to saved_model/fb_dbp_model_win1_1_win2_2_node1dim_100_node2dim_100_word_embedding_dim_300_layer1_1_layer2_1_first_gcn_type_mean_pooling_second_gcn_type_mean_pooling_cosine_MP_dim_10_drop_out_0.0_use_Glove_True_pm_graph_level_sample_size_per_layer_1/model-0
+writing prediction file...
+
+time:2020-01-04T11:15:58.504857
+Epoch 1
+Loss on train:327.1621294744109
+acc @1 on Dev:0.8158953722334004
+acc @10 on Dev:0.911908953722334
+best acc @1 on Dev:0.8158953722334004
+-----------------------
+100%|███████████████████████████████████████| 4085/4085 [05:40<00:00, 11.98it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 15904/15904 [04:06<00:00, 64.55it/s]
+Already saved model to saved_model/fb_dbp_model_win1_1_win2_2_node1dim_100_node2dim_100_word_embedding_dim_300_layer1_1_layer2_1_first_gcn_type_mean_pooling_second_gcn_type_mean_pooling_cosine_MP_dim_10_drop_out_0.0_use_Glove_True_pm_graph_level_sample_size_per_layer_1/model-0
+writing prediction file...
+-----------------------
+time:2020-01-04T11:25:47.716942
+Epoch 2
+Loss on train:170.82910442346474
+acc @1 on Dev:0.8221202213279678
+acc @10 on Dev:0.912286217303823
+best acc @1 on Dev:0.8221202213279678
+-----------------------
+100%|███████████████████████████████████████| 4085/4085 [05:40<00:00, 12.01it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 15904/15904 [04:01<00:00, 65.98it/s]
+-----------------------
+time:2020-01-04T11:35:28.972598
+Epoch 3
+Loss on train:132.0646000868801
+acc @1 on Dev:0.821491448692153
+acc @10 on Dev:0.9124748490945674
+best acc @1 on Dev:0.8221202213279678
+-----------------------
+100%|███████████████████████████████████████| 4085/4085 [05:39<00:00, 12.03it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 15904/15904 [04:01<00:00, 65.94it/s]
+-----------------------
+time:2020-01-04T11:45:09.908548
+Epoch 4
+Loss on train:107.77030744285184
+acc @1 on Dev:0.8195422535211268
+acc @10 on Dev:0.911657444668008
+best acc @1 on Dev:0.8221202213279678
+-----------------------
+100%|███████████████████████████████████████| 4085/4085 [05:40<00:00, 12.01it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 15904/15904 [04:01<00:00, 65.97it/s]
+-----------------------
+time:2020-01-04T11:54:51.359613
+Epoch 5
+Loss on train:90.53577571368805
+acc @1 on Dev:0.8189134808853119
+acc @10 on Dev:0.9119718309859155
+best acc @1 on Dev:0.8221202213279678
+-----------------------
+100%|███████████████████████████████████████| 4085/4085 [05:38<00:00, 12.05it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 15904/15904 [04:01<00:00, 65.89it/s]
+-----------------------
+time:2020-01-04T12:04:31.857485
+Epoch 6
+Loss on train:80.35441338622331
+acc @1 on Dev:0.8168385311871227
+acc @10 on Dev:0.91216046277666
+best acc @1 on Dev:0.8221202213279678
+-----------------------
+100%|███████████████████████████████████████| 4085/4085 [05:38<00:00, 12.07it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 15904/15904 [04:00<00:00, 66.00it/s]
+-----------------------
+time:2020-01-04T12:14:11.556062
+Epoch 7
+Loss on train:72.01552502455525
+acc @1 on Dev:0.8109909456740443
+acc @10 on Dev:0.911783199195171
+best acc @1 on Dev:0.8221202213279678
+-----------------------
+100%|███████████████████████████████████████| 4085/4085 [05:39<00:00, 12.04it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 15904/15904 [04:01<00:00, 65.90it/s]
+-----------------------
+time:2020-01-04T12:23:52.469597
+Epoch 8
+Loss on train:66.47350507034207
+acc @1 on Dev:0.80954476861167
+acc @10 on Dev:0.9114059356136821
+best acc @1 on Dev:0.8221202213279678
+-----------------------
+100%|███████████████████████████████████████| 4085/4085 [05:39<00:00, 12.03it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 15904/15904 [04:01<00:00, 65.95it/s]
+-----------------------
+time:2020-01-04T12:33:33.303312
+Epoch 9
+Loss on train:61.25724776126208
+acc @1 on Dev:0.8138204225352113
+acc @10 on Dev:0.9117203219315896
+best acc @1 on Dev:0.8221202213279678
+-----------------------
+100%|███████████████████████████████████████| 4085/4085 [05:39<00:00, 12.05it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 15904/15904 [04:00<00:00, 66.00it/s]
+-----------------------
+time:2020-01-04T12:43:13.460002
+Epoch 10
+Loss on train:53.98574615988764
+acc @1 on Dev:0.8071554325955734
+acc @10 on Dev:0.9110286720321932
+best acc @1 on Dev:0.8221202213279678
+(p3) weixin@weixin-All-Series:~/PycharmProjects/EA/Crosslingula-KG-Matching-master$ python run_model.py test fb_dbp fb_dbp_model -use_pretrained_embedding
+loading pretrained embedding ...
+load 45680 pre-trained word embeddings from glove
+reading word idx mapping from file ...
+reading training data into the mem ...
+100%|██████████████████████████████████| 25542/25542 [00:01<00:00, 15423.03it/s]
+100%|█████████████████████████████████| 29861/29861 [00:00<00:00, 108051.73it/s]
+100%|███████████████████████████| 15904000/15904000 [00:24<00:00, 640136.59it/s]
+2020-01-04 15:58:04.280084: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-01-04 15:58:04.365139: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:964] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-01-04 15:58:04.365576: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties:
+name: GeForce GTX TITAN X major: 5 minor: 2 memoryClockRate(GHz): 1.076
+pciBusID: 0000:01:00.0
+totalMemory: 11.92GiB freeMemory: 11.43GiB
+2020-01-04 15:58:04.365592: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2020-01-04 15:58:04.574449: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-01-04 15:58:04.574484: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0
+2020-01-04 15:58:04.574490: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N
+2020-01-04 15:58:04.574723: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11059 MB memory) -> physical GPU (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:01:00.0, compute capability: 5.2)
+WARNING:tensorflow:From /home/weixin/PycharmProjects/EA/Crosslingula-KG-Matching-master/model.py:404: BasicLSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is deprecated, please use tf.nn.rnn_cell.LSTMCell, which supports all the feature this cell currently has. Please replace the existing code with tf.nn.rnn_cell.LSTMCell(name='basic_lstm_cell').
+WARNING:tensorflow:From /home/weixin/PycharmProjects/EA/Crosslingula-KG-Matching-master/graph_match_utils.py:146: calling reduce_max (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/weixin/PycharmProjects/EA/Crosslingula-KG-Matching-master/graph_match_utils.py:147: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /home/weixin/PycharmProjects/EA/Crosslingula-KG-Matching-master/model.py:392: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+HEEEEEE
+HEEEEEE
+100%|█████████████████████████████████| 159040/159040 [2:35:56<00:00, 17.00it/s]
+15904
+-----------------------
+acc @1 on Test:0.8102364185110664
+acc @10 on Test:0.9609532193158954
+MRR:0.8699827830983576
+-----------------------
+writing prediction file...

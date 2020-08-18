@@ -1,0 +1,18 @@
+sample path time elapsed: 1160.6461 s
+{'hidden_size': 300, 'num_layers': 2, 'batch_size': 512, 'learning_rate': 0.003, 'num_samples': 8192, 'keep_prob': 0.5, 'max_length': 15, 'alpha': 0.9, 'beta': 0.9, 'data_path': 'data/dbp_wd_15k_V1/mapping/0_3/', 'log_file_path': 'data-dbp_wd_15k_V1-mapping-0_3-15l_19-12-30-17-43.log'}
+epoch:0, Hits@1:0.000, Hits@10:0.000, MR:5309.633, MRR:0.001, mean_loss:10000.000
+epoch:1, Hits@1:0.276, Hits@10:0.538, MR:328.727, MRR:0.370, mean_loss:2493.021
+epoch:2, Hits@1:0.309, Hits@10:0.620, MR:231.884, MRR:0.416, mean_loss:37.569
+epoch:3, Hits@1:0.350, Hits@10:0.631, MR:217.798, MRR:0.444, mean_loss:36.189
+epoch:4, Hits@1:0.350, Hits@10:0.642, MR:203.642, MRR:0.454, mean_loss:35.507
+epoch:5, Hits@1:0.361, Hits@10:0.645, MR:178.023, MRR:0.461, mean_loss:35.079
+epoch:6, Hits@1:0.367, Hits@10:0.647, MR:174.839, MRR:0.463, mean_loss:34.796
+epoch:7, Hits@1:0.352, Hits@10:0.655, MR:175.888, MRR:0.455, mean_loss:34.559
+epoch:8, Hits@1:0.358, Hits@10:0.664, MR:167.986, MRR:0.461, mean_loss:34.354
+epoch:9, Hits@1:0.378, Hits@10:0.667, MR:158.977, MRR:0.477, mean_loss:34.222
+epoch:10, Hits@1:0.383, Hits@10:0.654, MR:161.837, MRR:0.476, mean_loss:34.095
+epoch:11, Hits@1:0.365, Hits@10:0.656, MR:177.250, MRR:0.466, mean_loss:33.935
+epoch:12, Hits@1:0.379, Hits@10:0.655, MR:164.840, MRR:0.474, mean_loss:33.847
+epoch:13, Hits@1:0.371, Hits@10:0.661, MR:169.672, MRR:0.470, mean_loss:33.757
+epoch:13, Hits@1:0.391, Hits@10:0.663, MR:173.903, MRR:0.481, mean_loss:33.757
+total time elapsed: 2761.0631 s

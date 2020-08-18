@@ -1,0 +1,1130 @@
+***************************fb_dbp***************************
+loading raw data...
+-----dataset summary-----
+dataset:	 data/fb_dbp
+triple num:	 208388
+entity num:	 55403
+relation num:	 1289
+train ill num:	 7662 	test ill num:	 17880
+-------------------------
+getting a sparse tensor r_adj...
+GAT(
+  (layer_stack): ModuleList(
+    (0): MultiHeadGraphAttention (128 -> 128) * 2 heads
+    (1): MultiHeadGraphAttention (128 -> 128) * 2 heads
+  )
+)
+Adagrad (
+Parameter Group 0
+    initial_accumulator_value: 0
+    lr: 0.005
+    lr_decay: 0
+    weight_decay: 0
+)
+training...
+	train pos/neg_pairs shape: torch.Size([191550])
+***************************fb_dbp***************************
+loading raw data...
+-----dataset summary-----
+dataset:	 data/fb_dbp
+triple num:	 208388
+entity num:	 55403
+relation num:	 1289
+train ill num:	 7662 	test ill num:	 17880
+-------------------------
+getting a sparse tensor r_adj...
+GAT(
+  (layer_stack): ModuleList(
+    (0): MultiHeadGraphAttention (128 -> 128) * 2 heads
+    (1): MultiHeadGraphAttention (128 -> 128) * 2 heads
+  )
+)
+Adagrad (
+Parameter Group 0
+    initial_accumulator_value: 0
+    lr: 0.005
+    lr_decay: 0
+    weight_decay: 0
+)
+training...
+	train pos/neg_pairs shape: torch.Size([191550])
+loss_CG in epoch 0: 2.999955, time: 69.6228 s
+	train pos/neg_triples shape: torch.Size([416776, 3])
+***************************fb_dbp***************************
+loading raw data...
+-----dataset summary-----
+dataset:	 data/fb_dbp
+triple num:	 208388
+entity num:	 55403
+relation num:	 1289
+train ill num:	 7662 	test ill num:	 17880
+-------------------------
+getting a sparse tensor r_adj...
+GAT(
+  (layer_stack): ModuleList(
+    (0): MultiHeadGraphAttention (128 -> 128) * 2 heads
+    (1): MultiHeadGraphAttention (128 -> 128) * 2 heads
+  )
+)
+Adagrad (
+Parameter Group 0
+    initial_accumulator_value: 0
+    lr: 0.005
+    lr_decay: 0
+    weight_decay: 0
+)
+training...
+	train pos/neg_pairs shape: torch.Size([191550])
+loss_CG in epoch 0: 2.999955, time: 47.3568 s
+	train pos/neg_triples shape: torch.Size([416776, 3])
+loss_KE in epoch 1: 2.997576, time: 100.8440 s
+loss_CG in epoch 2: 2.992500, time: 46.8627 s
+loss_KE in epoch 3: 2.734628, time: 50.4967 s
+loss_CG in epoch 4: 2.967578, time: 47.1578 s
+loss_KE in epoch 5: 2.502222, time: 50.3634 s
+loss_CG in epoch 6: 2.950692, time: 46.2341 s
+loss_KE in epoch 7: 2.326862, time: 49.7660 s
+loss_CG in epoch 8: 2.935512, time: 46.4463 s
+loss_KE in epoch 9: 2.175979, time: 49.4980 s
+loss_CG in epoch 10: 2.986809, time: 52.5211 s
+loss_KE in epoch 11: 2.208616, time: 108.0944 s
+loss_CG in epoch 12: 2.983888, time: 45.6013 s
+loss_KE in epoch 13: 1.988366, time: 49.6428 s
+loss_CG in epoch 14: 2.981349, time: 45.6490 s
+loss_KE in epoch 15: 1.749800, time: 49.6055 s
+loss_CG in epoch 16: 2.978698, time: 45.7142 s
+loss_KE in epoch 17: 1.493860, time: 49.4024 s
+loss_CG in epoch 18: 2.975981, time: 45.5884 s
+loss_KE in epoch 19: 1.244419, time: 49.2907 s
+loss_CG in epoch 20: 2.976112, time: 52.4749 s
+loss_KE in epoch 21: 1.104521, time: 97.6810 s
+loss_CG in epoch 22: 2.973581, time: 45.7716 s
+loss_KE in epoch 23: 0.894062, time: 49.8034 s
+loss_CG in epoch 24: 2.971400, time: 45.7990 s
+loss_KE in epoch 25: 0.739092, time: 49.7734 s
+loss_CG in epoch 26: 2.969364, time: 45.7470 s
+loss_KE in epoch 27: 0.623976, time: 49.7443 s
+loss_CG in epoch 28: 2.967465, time: 45.8619 s
+loss_KE in epoch 29: 0.539135, time: 49.6917 s
+loss_CG in epoch 30: 2.967099, time: 53.0418 s
+loss_KE in epoch 31: 0.518162, time: 104.7908 s
+loss_CG in epoch 32: 2.965350, time: 45.5331 s
+loss_KE in epoch 33: 0.452119, time: 49.6432 s
+loss_CG in epoch 34: 2.963799, time: 45.9482 s
+loss_KE in epoch 35: 0.406840, time: 49.5781 s
+loss_CG in epoch 36: 2.962294, time: 45.2837 s
+loss_KE in epoch 37: 0.372674, time: 49.5740 s
+loss_CG in epoch 38: 2.960869, time: 45.5552 s
+loss_KE in epoch 39: 0.345794, time: 49.4925 s
+loss_CG in epoch 40: 2.960165, time: 52.7679 s
+loss_KE in epoch 41: 0.359796, time: 98.8148 s
+loss_CG in epoch 42: 2.958764, time: 45.5997 s
+loss_KE in epoch 43: 0.329801, time: 49.5644 s
+loss_CG in epoch 44: 2.957443, time: 45.5233 s
+loss_KE in epoch 45: 0.307955, time: 49.5666 s
+loss_CG in epoch 46: 2.956190, time: 45.6355 s
+loss_KE in epoch 47: 0.290128, time: 49.7000 s
+loss_CG in epoch 48: 2.954955, time: 45.4994 s
+loss_KE in epoch 49: 0.274829, time: 49.6030 s
+loss_CG in epoch 50: 2.954262, time: 52.7334 s
+loss_KE in epoch 51: 0.291080, time: 101.2404 s
+loss_CG in epoch 52: 2.953033, time: 45.9719 s
+loss_KE in epoch 53: 0.270474, time: 49.5860 s
+loss_CG in epoch 54: 2.951851, time: 45.6653 s
+loss_KE in epoch 55: 0.255467, time: 49.8063 s
+loss_CG in epoch 56: 2.950726, time: 45.6855 s
+loss_KE in epoch 57: 0.243030, time: 49.3645 s
+loss_CG in epoch 58: 2.949622, time: 45.5852 s
+loss_KE in epoch 59: 0.232281, time: 49.7050 s
+loss_CG in epoch 60: 2.948927, time: 52.9411 s
+loss_KE in epoch 61: 0.250314, time: 102.2301 s
+loss_CG in epoch 62: 2.947817, time: 45.7434 s
+loss_KE in epoch 63: 0.234364, time: 49.6868 s
+loss_CG in epoch 64: 2.946718, time: 45.7057 s
+loss_KE in epoch 65: 0.222971, time: 48.8792 s
+loss_CG in epoch 66: 2.945675, time: 45.5980 s
+loss_KE in epoch 67: 0.213597, time: 49.5517 s
+loss_CG in epoch 68: 2.944633, time: 45.4854 s
+loss_KE in epoch 69: 0.205514, time: 49.4740 s
+loss_CG in epoch 70: 2.943923, time: 52.7209 s
+loss_KE in epoch 71: 0.223953, time: 108.2990 s
+loss_CG in epoch 72: 2.942851, time: 45.3824 s
+loss_KE in epoch 73: 0.210879, time: 49.4495 s
+loss_CG in epoch 74: 2.941792, time: 45.6145 s
+loss_KE in epoch 75: 0.201554, time: 49.6832 s
+loss_CG in epoch 76: 2.940784, time: 45.5112 s
+loss_KE in epoch 77: 0.193882, time: 49.7559 s
+loss_CG in epoch 78: 2.939798, time: 45.7506 s
+loss_KE in epoch 79: 0.187241, time: 49.6447 s
+loss_CG in epoch 80: 2.939113, time: 52.8312 s
+loss_KE in epoch 81: 0.204750, time: 101.1559 s
+loss_CG in epoch 82: 2.938113, time: 45.3625 s
+loss_KE in epoch 83: 0.193485, time: 49.7193 s
+loss_CG in epoch 84: 2.937105, time: 45.3830 s
+loss_KE in epoch 85: 0.185556, time: 49.3850 s
+loss_CG in epoch 86: 2.936151, time: 45.5930 s
+loss_KE in epoch 87: 0.179054, time: 49.5114 s
+loss_CG in epoch 88: 2.935219, time: 45.4616 s
+loss_KE in epoch 89: 0.173401, time: 49.2836 s
+loss_CG in epoch 90: 2.934530, time: 52.5694 s
+loss_KE in epoch 91: 0.191701, time: 107.8008 s
+loss_CG in epoch 92: 2.933594, time: 45.3115 s
+loss_KE in epoch 93: 0.181630, time: 49.6327 s
+loss_CG in epoch 94: 2.932632, time: 46.1065 s
+loss_KE in epoch 95: 0.174573, time: 49.6564 s
+loss_CG in epoch 96: 2.931737, time: 45.8177 s
+loss_KE in epoch 97: 0.168772, time: 49.5247 s
+loss_CG in epoch 98: 2.930849, time: 45.9790 s
+loss_KE in epoch 99: 0.163695, time: 49.5002 s
+
+epoch 99, checkpoint!
+l2r: acc of top [1, 5, 10, 50, 100] = [0.1579 0.3021 0.3725 0.5775 0.6843], mr = 458.737, mrr = 0.233, time = 45.9674 s 
+r2l: acc of top [1, 5, 10, 50, 100] = [0.1532 0.2912 0.3537 0.5347 0.6348], mr = 594.708, mrr = 0.224, time = 45.9677 s 
+
+loss_CG in epoch 100: 2.930217, time: 52.6855 s
+loss_KE in epoch 101: 0.181576, time: 106.0416 s
+loss_CG in epoch 102: 2.929317, time: 45.2851 s
+loss_KE in epoch 103: 0.172158, time: 49.4745 s
+loss_CG in epoch 104: 2.928377, time: 45.6283 s
+loss_KE in epoch 105: 0.165558, time: 49.3912 s
+loss_CG in epoch 106: 2.927501, time: 45.4866 s
+loss_KE in epoch 107: 0.160195, time: 49.5257 s
+loss_CG in epoch 108: 2.926648, time: 45.6248 s
+loss_KE in epoch 109: 0.155613, time: 49.7310 s
+loss_CG in epoch 110: 2.926024, time: 52.5078 s
+loss_KE in epoch 111: 0.170405, time: 105.8965 s
+loss_CG in epoch 112: 2.925178, time: 45.4547 s
+loss_KE in epoch 113: 0.161932, time: 49.5490 s
+loss_CG in epoch 114: 2.924284, time: 45.6120 s
+loss_KE in epoch 115: 0.156110, time: 49.6517 s
+loss_CG in epoch 116: 2.923453, time: 45.9822 s
+loss_KE in epoch 117: 0.151460, time: 49.8231 s
+loss_CG in epoch 118: 2.922631, time: 45.8271 s
+loss_KE in epoch 119: 0.147517, time: 49.6740 s
+loss_CG in epoch 120: 2.922071, time: 52.9655 s
+loss_KE in epoch 121: 0.164124, time: 98.7257 s
+loss_CG in epoch 122: 2.921228, time: 45.7529 s
+loss_KE in epoch 123: 0.156372, time: 49.5577 s
+loss_CG in epoch 124: 2.920373, time: 45.9313 s
+loss_KE in epoch 125: 0.151052, time: 50.0565 s
+loss_CG in epoch 126: 2.919563, time: 45.8680 s
+loss_KE in epoch 127: 0.146794, time: 49.3733 s
+loss_CG in epoch 128: 2.918792, time: 45.3730 s
+loss_KE in epoch 129: 0.143171, time: 49.6902 s
+loss_CG in epoch 130: 2.918225, time: 52.5596 s
+loss_KE in epoch 131: 0.160754, time: 100.5201 s
+loss_CG in epoch 132: 2.917444, time: 45.4398 s
+loss_KE in epoch 133: 0.153388, time: 49.4497 s
+loss_CG in epoch 134: 2.916587, time: 45.4176 s
+loss_KE in epoch 135: 0.148335, time: 49.5072 s
+loss_CG in epoch 136: 2.915812, time: 45.3510 s
+loss_KE in epoch 137: 0.144289, time: 49.4061 s
+loss_CG in epoch 138: 2.915051, time: 45.5494 s
+loss_KE in epoch 139: 0.140851, time: 49.4602 s
+loss_CG in epoch 140: 2.914506, time: 52.5031 s
+loss_KE in epoch 141: 0.156576, time: 103.5118 s
+loss_CG in epoch 142: 2.913735, time: 45.8530 s
+loss_KE in epoch 143: 0.149699, time: 49.7375 s
+loss_CG in epoch 144: 2.912912, time: 46.0246 s
+loss_KE in epoch 145: 0.144894, time: 49.6738 s
+loss_CG in epoch 146: 2.912166, time: 45.8426 s
+loss_KE in epoch 147: 0.141050, time: 49.2753 s
+loss_CG in epoch 148: 2.911427, time: 45.6621 s
+loss_KE in epoch 149: 0.137751, time: 49.3310 s
+loss_CG in epoch 150: 2.910911, time: 52.5976 s
+loss_KE in epoch 151: 0.152688, time: 99.7373 s
+loss_CG in epoch 152: 2.910164, time: 45.6822 s
+loss_KE in epoch 153: 0.146087, time: 49.7428 s
+loss_CG in epoch 154: 2.909362, time: 46.0942 s
+loss_KE in epoch 155: 0.141542, time: 49.8914 s
+loss_CG in epoch 156: 2.908609, time: 45.8677 s
+loss_KE in epoch 157: 0.137942, time: 49.5418 s
+loss_CG in epoch 158: 2.907887, time: 45.3323 s
+loss_KE in epoch 159: 0.134901, time: 49.5617 s
+loss_CG in epoch 160: 2.907372, time: 52.6575 s
+loss_KE in epoch 161: 0.150683, time: 97.4963 s
+loss_CG in epoch 162: 2.906663, time: 45.6944 s
+loss_KE in epoch 163: 0.144380, time: 49.8278 s
+loss_CG in epoch 164: 2.905886, time: 45.7263 s
+loss_KE in epoch 165: 0.140026, time: 49.4123 s
+loss_CG in epoch 166: 2.905176, time: 45.8427 s
+loss_KE in epoch 167: 0.136564, time: 49.6892 s
+loss_CG in epoch 168: 2.904488, time: 45.5310 s
+loss_KE in epoch 169: 0.133633, time: 49.8383 s
+loss_CG in epoch 170: 2.903986, time: 52.9864 s
+loss_KE in epoch 171: 0.147368, time: 104.7685 s
+loss_CG in epoch 172: 2.903275, time: 45.7031 s
+loss_KE in epoch 173: 0.141405, time: 49.6560 s
+loss_CG in epoch 174: 2.902488, time: 45.8759 s
+loss_KE in epoch 175: 0.137268, time: 49.8015 s
+loss_CG in epoch 176: 2.901784, time: 45.5564 s
+loss_KE in epoch 177: 0.133997, time: 49.5408 s
+loss_CG in epoch 178: 2.901093, time: 45.4949 s
+loss_KE in epoch 179: 0.131222, time: 49.4169 s
+loss_CG in epoch 180: 2.900620, time: 52.8639 s
+loss_KE in epoch 181: 0.147256, time: 104.5935 s
+loss_CG in epoch 182: 2.899935, time: 45.5632 s
+loss_KE in epoch 183: 0.141453, time: 49.8653 s
+loss_CG in epoch 184: 2.899185, time: 45.5846 s
+loss_KE in epoch 185: 0.137452, time: 49.7973 s
+loss_CG in epoch 186: 2.898498, time: 45.5301 s
+loss_KE in epoch 187: 0.134254, time: 49.4380 s
+loss_CG in epoch 188: 2.897831, time: 45.4945 s
+loss_KE in epoch 189: 0.131546, time: 49.7314 s
+loss_CG in epoch 190: 2.897341, time: 52.7941 s
+loss_KE in epoch 191: 0.145023, time: 103.0728 s
+loss_CG in epoch 192: 2.896688, time: 45.8703 s
+loss_KE in epoch 193: 0.139401, time: 50.0285 s
+loss_CG in epoch 194: 2.895935, time: 45.9299 s
+loss_KE in epoch 195: 0.135509, time: 49.5889 s
+loss_CG in epoch 196: 2.895269, time: 46.0370 s
+loss_KE in epoch 197: 0.132415, time: 49.5615 s
+loss_CG in epoch 198: 2.894612, time: 45.7576 s
+loss_KE in epoch 199: 0.129806, time: 49.8597 s
+
+epoch 199, checkpoint!
+l2r: acc of top [1, 5, 10, 50, 100] = [0.1902 0.3617 0.4387 0.6253 0.7199], mr = 437.473, mrr = 0.275, time = 46.1509 s 
+r2l: acc of top [1, 5, 10, 50, 100] = [0.1855 0.3501 0.424  0.5997 0.6919], mr = 577.075, mrr = 0.267, time = 46.1512 s 
+
+loss_CG in epoch 200: 2.894134, time: 52.8533 s
+loss_KE in epoch 201: 0.143816, time: 102.1634 s
+loss_CG in epoch 202: 2.893491, time: 45.9435 s
+loss_KE in epoch 203: 0.138431, time: 49.4286 s
+loss_CG in epoch 204: 2.892746, time: 45.8394 s
+loss_KE in epoch 205: 0.134703, time: 49.7428 s
+loss_CG in epoch 206: 2.892092, time: 45.5850 s
+loss_KE in epoch 207: 0.131741, time: 50.0166 s
+loss_CG in epoch 208: 2.891438, time: 45.5290 s
+loss_KE in epoch 209: 0.129244, time: 49.7741 s
+loss_CG in epoch 210: 2.890962, time: 52.9235 s
+loss_KE in epoch 211: 0.142292, time: 102.4683 s
+loss_CG in epoch 212: 2.890312, time: 45.6693 s
+loss_KE in epoch 213: 0.137069, time: 49.5898 s
+loss_CG in epoch 214: 2.889577, time: 45.5538 s
+loss_KE in epoch 215: 0.133439, time: 49.7576 s
+loss_CG in epoch 216: 2.888896, time: 45.7932 s
+loss_KE in epoch 217: 0.130563, time: 49.5798 s
+loss_CG in epoch 218: 2.888281, time: 45.6322 s
+loss_KE in epoch 219: 0.128129, time: 49.5479 s
+loss_CG in epoch 220: 2.887800, time: 52.8667 s
+loss_KE in epoch 221: 0.141792, time: 102.1758 s
+loss_CG in epoch 222: 2.887180, time: 45.2838 s
+loss_KE in epoch 223: 0.136641, time: 50.0407 s
+loss_CG in epoch 224: 2.886442, time: 45.9740 s
+loss_KE in epoch 225: 0.133048, time: 49.9456 s
+loss_CG in epoch 226: 2.885816, time: 46.0001 s
+loss_KE in epoch 227: 0.130215, time: 49.6119 s
+loss_CG in epoch 228: 2.885170, time: 45.7106 s
+loss_KE in epoch 229: 0.127820, time: 49.8018 s
+loss_CG in epoch 230: 2.884716, time: 52.8124 s
+loss_KE in epoch 231: 0.141435, time: 107.0589 s
+loss_CG in epoch 232: 2.884091, time: 45.8377 s
+loss_KE in epoch 233: 0.136371, time: 49.7770 s
+loss_CG in epoch 234: 2.883385, time: 45.8862 s
+loss_KE in epoch 235: 0.132846, time: 49.7602 s
+loss_CG in epoch 236: 2.882733, time: 45.7588 s
+loss_KE in epoch 237: 0.130048, time: 49.6141 s
+loss_CG in epoch 238: 2.882125, time: 45.7805 s
+loss_KE in epoch 239: 0.127693, time: 49.6693 s
+loss_CG in epoch 240: 2.881650, time: 52.3911 s
+loss_KE in epoch 241: 0.140857, time: 101.3940 s
+loss_CG in epoch 242: 2.881040, time: 45.9988 s
+loss_KE in epoch 243: 0.136065, time: 49.8758 s
+loss_CG in epoch 244: 2.880327, time: 45.4282 s
+loss_KE in epoch 245: 0.132653, time: 49.5379 s
+loss_CG in epoch 246: 2.879719, time: 45.5618 s
+loss_KE in epoch 247: 0.129908, time: 49.7670 s
+loss_CG in epoch 248: 2.879102, time: 45.8270 s
+loss_KE in epoch 249: 0.127599, time: 49.7046 s
+loss_CG in epoch 250: 2.878644, time: 52.6330 s
+loss_KE in epoch 251: 0.139424, time: 102.0104 s
+loss_CG in epoch 252: 2.878038, time: 45.6962 s
+loss_KE in epoch 253: 0.134745, time: 49.3635 s
+loss_CG in epoch 254: 2.877335, time: 45.6057 s
+loss_KE in epoch 255: 0.131394, time: 49.7146 s
+loss_CG in epoch 256: 2.876714, time: 45.6952 s
+loss_KE in epoch 257: 0.128721, time: 49.7203 s
+loss_CG in epoch 258: 2.876107, time: 45.4498 s
+loss_KE in epoch 259: 0.126455, time: 49.4789 s
+loss_CG in epoch 260: 2.875643, time: 53.1628 s
+loss_KE in epoch 261: 0.139226, time: 103.9431 s
+loss_CG in epoch 262: 2.875024, time: 45.8242 s
+loss_KE in epoch 263: 0.134620, time: 49.3931 s
+loss_CG in epoch 264: 2.874324, time: 45.5015 s
+loss_KE in epoch 265: 0.131372, time: 49.7710 s
+loss_CG in epoch 266: 2.873713, time: 45.5765 s
+loss_KE in epoch 267: 0.128796, time: 49.7490 s
+loss_CG in epoch 268: 2.873111, time: 45.7815 s
+loss_KE in epoch 269: 0.126614, time: 49.3571 s
+loss_CG in epoch 270: 2.872654, time: 52.4480 s
+loss_KE in epoch 271: 0.139491, time: 97.9724 s
+loss_CG in epoch 272: 2.872076, time: 45.6827 s
+loss_KE in epoch 273: 0.135067, time: 49.9006 s
+loss_CG in epoch 274: 2.871381, time: 45.5004 s
+loss_KE in epoch 275: 0.131846, time: 49.5392 s
+loss_CG in epoch 276: 2.870779, time: 45.9094 s
+loss_KE in epoch 277: 0.129263, time: 49.5662 s
+loss_CG in epoch 278: 2.870181, time: 45.4103 s
+loss_KE in epoch 279: 0.127083, time: 49.4899 s
+loss_CG in epoch 280: 2.869721, time: 52.7894 s
+loss_KE in epoch 281: 0.138892, time: 98.0625 s
+loss_CG in epoch 282: 2.869114, time: 45.7619 s
+loss_KE in epoch 283: 0.134489, time: 49.8206 s
+loss_CG in epoch 284: 2.868423, time: 45.7413 s
+loss_KE in epoch 285: 0.131336, time: 50.1197 s
+loss_CG in epoch 286: 2.867819, time: 45.6566 s
+loss_KE in epoch 287: 0.128803, time: 49.6492 s
+loss_CG in epoch 288: 2.867235, time: 45.8342 s
+loss_KE in epoch 289: 0.126665, time: 49.8298 s
+loss_CG in epoch 290: 2.866776, time: 53.1745 s
+loss_KE in epoch 291: 0.139029, time: 100.1955 s
+loss_CG in epoch 292: 2.866193, time: 45.5726 s
+loss_KE in epoch 293: 0.134779, time: 49.5148 s
+loss_CG in epoch 294: 2.865502, time: 45.2752 s
+loss_KE in epoch 295: 0.131695, time: 49.4814 s
+loss_CG in epoch 296: 2.864901, time: 45.7392 s
+loss_KE in epoch 297: 0.129186, time: 49.3759 s
+loss_CG in epoch 298: 2.864317, time: 45.3048 s
+loss_KE in epoch 299: 0.127067, time: 49.4581 s
+
+epoch 299, checkpoint!
+l2r: acc of top [1, 5, 10, 50, 100] = [0.2027 0.3845 0.4676 0.6518 0.7378], mr = 426.307, mrr = 0.292, time = 46.2913 s 
+r2l: acc of top [1, 5, 10, 50, 100] = [0.2022 0.3807 0.4559 0.6349 0.7266], mr = 563.548, mrr = 0.289, time = 46.2916 s 
+
+loss_CG in epoch 300: 2.863853, time: 52.5632 s
+loss_KE in epoch 301: 0.137319, time: 106.8076 s
+loss_CG in epoch 302: 2.863258, time: 45.8300 s
+loss_KE in epoch 303: 0.133185, time: 49.3099 s
+loss_CG in epoch 304: 2.862566, time: 45.7261 s
+loss_KE in epoch 305: 0.130161, time: 49.6900 s
+loss_CG in epoch 306: 2.861968, time: 45.7236 s
+loss_KE in epoch 307: 0.127709, time: 49.8704 s
+loss_CG in epoch 308: 2.861376, time: 45.6960 s
+loss_KE in epoch 309: 0.125637, time: 49.1865 s
+loss_CG in epoch 310: 2.860906, time: 52.6122 s
+loss_KE in epoch 311: 0.138081, time: 103.0760 s
+loss_CG in epoch 312: 2.860302, time: 45.6292 s
+loss_KE in epoch 313: 0.134000, time: 49.5936 s
+loss_CG in epoch 314: 2.859607, time: 45.8109 s
+loss_KE in epoch 315: 0.131014, time: 49.8625 s
+loss_CG in epoch 316: 2.858993, time: 45.6210 s
+loss_KE in epoch 317: 0.128598, time: 49.9344 s
+loss_CG in epoch 318: 2.858397, time: 45.7012 s
+loss_KE in epoch 319: 0.126546, time: 49.7964 s
+loss_CG in epoch 320: 2.857917, time: 52.9296 s
+loss_KE in epoch 321: 0.137031, time: 100.0417 s
+loss_CG in epoch 322: 2.857337, time: 45.6610 s
+loss_KE in epoch 323: 0.133087, time: 49.8315 s
+loss_CG in epoch 324: 2.856650, time: 45.9394 s
+loss_KE in epoch 325: 0.130167, time: 49.8142 s
+loss_CG in epoch 326: 2.856054, time: 45.5556 s
+loss_KE in epoch 327: 0.127790, time: 50.0129 s
+loss_CG in epoch 328: 2.855456, time: 45.6560 s
+loss_KE in epoch 329: 0.125756, time: 49.8301 s
+loss_CG in epoch 330: 2.855004, time: 52.7279 s
+loss_KE in epoch 331: 0.136647, time: 103.3973 s
+loss_CG in epoch 332: 2.854404, time: 45.8059 s
+loss_KE in epoch 333: 0.132809, time: 49.8469 s
+loss_CG in epoch 334: 2.853720, time: 45.2055 s
+loss_KE in epoch 335: 0.129963, time: 49.7682 s
+loss_CG in epoch 336: 2.853115, time: 45.4688 s
+loss_KE in epoch 337: 0.127650, time: 49.6559 s
+loss_CG in epoch 338: 2.852528, time: 46.0399 s
+loss_KE in epoch 339: 0.125677, time: 49.7928 s
+loss_CG in epoch 340: 2.852055, time: 52.5791 s
+loss_KE in epoch 341: 0.135093, time: 103.7459 s
+loss_CG in epoch 342: 2.851454, time: 45.6175 s
+loss_KE in epoch 343: 0.131311, time: 49.7737 s
+loss_CG in epoch 344: 2.850762, time: 45.7886 s
+loss_KE in epoch 345: 0.128507, time: 49.6378 s
+loss_CG in epoch 346: 2.850159, time: 45.4126 s
+loss_KE in epoch 347: 0.126225, time: 50.0267 s
+loss_CG in epoch 348: 2.849562, time: 45.8899 s
+loss_KE in epoch 349: 0.124275, time: 49.8111 s
+loss_CG in epoch 350: 2.849077, time: 52.4070 s
+loss_KE in epoch 351: 0.136468, time: 100.5823 s
+loss_CG in epoch 352: 2.848477, time: 45.5546 s
+loss_KE in epoch 353: 0.132757, time: 49.7063 s
+loss_CG in epoch 354: 2.847778, time: 46.0305 s
+loss_KE in epoch 355: 0.129997, time: 49.8341 s
+loss_CG in epoch 356: 2.847174, time: 45.8291 s
+loss_KE in epoch 357: 0.127752, time: 49.7641 s
+loss_CG in epoch 358: 2.846579, time: 46.0494 s
+loss_KE in epoch 359: 0.125834, time: 49.7101 s
+loss_CG in epoch 360: 2.846094, time: 52.6813 s
+loss_KE in epoch 361: 0.137210, time: 98.6055 s
+loss_CG in epoch 362: 2.845513, time: 45.5324 s
+loss_KE in epoch 363: 0.133567, time: 49.9210 s
+loss_CG in epoch 364: 2.844819, time: 45.8122 s
+loss_KE in epoch 365: 0.130848, time: 49.5265 s
+loss_CG in epoch 366: 2.844218, time: 45.7584 s
+loss_KE in epoch 367: 0.128616, time: 49.6642 s
+loss_CG in epoch 368: 2.843632, time: 45.2235 s
+loss_KE in epoch 369: 0.126698, time: 49.4302 s
+loss_CG in epoch 370: 2.843143, time: 52.7952 s
+loss_KE in epoch 371: 0.136200, time: 101.5034 s
+loss_CG in epoch 372: 2.842535, time: 45.9030 s
+loss_KE in epoch 373: 0.132664, time: 49.5562 s
+loss_CG in epoch 374: 2.841843, time: 46.1029 s
+loss_KE in epoch 375: 0.129987, time: 50.0621 s
+loss_CG in epoch 376: 2.841237, time: 45.8037 s
+loss_KE in epoch 377: 0.127802, time: 49.7599 s
+loss_CG in epoch 378: 2.840644, time: 45.8107 s
+loss_KE in epoch 379: 0.125939, time: 50.2462 s
+loss_CG in epoch 380: 2.840154, time: 52.9936 s
+loss_KE in epoch 381: 0.137778, time: 97.4875 s
+loss_CG in epoch 382: 2.839553, time: 45.9328 s
+loss_KE in epoch 383: 0.134211, time: 49.7415 s
+loss_CG in epoch 384: 2.838867, time: 45.6650 s
+loss_KE in epoch 385: 0.131501, time: 49.3520 s
+loss_CG in epoch 386: 2.838270, time: 45.6549 s
+loss_KE in epoch 387: 0.129281, time: 49.7719 s
+loss_CG in epoch 388: 2.837671, time: 45.7114 s
+loss_KE in epoch 389: 0.127383, time: 49.4053 s
+loss_CG in epoch 390: 2.837174, time: 52.5419 s
+loss_KE in epoch 391: 0.136018, time: 107.6482 s
+loss_CG in epoch 392: 2.836539, time: 45.8052 s
+loss_KE in epoch 393: 0.132553, time: 50.1261 s
+loss_CG in epoch 394: 2.835836, time: 46.0772 s
+loss_KE in epoch 395: 0.129937, time: 49.5830 s
+loss_CG in epoch 396: 2.835218, time: 45.7042 s
+loss_KE in epoch 397: 0.127780, time: 49.7493 s
+loss_CG in epoch 398: 2.834609, time: 45.5665 s
+loss_KE in epoch 399: 0.125945, time: 49.3709 s
+
+epoch 399, checkpoint!
+l2r: acc of top [1, 5, 10, 50, 100] = [0.211  0.3983 0.482  0.6651 0.7487], mr = 416.970, mrr = 0.302, time = 46.0828 s 
+r2l: acc of top [1, 5, 10, 50, 100] = [0.212  0.3961 0.474  0.6564 0.7459], mr = 552.235, mrr = 0.301, time = 46.0831 s 
+
+loss_CG in epoch 400: 2.834103, time: 52.4488 s
+loss_KE in epoch 401: 0.137230, time: 101.7501 s
+loss_CG in epoch 402: 2.833499, time: 45.6562 s
+loss_KE in epoch 403: 0.133817, time: 49.7727 s
+loss_CG in epoch 404: 2.832791, time: 45.7143 s
+loss_KE in epoch 405: 0.131218, time: 49.4167 s
+loss_CG in epoch 406: 2.832189, time: 45.8194 s
+loss_KE in epoch 407: 0.129084, time: 49.7539 s
+loss_CG in epoch 408: 2.831581, time: 45.5720 s
+loss_KE in epoch 409: 0.127269, time: 49.1717 s
+loss_CG in epoch 410: 2.831077, time: 52.9874 s
+loss_KE in epoch 411: 0.135982, time: 100.4253 s
+loss_CG in epoch 412: 2.830457, time: 45.7517 s
+loss_KE in epoch 413: 0.132690, time: 49.5092 s
+loss_CG in epoch 414: 2.829751, time: 45.7698 s
+loss_KE in epoch 415: 0.130174, time: 49.7829 s
+loss_CG in epoch 416: 2.829133, time: 45.5821 s
+loss_KE in epoch 417: 0.128086, time: 49.8533 s
+loss_CG in epoch 418: 2.828518, time: 45.8148 s
+loss_KE in epoch 419: 0.126295, time: 49.5689 s
+loss_CG in epoch 420: 2.828007, time: 52.9277 s
+loss_KE in epoch 421: 0.136453, time: 99.6466 s
+loss_CG in epoch 422: 2.827383, time: 45.9119 s
+loss_KE in epoch 423: 0.133186, time: 49.8991 s
+loss_CG in epoch 424: 2.826674, time: 45.9721 s
+loss_KE in epoch 425: 0.130683, time: 49.5416 s
+loss_CG in epoch 426: 2.826063, time: 45.5358 s
+loss_KE in epoch 427: 0.128623, time: 49.6975 s
+loss_CG in epoch 428: 2.825441, time: 45.8332 s
+loss_KE in epoch 429: 0.126861, time: 49.8150 s
+loss_CG in epoch 430: 2.824934, time: 52.8136 s
+loss_KE in epoch 431: 0.135900, time: 100.7790 s
+loss_CG in epoch 432: 2.824299, time: 45.6366 s
+loss_KE in epoch 433: 0.132694, time: 49.7915 s
+loss_CG in epoch 434: 2.823594, time: 45.6494 s
+loss_KE in epoch 435: 0.130220, time: 49.5093 s
+loss_CG in epoch 436: 2.822968, time: 45.5265 s
+loss_KE in epoch 437: 0.128174, time: 49.5577 s
+loss_CG in epoch 438: 2.822360, time: 45.5391 s
+loss_KE in epoch 439: 0.126422, time: 49.3687 s
+loss_CG in epoch 440: 2.821835, time: 52.8554 s
+loss_KE in epoch 441: 0.136565, time: 104.8962 s
+loss_CG in epoch 442: 2.821209, time: 45.7334 s
+loss_KE in epoch 443: 0.133392, time: 49.8866 s
+loss_CG in epoch 444: 2.820492, time: 45.7770 s
+loss_KE in epoch 445: 0.130952, time: 49.5230 s
+loss_CG in epoch 446: 2.819882, time: 45.6227 s
+loss_KE in epoch 447: 0.128942, time: 50.0844 s
+loss_CG in epoch 448: 2.819249, time: 45.5363 s
+loss_KE in epoch 449: 0.127212, time: 50.0886 s
+loss_CG in epoch 450: 2.818731, time: 52.6705 s
+loss_KE in epoch 451: 0.136644, time: 106.4490 s
+loss_CG in epoch 452: 2.818076, time: 45.5003 s
+loss_KE in epoch 453: 0.133502, time: 49.6196 s
+loss_CG in epoch 454: 2.817375, time: 45.7247 s
+loss_KE in epoch 455: 0.131099, time: 49.5390 s
+loss_CG in epoch 456: 2.816731, time: 45.5556 s
+loss_KE in epoch 457: 0.129099, time: 49.4645 s
+loss_CG in epoch 458: 2.816118, time: 45.5130 s
+loss_KE in epoch 459: 0.127375, time: 49.9209 s
+loss_CG in epoch 460: 2.815574, time: 53.0160 s
+loss_KE in epoch 461: 0.135481, time: 106.8200 s
+loss_CG in epoch 462: 2.814935, time: 45.4302 s
+loss_KE in epoch 463: 0.132458, time: 49.3258 s
+loss_CG in epoch 464: 2.814198, time: 45.5908 s
+loss_KE in epoch 465: 0.130114, time: 49.9771 s
+loss_CG in epoch 466: 2.813570, time: 45.7727 s
+loss_KE in epoch 467: 0.128150, time: 49.9399 s
+loss_CG in epoch 468: 2.812924, time: 45.5159 s
+loss_KE in epoch 469: 0.126453, time: 49.4595 s
+loss_CG in epoch 470: 2.812402, time: 52.7081 s
+loss_KE in epoch 471: 0.136712, time: 98.2619 s
+loss_CG in epoch 472: 2.811747, time: 45.6190 s
+loss_KE in epoch 473: 0.133676, time: 49.7292 s
+loss_CG in epoch 474: 2.811036, time: 45.6468 s
+loss_KE in epoch 475: 0.131306, time: 49.7353 s
+loss_CG in epoch 476: 2.810400, time: 45.9168 s
+loss_KE in epoch 477: 0.129328, time: 49.6932 s
+loss_CG in epoch 478: 2.809762, time: 45.7577 s
+loss_KE in epoch 479: 0.127628, time: 49.7789 s
+loss_CG in epoch 480: 2.809201, time: 52.7452 s
+loss_KE in epoch 481: 0.136358, time: 102.9288 s
+loss_CG in epoch 482: 2.808565, time: 45.5797 s
+loss_KE in epoch 483: 0.133380, time: 49.7172 s
+loss_CG in epoch 484: 2.807825, time: 45.8425 s
+loss_KE in epoch 485: 0.131057, time: 49.1956 s
+loss_CG in epoch 486: 2.807186, time: 45.4732 s
+loss_KE in epoch 487: 0.129125, time: 49.9107 s
+loss_CG in epoch 488: 2.806526, time: 45.9794 s
+loss_KE in epoch 489: 0.127472, time: 49.7645 s
+loss_CG in epoch 490: 2.805975, time: 53.1320 s
+loss_KE in epoch 491: 0.136868, time: 102.2537 s
+loss_CG in epoch 492: 2.805287, time: 45.4139 s
+loss_KE in epoch 493: 0.133999, time: 49.7460 s
+loss_CG in epoch 494: 2.804566, time: 45.7087 s
+loss_KE in epoch 495: 0.131730, time: 49.2569 s
+loss_CG in epoch 496: 2.803910, time: 45.2887 s
+loss_KE in epoch 497: 0.129830, time: 49.5152 s
+loss_CG in epoch 498: 2.803260, time: 45.6834 s
+loss_KE in epoch 499: 0.128176, time: 49.9814 s
+
+epoch 499, checkpoint!
+l2r: acc of top [1, 5, 10, 50, 100] = [0.2163 0.4086 0.4922 0.673  0.7579], mr = 409.081, mrr = 0.309, time = 46.3687 s 
+r2l: acc of top [1, 5, 10, 50, 100] = [0.219  0.407  0.4861 0.6694 0.7576], mr = 538.560, mrr = 0.310, time = 46.3690 s 
+
+loss_CG in epoch 500: 2.802711, time: 52.8685 s
+loss_KE in epoch 501: 0.137336, time: 106.9766 s
+loss_CG in epoch 502: 2.802038, time: 45.8590 s
+loss_KE in epoch 503: 0.134502, time: 49.7081 s
+loss_CG in epoch 504: 2.801295, time: 45.8406 s
+loss_KE in epoch 505: 0.132258, time: 49.9677 s
+loss_CG in epoch 506: 2.800633, time: 45.7677 s
+loss_KE in epoch 507: 0.130375, time: 49.8686 s
+loss_CG in epoch 508: 2.799964, time: 45.8532 s
+loss_KE in epoch 509: 0.128749, time: 49.8244 s
+loss_CG in epoch 510: 2.799400, time: 52.4024 s
+loss_KE in epoch 511: 0.136905, time: 105.1195 s
+loss_CG in epoch 512: 2.798731, time: 45.7562 s
+loss_KE in epoch 513: 0.134116, time: 50.2882 s
+loss_CG in epoch 514: 2.797968, time: 45.4881 s
+loss_KE in epoch 515: 0.131911, time: 49.9073 s
+loss_CG in epoch 516: 2.797308, time: 46.0917 s
+loss_KE in epoch 517: 0.130050, time: 49.7919 s
+loss_CG in epoch 518: 2.796630, time: 45.8487 s
+loss_KE in epoch 519: 0.128435, time: 49.6420 s
+loss_CG in epoch 520: 2.796073, time: 52.9270 s
+loss_KE in epoch 521: 0.136859, time: 98.2258 s
+loss_CG in epoch 522: 2.795371, time: 46.2006 s
+loss_KE in epoch 523: 0.134098, time: 50.6468 s
+loss_CG in epoch 524: 2.794620, time: 46.2793 s
+loss_KE in epoch 525: 0.131918, time: 50.2771 s
+loss_CG in epoch 526: 2.793936, time: 46.6450 s
+loss_KE in epoch 527: 0.130093, time: 50.3653 s
+loss_CG in epoch 528: 2.793256, time: 46.1078 s
+loss_KE in epoch 529: 0.128494, time: 50.5045 s
+loss_CG in epoch 530: 2.792674, time: 53.4958 s
+loss_KE in epoch 531: 0.137001, time: 99.6112 s
+loss_CG in epoch 532: 2.791969, time: 46.4230 s
+loss_KE in epoch 533: 0.134284, time: 49.7538 s
+loss_CG in epoch 534: 2.791211, time: 45.5389 s
+loss_KE in epoch 535: 0.132134, time: 50.3161 s
+loss_CG in epoch 536: 2.790532, time: 46.4057 s
+loss_KE in epoch 537: 0.130311, time: 50.3255 s
+loss_CG in epoch 538: 2.789837, time: 46.3607 s
+loss_KE in epoch 539: 0.128717, time: 50.3495 s
+loss_CG in epoch 540: 2.789242, time: 53.3876 s
+loss_KE in epoch 541: 0.137724, time: 104.2322 s
+loss_CG in epoch 542: 2.788542, time: 46.0523 s
+loss_KE in epoch 543: 0.135057, time: 50.4180 s
+loss_CG in epoch 544: 2.787783, time: 46.0816 s
+loss_KE in epoch 545: 0.132929, time: 50.5576 s
+loss_CG in epoch 546: 2.787107, time: 46.6032 s
+loss_KE in epoch 547: 0.131126, time: 50.2401 s
+loss_CG in epoch 548: 2.786410, time: 46.1511 s
+loss_KE in epoch 549: 0.129558, time: 50.2933 s
+loss_CG in epoch 550: 2.785800, time: 53.2640 s
+loss_KE in epoch 551: 0.137236, time: 107.2756 s
+loss_CG in epoch 552: 2.785085, time: 46.4283 s
+loss_KE in epoch 553: 0.134607, time: 50.1275 s
+loss_CG in epoch 554: 2.784307, time: 46.0182 s
+loss_KE in epoch 555: 0.132493, time: 50.1755 s
+loss_CG in epoch 556: 2.783616, time: 46.1068 s
+loss_KE in epoch 557: 0.130706, time: 50.2827 s
+loss_CG in epoch 558: 2.782907, time: 46.3419 s
+loss_KE in epoch 559: 0.129148, time: 50.2967 s
+loss_CG in epoch 560: 2.782298, time: 53.1271 s
+loss_KE in epoch 561: 0.138058, time: 103.9525 s
+loss_CG in epoch 562: 2.781559, time: 45.7201 s
+loss_KE in epoch 563: 0.135483, time: 50.3830 s
+loss_CG in epoch 564: 2.780785, time: 46.2382 s
+loss_KE in epoch 565: 0.133409, time: 50.1926 s
+loss_CG in epoch 566: 2.780074, time: 46.3408 s
+loss_KE in epoch 567: 0.131639, time: 50.4769 s
+loss_CG in epoch 568: 2.779359, time: 46.1725 s
+loss_KE in epoch 569: 0.130104, time: 50.4513 s
+loss_CG in epoch 570: 2.778723, time: 53.6324 s
+loss_KE in epoch 571: 0.138670, time: 107.7056 s
+loss_CG in epoch 572: 2.777989, time: 45.5193 s
+loss_KE in epoch 573: 0.136107, time: 49.9855 s
+loss_CG in epoch 574: 2.777202, time: 45.7870 s
+loss_KE in epoch 575: 0.134065, time: 50.2626 s
+loss_CG in epoch 576: 2.776483, time: 46.4035 s
+loss_KE in epoch 577: 0.132330, time: 50.1109 s
+loss_CG in epoch 578: 2.775760, time: 46.3417 s
+loss_KE in epoch 579: 0.130821, time: 50.5291 s
+loss_CG in epoch 580: 2.775125, time: 53.5157 s
+loss_KE in epoch 581: 0.138775, time: 99.7707 s
+loss_CG in epoch 582: 2.774393, time: 46.3696 s
+loss_KE in epoch 583: 0.136197, time: 50.3163 s
+loss_CG in epoch 584: 2.773586, time: 46.1456 s
+loss_KE in epoch 585: 0.134115, time: 50.1123 s
+loss_CG in epoch 586: 2.772875, time: 46.2788 s
+loss_KE in epoch 587: 0.132343, time: 50.2551 s
+loss_CG in epoch 588: 2.772140, time: 45.5392 s
+loss_KE in epoch 589: 0.130806, time: 49.7671 s
+loss_CG in epoch 590: 2.771492, time: 53.1504 s
+loss_KE in epoch 591: 0.138353, time: 103.6500 s
+loss_CG in epoch 592: 2.770711, time: 45.9852 s
+loss_KE in epoch 593: 0.135847, time: 49.6178 s
+loss_CG in epoch 594: 2.769913, time: 45.7638 s
+loss_KE in epoch 595: 0.133810, time: 49.5769 s
+loss_CG in epoch 596: 2.769156, time: 45.3202 s
+loss_KE in epoch 597: 0.132072, time: 49.6935 s
+loss_CG in epoch 598: 2.768418, time: 45.4848 s
+loss_KE in epoch 599: 0.130552, time: 49.6843 s
+
+epoch 599, checkpoint!
+l2r: acc of top [1, 5, 10, 50, 100] = [0.2206 0.4136 0.4965 0.6775 0.765 ], mr = 402.491, mrr = 0.314, time = 45.9992 s 
+r2l: acc of top [1, 5, 10, 50, 100] = [0.2263 0.4136 0.4927 0.676  0.7673], mr = 525.086, mrr = 0.317, time = 45.9995 s 
+
+loss_CG in epoch 600: 2.767735, time: 53.0200 s
+loss_KE in epoch 601: 0.138781, time: 104.1240 s
+loss_CG in epoch 602: 2.767002, time: 46.3285 s
+loss_KE in epoch 603: 0.136239, time: 50.0387 s
+loss_CG in epoch 604: 2.766172, time: 46.2004 s
+loss_KE in epoch 605: 0.134186, time: 49.9625 s
+loss_CG in epoch 606: 2.765450, time: 45.5912 s
+loss_KE in epoch 607: 0.132432, time: 49.8197 s
+loss_CG in epoch 608: 2.764689, time: 45.7149 s
+loss_KE in epoch 609: 0.130903, time: 49.8280 s
+loss_CG in epoch 610: 2.764032, time: 52.8284 s
+loss_KE in epoch 611: 0.137999, time: 106.2680 s
+loss_CG in epoch 612: 2.763229, time: 45.5957 s
+loss_KE in epoch 613: 0.135603, time: 49.3342 s
+loss_CG in epoch 614: 2.762394, time: 45.9266 s
+loss_KE in epoch 615: 0.133649, time: 49.9277 s
+loss_CG in epoch 616: 2.761629, time: 45.7192 s
+loss_KE in epoch 617: 0.131985, time: 49.7154 s
+loss_CG in epoch 618: 2.760851, time: 45.6313 s
+loss_KE in epoch 619: 0.130521, time: 49.8702 s
+loss_CG in epoch 620: 2.760168, time: 53.0316 s
+loss_KE in epoch 621: 0.139086, time: 98.3710 s
+loss_CG in epoch 622: 2.759382, time: 45.8336 s
+loss_KE in epoch 623: 0.136688, time: 49.9045 s
+loss_CG in epoch 624: 2.758542, time: 45.9540 s
+loss_KE in epoch 625: 0.134722, time: 49.5432 s
+loss_CG in epoch 626: 2.757790, time: 45.6705 s
+loss_KE in epoch 627: 0.133039, time: 49.5255 s
+loss_CG in epoch 628: 2.757014, time: 45.6959 s
+loss_KE in epoch 629: 0.131566, time: 50.6895 s
+loss_CG in epoch 630: 2.756320, time: 53.3642 s
+loss_KE in epoch 631: 0.138676, time: 106.8372 s
+loss_CG in epoch 632: 2.755531, time: 46.5908 s
+loss_KE in epoch 633: 0.136310, time: 50.4426 s
+loss_CG in epoch 634: 2.754686, time: 46.7776 s
+loss_KE in epoch 635: 0.134372, time: 50.6957 s
+loss_CG in epoch 636: 2.753918, time: 46.2923 s
+loss_KE in epoch 637: 0.132726, time: 50.0941 s
+loss_CG in epoch 638: 2.753130, time: 45.8280 s
+loss_KE in epoch 639: 0.131282, time: 50.6067 s
+loss_CG in epoch 640: 2.752426, time: 53.5966 s
+loss_KE in epoch 641: 0.139812, time: 102.4404 s
+loss_CG in epoch 642: 2.751626, time: 45.8651 s
+loss_KE in epoch 643: 0.137476, time: 49.4862 s
+loss_CG in epoch 644: 2.750774, time: 45.6559 s
+loss_KE in epoch 645: 0.135558, time: 49.8395 s
+loss_CG in epoch 646: 2.750002, time: 46.0842 s
+loss_KE in epoch 647: 0.133903, time: 50.0432 s
+loss_CG in epoch 648: 2.749207, time: 45.6081 s
+loss_KE in epoch 649: 0.132453, time: 49.3955 s
+loss_CG in epoch 650: 2.748504, time: 53.0645 s
+loss_KE in epoch 651: 0.140319, time: 99.8538 s
+loss_CG in epoch 652: 2.747681, time: 46.0695 s
+loss_KE in epoch 653: 0.138016, time: 49.9092 s
+loss_CG in epoch 654: 2.746832, time: 46.1802 s
+loss_KE in epoch 655: 0.136126, time: 51.0527 s
+loss_CG in epoch 656: 2.746029, time: 46.5908 s
+loss_KE in epoch 657: 0.134499, time: 50.7352 s
+loss_CG in epoch 658: 2.745234, time: 46.2147 s
+loss_KE in epoch 659: 0.133069, time: 50.6214 s
+loss_CG in epoch 660: 2.744490, time: 53.6893 s
+loss_KE in epoch 661: 0.140410, time: 98.8279 s
+loss_CG in epoch 662: 2.743680, time: 46.0104 s
+loss_KE in epoch 663: 0.138159, time: 50.0354 s
+loss_CG in epoch 664: 2.742802, time: 45.9127 s
+loss_KE in epoch 665: 0.136288, time: 49.6920 s
+loss_CG in epoch 666: 2.742013, time: 45.7386 s
+loss_KE in epoch 667: 0.134668, time: 49.9380 s
+loss_CG in epoch 668: 2.741185, time: 45.8380 s
+loss_KE in epoch 669: 0.133240, time: 50.3074 s
+loss_CG in epoch 670: 2.740457, time: 52.7050 s
+loss_KE in epoch 671: 0.141292, time: 102.1026 s
+loss_CG in epoch 672: 2.739620, time: 45.8768 s
+loss_KE in epoch 673: 0.139022, time: 49.6525 s
+loss_CG in epoch 674: 2.738747, time: 45.6058 s
+loss_KE in epoch 675: 0.137144, time: 49.8703 s
+loss_CG in epoch 676: 2.737936, time: 45.5078 s
+loss_KE in epoch 677: 0.135519, time: 50.0142 s
+loss_CG in epoch 678: 2.737116, time: 45.6611 s
+loss_KE in epoch 679: 0.134094, time: 49.7236 s
+loss_CG in epoch 680: 2.736361, time: 52.5359 s
+loss_KE in epoch 681: 0.142798, time: 106.5903 s
+loss_CG in epoch 682: 2.735516, time: 45.9894 s
+loss_KE in epoch 683: 0.140574, time: 49.7088 s
+loss_CG in epoch 684: 2.734626, time: 46.0204 s
+loss_KE in epoch 685: 0.138737, time: 49.8663 s
+loss_CG in epoch 686: 2.733804, time: 46.0504 s
+loss_KE in epoch 687: 0.137144, time: 50.2051 s
+loss_CG in epoch 688: 2.732969, time: 45.9383 s
+loss_KE in epoch 689: 0.135739, time: 49.4724 s
+loss_CG in epoch 690: 2.732207, time: 53.0268 s
+loss_KE in epoch 691: 0.141195, time: 99.2390 s
+loss_CG in epoch 692: 2.731354, time: 45.7413 s
+loss_KE in epoch 693: 0.138983, time: 50.0269 s
+loss_CG in epoch 694: 2.730460, time: 45.0227 s
+loss_KE in epoch 695: 0.137155, time: 49.9650 s
+loss_CG in epoch 696: 2.729615, time: 46.0618 s
+loss_KE in epoch 697: 0.135576, time: 39.6798 s
+loss_CG in epoch 698: 2.728775, time: 36.0172 s
+loss_KE in epoch 699: 0.134187, time: 40.2119 s
+
+epoch 699, checkpoint!
+l2r: acc of top [1, 5, 10, 50, 100] = [0.2242 0.4171 0.4999 0.6811 0.7702], mr = 395.761, mrr = 0.317, time = 45.3629 s 
+r2l: acc of top [1, 5, 10, 50, 100] = [0.2306 0.4187 0.4968 0.6817 0.7715], mr = 510.549, mrr = 0.322, time = 45.3632 s 
+
+loss_CG in epoch 700: 2.727992, time: 42.9212 s
+loss_KE in epoch 701: 0.142201, time: 97.4805 s
+loss_CG in epoch 702: 2.727130, time: 36.1762 s
+loss_KE in epoch 703: 0.140015, time: 39.7064 s
+loss_CG in epoch 704: 2.726212, time: 36.0367 s
+loss_KE in epoch 705: 0.138188, time: 39.8152 s
+loss_CG in epoch 706: 2.725380, time: 36.0572 s
+loss_KE in epoch 707: 0.136603, time: 39.8393 s
+loss_CG in epoch 708: 2.724524, time: 36.0243 s
+loss_KE in epoch 709: 0.135210, time: 39.7681 s
+loss_CG in epoch 710: 2.723734, time: 42.7872 s
+loss_KE in epoch 711: 0.142140, time: 90.8699 s
+loss_CG in epoch 712: 2.722862, time: 35.8780 s
+loss_KE in epoch 713: 0.140034, time: 39.7055 s
+loss_CG in epoch 714: 2.721939, time: 35.9081 s
+loss_KE in epoch 715: 0.138266, time: 39.7368 s
+loss_CG in epoch 716: 2.721090, time: 35.9484 s
+loss_KE in epoch 717: 0.136726, time: 39.8492 s
+loss_CG in epoch 718: 2.720229, time: 36.0794 s
+loss_KE in epoch 719: 0.135357, time: 39.8127 s
+loss_CG in epoch 720: 2.719420, time: 42.9772 s
+loss_KE in epoch 721: 0.142374, time: 92.8463 s
+loss_CG in epoch 722: 2.718544, time: 37.6524 s
+loss_KE in epoch 723: 0.140255, time: 40.4203 s
+loss_CG in epoch 724: 2.717624, time: 36.5860 s
+loss_KE in epoch 725: 0.138474, time: 40.4899 s
+loss_CG in epoch 726: 2.716773, time: 36.4878 s
+loss_KE in epoch 727: 0.136936, time: 40.5861 s
+loss_CG in epoch 728: 2.715888, time: 36.5769 s
+loss_KE in epoch 729: 0.135580, time: 40.6584 s
+loss_CG in epoch 730: 2.715084, time: 43.4758 s
+loss_KE in epoch 731: 0.142815, time: 93.8568 s
+loss_CG in epoch 732: 2.714179, time: 36.0944 s
+loss_KE in epoch 733: 0.140723, time: 40.0656 s
+loss_CG in epoch 734: 2.713256, time: 36.0171 s
+loss_KE in epoch 735: 0.138970, time: 39.8513 s
+loss_CG in epoch 736: 2.712373, time: 35.9175 s
+loss_KE in epoch 737: 0.137441, time: 40.0034 s
+loss_CG in epoch 738: 2.711493, time: 36.0295 s
+loss_KE in epoch 739: 0.136097, time: 39.8707 s
+loss_CG in epoch 740: 2.710657, time: 42.9635 s
+loss_KE in epoch 741: 0.144191, time: 94.5509 s
+loss_CG in epoch 742: 2.709778, time: 35.8159 s
+loss_KE in epoch 743: 0.142081, time: 39.7779 s
+loss_CG in epoch 744: 2.708811, time: 35.9737 s
+loss_KE in epoch 745: 0.140309, time: 39.8658 s
+loss_CG in epoch 746: 2.707949, time: 36.0296 s
+loss_KE in epoch 747: 0.138772, time: 39.7374 s
+loss_CG in epoch 748: 2.707043, time: 35.8188 s
+loss_KE in epoch 749: 0.137416, time: 39.7986 s
+loss_CG in epoch 750: 2.706216, time: 42.9449 s
+loss_KE in epoch 751: 0.144661, time: 97.9949 s
+loss_CG in epoch 752: 2.705293, time: 36.0938 s
+loss_KE in epoch 753: 0.142621, time: 39.7039 s
+loss_CG in epoch 754: 2.704342, time: 36.0098 s
+loss_KE in epoch 755: 0.140893, time: 39.9429 s
+loss_CG in epoch 756: 2.703445, time: 36.0555 s
+loss_KE in epoch 757: 0.139380, time: 40.0278 s
+loss_CG in epoch 758: 2.702541, time: 35.9504 s
+loss_KE in epoch 759: 0.138030, time: 40.2093 s
+loss_CG in epoch 760: 2.701690, time: 42.8911 s
+loss_KE in epoch 761: 0.145458, time: 97.7293 s
+loss_CG in epoch 762: 2.700762, time: 36.1911 s
+loss_KE in epoch 763: 0.143411, time: 40.0960 s
+loss_CG in epoch 764: 2.699784, time: 36.3074 s
+loss_KE in epoch 765: 0.141682, time: 39.9146 s
+loss_CG in epoch 766: 2.698894, time: 35.9489 s
+loss_KE in epoch 767: 0.140172, time: 39.9008 s
+loss_CG in epoch 768: 2.697951, time: 36.2529 s
+loss_KE in epoch 769: 0.138836, time: 39.8000 s
+loss_CG in epoch 770: 2.697113, time: 42.7790 s
+loss_KE in epoch 771: 0.144796, time: 96.2765 s
+loss_CG in epoch 772: 2.696153, time: 36.0409 s
+loss_KE in epoch 773: 0.142784, time: 39.7304 s
+loss_CG in epoch 774: 2.695197, time: 35.9248 s
+loss_KE in epoch 775: 0.141071, time: 39.8934 s
+loss_CG in epoch 776: 2.694258, time: 35.9395 s
+loss_KE in epoch 777: 0.139571, time: 39.8227 s
+loss_CG in epoch 778: 2.693347, time: 36.1120 s
+loss_KE in epoch 779: 0.138243, time: 39.9166 s
+loss_CG in epoch 780: 2.692444, time: 42.9523 s
+loss_KE in epoch 781: 0.145842, time: 96.5837 s
+loss_CG in epoch 782: 2.691541, time: 35.9991 s
+loss_KE in epoch 783: 0.143809, time: 39.8180 s
+loss_CG in epoch 784: 2.690516, time: 36.1537 s
+loss_KE in epoch 785: 0.142079, time: 39.6782 s
+loss_CG in epoch 786: 2.689639, time: 35.9908 s
+loss_KE in epoch 787: 0.140561, time: 39.7433 s
+loss_CG in epoch 788: 2.688661, time: 35.7618 s
+loss_KE in epoch 789: 0.139226, time: 39.9009 s
+loss_CG in epoch 790: 2.687816, time: 42.9142 s
+loss_KE in epoch 791: 0.146949, time: 94.3731 s
+loss_CG in epoch 792: 2.686843, time: 36.0484 s
+loss_KE in epoch 793: 0.144939, time: 39.7642 s
+loss_CG in epoch 794: 2.685882, time: 35.7792 s
+loss_KE in epoch 795: 0.143237, time: 39.9603 s
+loss_CG in epoch 796: 2.684921, time: 36.2213 s
+loss_KE in epoch 797: 0.141743, time: 39.8974 s
+loss_CG in epoch 798: 2.684008, time: 36.1288 s
+loss_KE in epoch 799: 0.140416, time: 39.8330 s
+
+epoch 799, checkpoint!
+l2r: acc of top [1, 5, 10, 50, 100] = [0.2269 0.419  0.5032 0.6842 0.7725], mr = 390.408, mrr = 0.320, time = 45.4139 s 
+r2l: acc of top [1, 5, 10, 50, 100] = [0.2362 0.4247 0.5014 0.6855 0.7752], mr = 497.335, mrr = 0.327, time = 45.4142 s 
+
+loss_CG in epoch 800: 2.683082, time: 42.6441 s
+loss_KE in epoch 801: 0.146821, time: 93.7067 s
+loss_CG in epoch 802: 2.682162, time: 35.9567 s
+loss_KE in epoch 803: 0.144863, time: 39.8115 s
+loss_CG in epoch 804: 2.681103, time: 35.8713 s
+loss_KE in epoch 805: 0.143197, time: 39.8293 s
+loss_CG in epoch 806: 2.680213, time: 35.8725 s
+loss_KE in epoch 807: 0.141732, time: 39.8472 s
+loss_CG in epoch 808: 2.679210, time: 35.9561 s
+loss_KE in epoch 809: 0.140431, time: 39.7056 s
+loss_CG in epoch 810: 2.678361, time: 42.8573 s
+loss_KE in epoch 811: 0.146019, time: 91.3733 s
+loss_CG in epoch 812: 2.677340, time: 35.9923 s
+loss_KE in epoch 813: 0.144066, time: 39.9028 s
+loss_CG in epoch 814: 2.676366, time: 35.9540 s
+loss_KE in epoch 815: 0.142398, time: 39.9239 s
+loss_CG in epoch 816: 2.675365, time: 35.9475 s
+loss_KE in epoch 817: 0.140941, time: 39.6453 s
+loss_CG in epoch 818: 2.674442, time: 35.8938 s
+loss_KE in epoch 819: 0.139641, time: 39.4924 s
+loss_CG in epoch 820: 2.673478, time: 42.7750 s
+loss_KE in epoch 821: 0.147429, time: 96.9320 s
+loss_CG in epoch 822: 2.672563, time: 35.8719 s
+loss_KE in epoch 823: 0.145521, time: 39.7028 s
+loss_CG in epoch 824: 2.671452, time: 36.2673 s
+loss_KE in epoch 825: 0.143885, time: 39.6338 s
+loss_CG in epoch 826: 2.670573, time: 35.9491 s
+loss_KE in epoch 827: 0.142443, time: 39.5974 s
+loss_CG in epoch 828: 2.669511, time: 35.8698 s
+loss_KE in epoch 829: 0.141158, time: 39.8264 s
+loss_CG in epoch 830: 2.668664, time: 42.7670 s
+loss_KE in epoch 831: 0.148169, time: 90.7391 s
+loss_CG in epoch 832: 2.667582, time: 36.0431 s
+loss_KE in epoch 833: 0.146227, time: 39.7148 s
+loss_CG in epoch 834: 2.666631, time: 35.8241 s
+loss_KE in epoch 835: 0.144569, time: 39.6748 s
+loss_CG in epoch 836: 2.665576, time: 35.8281 s
+loss_KE in epoch 837: 0.143104, time: 39.7411 s
+loss_CG in epoch 838: 2.664670, time: 36.0237 s
+loss_KE in epoch 839: 0.141802, time: 39.8139 s
+loss_CG in epoch 840: 2.663655, time: 42.8031 s
+loss_KE in epoch 841: 0.149023, time: 92.3818 s
+loss_CG in epoch 842: 2.662752, time: 35.9817 s
+loss_KE in epoch 843: 0.147114, time: 39.7532 s
+loss_CG in epoch 844: 2.661618, time: 35.8101 s
+loss_KE in epoch 845: 0.145478, time: 39.9116 s
+loss_CG in epoch 846: 2.660724, time: 35.9875 s
+loss_KE in epoch 847: 0.144022, time: 39.7053 s
+loss_CG in epoch 848: 2.659650, time: 36.0640 s
+loss_KE in epoch 849: 0.142726, time: 39.8778 s
+loss_CG in epoch 850: 2.658780, time: 42.9770 s
+loss_KE in epoch 851: 0.147713, time: 90.1933 s
+loss_CG in epoch 852: 2.657681, time: 35.9369 s
+loss_KE in epoch 853: 0.145849, time: 39.6372 s
+loss_CG in epoch 854: 2.656697, time: 36.0057 s
+loss_KE in epoch 855: 0.144240, time: 39.7164 s
+loss_CG in epoch 856: 2.655623, time: 35.7988 s
+loss_KE in epoch 857: 0.142814, time: 39.6937 s
+loss_CG in epoch 858: 2.654694, time: 36.1869 s
+loss_KE in epoch 859: 0.141552, time: 39.6585 s
+loss_CG in epoch 860: 2.653644, time: 42.8826 s
+loss_KE in epoch 861: 0.149570, time: 89.1575 s
+loss_CG in epoch 862: 2.652733, time: 35.8518 s
+loss_KE in epoch 863: 0.147694, time: 39.8226 s
+loss_CG in epoch 864: 2.651558, time: 35.9339 s
+loss_KE in epoch 865: 0.146075, time: 39.9024 s
+loss_CG in epoch 866: 2.650654, time: 36.1742 s
+loss_KE in epoch 867: 0.144646, time: 39.9613 s
+loss_CG in epoch 868: 2.649555, time: 36.0495 s
+loss_KE in epoch 869: 0.143366, time: 39.8746 s
+loss_CG in epoch 870: 2.648668, time: 42.8025 s
+loss_KE in epoch 871: 0.149507, time: 98.4441 s
+loss_CG in epoch 872: 2.647548, time: 35.9564 s
+loss_KE in epoch 873: 0.147658, time: 39.8531 s
+loss_CG in epoch 874: 2.646555, time: 35.9831 s
+loss_KE in epoch 875: 0.146055, time: 39.6559 s
+loss_CG in epoch 876: 2.645455, time: 35.7245 s
+loss_KE in epoch 877: 0.144634, time: 39.6661 s
+loss_CG in epoch 878: 2.644514, time: 35.7565 s
+loss_KE in epoch 879: 0.143370, time: 39.7891 s
+loss_CG in epoch 880: 2.643422, time: 42.7786 s
+loss_KE in epoch 881: 0.150168, time: 96.0314 s
+loss_CG in epoch 882: 2.642506, time: 36.0791 s
+loss_KE in epoch 883: 0.148348, time: 39.7038 s
+loss_CG in epoch 884: 2.641300, time: 35.9817 s
+loss_KE in epoch 885: 0.146770, time: 39.6160 s
+loss_CG in epoch 886: 2.640414, time: 36.2429 s
+loss_KE in epoch 887: 0.145363, time: 39.6908 s
+loss_CG in epoch 888: 2.639248, time: 35.7792 s
+loss_KE in epoch 889: 0.144094, time: 39.8845 s
+loss_CG in epoch 890: 2.638413, time: 42.8655 s
+loss_KE in epoch 891: 0.151890, time: 96.4456 s
+loss_CG in epoch 892: 2.637221, time: 35.9546 s
+loss_KE in epoch 893: 0.150055, time: 39.6809 s
+loss_CG in epoch 894: 2.636294, time: 35.8767 s
+loss_KE in epoch 895: 0.148452, time: 39.6039 s
+loss_CG in epoch 896: 2.635118, time: 35.8566 s
+loss_KE in epoch 897: 0.147025, time: 39.8703 s
+loss_CG in epoch 898: 2.634240, time: 36.1638 s
+loss_KE in epoch 899: 0.145746, time: 39.9557 s
+
+epoch 899, checkpoint!
+l2r: acc of top [1, 5, 10, 50, 100] = [0.2282 0.4224 0.5058 0.6876 0.7759], mr = 386.235, mrr = 0.322, time = 45.5196 s 
+r2l: acc of top [1, 5, 10, 50, 100] = [0.2388 0.4261 0.5039 0.6885 0.7782], mr = 486.112, mrr = 0.330, time = 45.5199 s 
+
+loss_CG in epoch 900: 2.633086, time: 42.7975 s
+loss_KE in epoch 901: 0.151299, time: 91.2432 s
+loss_CG in epoch 902: 2.632212, time: 36.3219 s
+loss_KE in epoch 903: 0.149483, time: 39.7432 s
+loss_CG in epoch 904: 2.630919, time: 36.0347 s
+loss_KE in epoch 905: 0.147911, time: 39.8003 s
+loss_CG in epoch 906: 2.630053, time: 35.9630 s
+loss_KE in epoch 907: 0.146505, time: 39.6544 s
+loss_CG in epoch 908: 2.628833, time: 35.8045 s
+loss_KE in epoch 909: 0.145241, time: 39.8507 s
+loss_CG in epoch 910: 2.628004, time: 42.9128 s
+loss_KE in epoch 911: 0.152228, time: 90.8372 s
+loss_CG in epoch 912: 2.626756, time: 35.9922 s
+loss_KE in epoch 913: 0.150402, time: 40.0562 s
+loss_CG in epoch 914: 2.625859, time: 36.1297 s
+loss_KE in epoch 915: 0.148818, time: 39.9243 s
+loss_CG in epoch 916: 2.624603, time: 36.0982 s
+loss_KE in epoch 917: 0.147407, time: 39.7446 s
+loss_CG in epoch 918: 2.623778, time: 35.8319 s
+loss_KE in epoch 919: 0.146148, time: 39.8945 s
+loss_CG in epoch 920: 2.622520, time: 42.8968 s
+loss_KE in epoch 921: 0.152247, time: 94.3556 s
+loss_CG in epoch 922: 2.621705, time: 35.8446 s
+loss_KE in epoch 923: 0.150445, time: 39.9651 s
+loss_CG in epoch 924: 2.620335, time: 36.0422 s
+loss_KE in epoch 925: 0.148886, time: 39.9376 s
+loss_CG in epoch 926: 2.619515, time: 35.9222 s
+loss_KE in epoch 927: 0.147481, time: 40.0323 s
+loss_CG in epoch 928: 2.618228, time: 36.0298 s
+loss_KE in epoch 929: 0.146224, time: 39.9753 s
+loss_CG in epoch 930: 2.617472, time: 43.0263 s
+loss_KE in epoch 931: 0.153530, time: 91.3965 s
+loss_CG in epoch 932: 2.616126, time: 35.9680 s
+loss_KE in epoch 933: 0.151770, time: 39.7200 s
+loss_CG in epoch 934: 2.615297, time: 35.8957 s
+loss_KE in epoch 935: 0.150225, time: 39.8626 s
+loss_CG in epoch 936: 2.613933, time: 36.1413 s
+loss_KE in epoch 937: 0.148856, time: 39.8254 s
+loss_CG in epoch 938: 2.613162, time: 35.9514 s
+loss_KE in epoch 939: 0.147618, time: 39.7671 s
+loss_CG in epoch 940: 2.611828, time: 42.9547 s
+loss_KE in epoch 941: 0.152689, time: 96.2480 s
+loss_CG in epoch 942: 2.611056, time: 36.0204 s
+loss_KE in epoch 943: 0.150918, time: 39.4771 s
+loss_CG in epoch 944: 2.609610, time: 35.8453 s
+loss_KE in epoch 945: 0.149412, time: 39.9436 s
+loss_CG in epoch 946: 2.608768, time: 36.1832 s
+loss_KE in epoch 947: 0.148035, time: 39.9623 s
+loss_CG in epoch 948: 2.607446, time: 36.1195 s
+loss_KE in epoch 949: 0.146802, time: 39.7593 s
+loss_CG in epoch 950: 2.606686, time: 42.7134 s
+loss_KE in epoch 951: 0.154492, time: 94.1733 s
+loss_CG in epoch 952: 2.605281, time: 36.1465 s
+loss_KE in epoch 953: 0.152724, time: 39.7215 s
+loss_CG in epoch 954: 2.604489, time: 35.9760 s
+loss_KE in epoch 955: 0.151164, time: 39.8245 s
+loss_CG in epoch 956: 2.603064, time: 35.9624 s
+loss_KE in epoch 957: 0.149791, time: 39.9315 s
+loss_CG in epoch 958: 2.602329, time: 36.3001 s
+loss_KE in epoch 959: 0.148543, time: 39.6688 s
+loss_CG in epoch 960: 2.600933, time: 42.7690 s
+loss_KE in epoch 961: 0.156181, time: 91.0521 s
+loss_CG in epoch 962: 2.600180, time: 35.9408 s
+loss_KE in epoch 963: 0.154437, time: 39.8881 s
+loss_CG in epoch 964: 2.598693, time: 35.8869 s
+loss_KE in epoch 965: 0.152946, time: 39.8613 s
+loss_CG in epoch 966: 2.597874, time: 35.8847 s
+loss_KE in epoch 967: 0.151583, time: 39.4478 s
+loss_CG in epoch 968: 2.596494, time: 35.7486 s
+loss_KE in epoch 969: 0.150351, time: 39.6804 s
+loss_CG in epoch 970: 2.595794, time: 42.8170 s
+loss_KE in epoch 971: 0.156055, time: 91.8181 s
+loss_CG in epoch 972: 2.594309, time: 35.9963 s
+loss_KE in epoch 973: 0.154340, time: 39.7531 s
+loss_CG in epoch 974: 2.593558, time: 35.9153 s
+loss_KE in epoch 975: 0.152810, time: 39.8645 s
+loss_CG in epoch 976: 2.592056, time: 35.9518 s
+loss_KE in epoch 977: 0.151472, time: 40.0122 s
+loss_CG in epoch 978: 2.591349, time: 36.0262 s
+loss_KE in epoch 979: 0.150239, time: 39.8461 s
+loss_CG in epoch 980: 2.589877, time: 42.8674 s
+loss_KE in epoch 981: 0.156285, time: 90.6091 s
+loss_CG in epoch 982: 2.589161, time: 35.9982 s
+loss_KE in epoch 983: 0.154561, time: 39.8347 s
+loss_CG in epoch 984: 2.587631, time: 36.1186 s
+loss_KE in epoch 985: 0.153084, time: 39.8854 s
+loss_CG in epoch 986: 2.586818, time: 36.0835 s
+loss_KE in epoch 987: 0.151718, time: 39.6559 s
+loss_CG in epoch 988: 2.585430, time: 35.9115 s
+loss_KE in epoch 989: 0.150488, time: 39.7943 s
+loss_CG in epoch 990: 2.584745, time: 43.0110 s
+loss_KE in epoch 991: 0.157333, time: 92.6200 s
+loss_CG in epoch 992: 2.583191, time: 36.1562 s
+loss_KE in epoch 993: 0.155590, time: 39.6532 s
+loss_CG in epoch 994: 2.582480, time: 35.8736 s
+loss_KE in epoch 995: 0.154044, time: 39.7191 s
+loss_CG in epoch 996: 2.580886, time: 35.9276 s
+loss_KE in epoch 997: 0.152691, time: 40.0269 s
+loss_CG in epoch 998: 2.580244, time: 36.1157 s
+loss_KE in epoch 999: 0.151444, time: 39.6719 s
+
+epoch 999, checkpoint!
+l2r: acc of top [1, 5, 10, 50, 100] = [0.2309 0.4242 0.5083 0.6908 0.7752], mr = 382.134, mrr = 0.324, time = 45.3588 s 
+r2l: acc of top [1, 5, 10, 50, 100] = [0.2397 0.4282 0.505  0.6923 0.7803], mr = 476.353, mrr = 0.331, time = 45.3591 s 
+
+optimization finished!
+total time elapsed: 51280.0980 s

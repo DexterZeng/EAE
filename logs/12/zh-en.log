@@ -1,0 +1,132 @@
+generating candidate file for training ...
+100%|█████████████████████████████████████| 4500/4500 [1:04:16<00:00,  1.17it/s]
+correct at #1 acc: 0.578
+correct at #10 acc: 0.6853333333333333
+correct at #20 acc: 0.7122222222222222
+generating training data for graph matching model...
+(p3) weixin@weixin-All-Series:~/PycharmProjects/EA/Crosslingula-KG-Matching-master/DBP15K$ python preprocessor.py zh_en test 1000
+generating candidate file for test ...
+100%|███████████████████████████████████| 10500/10500 [2:23:48<00:00,  1.22it/s]
+correct at #1 acc: 0.58
+correct at #10 acc: 0.692952380952381
+correct at #1000 acc: 0.836
+generating test data for graph matching model...
+100%|███████████████████████████████████████| 2813/2813 [04:32<00:00, 10.32it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 10500/10500 [02:38<00:00, 66.30it/s]
+Already saved model to saved_model/zh_en_model_win1_1_win2_2_node1dim_100_node2dim_100_word_embedding_dim_300_layer1_1_layer2_1_first_gcn_type_mean_pooling_second_gcn_type_mean_pooling_cosine_MP_dim_10_drop_out_0.0_use_Glove_True_pm_graph_level_sample_size_per_layer_1/model-0
+writing prediction file...
+-----------------------
+time:2020-01-01T15:29:55.620889
+Epoch 1
+Loss on train:279.69314523844514
+acc @1 on Dev:0.5994285714285714
+acc @10 on Dev:0.7096190476190476
+best acc @1 on Dev:0.5994285714285714
+-----------------------
+100%|███████████████████████████████████████| 2813/2813 [04:34<00:00, 10.25it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 10500/10500 [02:37<00:00, 66.74it/s]
+-----------------------
+time:2020-01-01T15:37:07.503350
+Epoch 2
+Loss on train:161.06909265223658
+acc @1 on Dev:0.5911428571428572
+acc @10 on Dev:0.7114285714285714
+best acc @1 on Dev:0.5994285714285714
+-----------------------
+100%|███████████████████████████████████████| 2813/2813 [04:36<00:00, 10.16it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 10500/10500 [02:40<00:00, 65.56it/s]
+Already saved model to saved_model/zh_en_model_win1_1_win2_2_node1dim_100_node2dim_100_word_embedding_dim_300_layer1_1_layer2_1_first_gcn_type_mean_pooling_second_gcn_type_mean_pooling_cosine_MP_dim_10_drop_out_0.0_use_Glove_True_pm_graph_level_sample_size_per_layer_1/model-0
+writing prediction file...
+-----------------------
+time:2020-01-01T15:44:25.629507
+Epoch 3
+Loss on train:111.56351363748581
+acc @1 on Dev:0.6178095238095238
+acc @10 on Dev:0.7121904761904762
+best acc @1 on Dev:0.6178095238095238
+-----------------------
+100%|███████████████████████████████████████| 2813/2813 [04:37<00:00, 10.14it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 10500/10500 [02:37<00:00, 66.82it/s]
+time:2020-01-01T15:51:40.214826
+Epoch 4
+Loss on train:85.11626285619059
+acc @1 on Dev:0.5735238095238095
+acc @10 on Dev:0.708
+best acc @1 on Dev:0.6178095238095238
+-----------------------
+100%|███████████████████████████████████████| 2813/2813 [04:37<00:00, 10.13it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 10500/10500 [02:37<00:00, 66.71it/s]
+-----------------------
+time:2020-01-01T15:58:55.484797
+Epoch 5
+Loss on train:65.59325218964295
+acc @1 on Dev:0.5907619047619047
+acc @10 on Dev:0.71
+best acc @1 on Dev:0.6178095238095238
+-----------------------
+100%|███████████████████████████████████████| 2813/2813 [04:37<00:00, 10.14it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 10500/10500 [02:37<00:00, 66.69it/s]
+-----------------------
+time:2020-01-01T16:06:10.388775
+Epoch 6
+Loss on train:51.95904333020235
+acc @1 on Dev:0.566952380952381
+acc @10 on Dev:0.7063809523809523
+best acc @1 on Dev:0.6178095238095238
+-----------------------
+100%|███████████████████████████████████████| 2813/2813 [04:38<00:00, 10.12it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 10500/10500 [02:37<00:00, 66.79it/s]
+-----------------------
+time:2020-01-01T16:13:25.728312
+Epoch 7
+Loss on train:42.618598766001014
+acc @1 on Dev:0.572
+acc @10 on Dev:0.7064761904761905
+best acc @1 on Dev:0.6178095238095238
+-----------------------
+100%|███████████████████████████████████████| 2813/2813 [04:39<00:00, 10.08it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 10500/10500 [02:37<00:00, 66.64it/s]
+-----------------------
+time:2020-01-01T16:20:42.576122
+Epoch 8
+Loss on train:36.99233189576489
+acc @1 on Dev:0.5596190476190476
+acc @10 on Dev:0.7066666666666667
+best acc @1 on Dev:0.6178095238095238
+-----------------------
+100%|███████████████████████████████████████| 2813/2813 [04:37<00:00, 10.13it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 10500/10500 [02:37<00:00, 66.75it/s]
+-----------------------
+time:2020-01-01T16:27:57.748688
+Epoch 9
+Loss on train:31.676935091972837
+acc @1 on Dev:0.553047619047619
+acc @10 on Dev:0.7025714285714286
+best acc @1 on Dev:0.6178095238095238
+-----------------------
+100%|███████████████████████████████████████| 2813/2813 [04:38<00:00, 10.11it/s]
+evaluating the model on the dev data ...
+100%|█████████████████████████████████████| 10500/10500 [02:39<00:00, 65.84it/s]
+-----------------------
+time:2020-01-01T16:35:15.575010
+Epoch 10
+Loss on train:28.798608290747552
+acc @1 on Dev:0.561047619047619
+acc @10 on Dev:0.7072380952380952
+best acc @1 on Dev:0.6178095238095238
+
+100%|█████████████████████████████████| 105000/105000 [1:55:20<00:00, 15.17it/s]
+10500
+-----------------------
+acc @1 on Test:0.5945714285714285
+acc @10 on Test:0.7790476190476191
+MRR:0.6634896854400565

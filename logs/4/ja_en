@@ -1,0 +1,20 @@
+sample path time elapsed: 2350.6849 s
+{'hidden_size': 300, 'num_layers': 2, 'batch_size': 512, 'learning_rate': 0.003, 'num_samples': 8192, 'keep_prob': 0.5, 'max_length': 15, 'alpha': 0.9, 'beta': 0.9, 'data_path': 'data/HGCN-JE-JR_data/data/ja_en/', 'log_file_path': 'data-HGCN-JE-JR_data-data-ja_en-15l_19-12-30-18-17.log'}
+epoch:0, Hits@1:0.000, Hits@10:0.001, MR:5308.905, MRR:0.001, mean_loss:10000.000
+epoch:1, Hits@1:0.470, Hits@10:0.709, MR:122.788, MRR:0.554, mean_loss:1633.215
+epoch:2, Hits@1:0.505, Hits@10:0.750, MR:82.890, MRR:0.588, mean_loss:40.248
+epoch:3, Hits@1:0.531, Hits@10:0.749, MR:77.086, MRR:0.609, mean_loss:37.847
+epoch:4, Hits@1:0.516, Hits@10:0.760, MR:73.974, MRR:0.604, mean_loss:36.867
+epoch:5, Hits@1:0.531, Hits@10:0.758, MR:74.784, MRR:0.613, mean_loss:36.243
+epoch:6, Hits@1:0.538, Hits@10:0.771, MR:71.387, MRR:0.619, mean_loss:35.861
+epoch:7, Hits@1:0.541, Hits@10:0.770, MR:68.432, MRR:0.618, mean_loss:35.507
+epoch:8, Hits@1:0.543, Hits@10:0.770, MR:69.526, MRR:0.624, mean_loss:35.269
+epoch:9, Hits@1:0.545, Hits@10:0.767, MR:75.762, MRR:0.621, mean_loss:35.065
+epoch:10, Hits@1:0.548, Hits@10:0.769, MR:70.481, MRR:0.626, mean_loss:34.894
+epoch:11, Hits@1:0.553, Hits@10:0.771, MR:69.060, MRR:0.629, mean_loss:34.783
+epoch:12, Hits@1:0.562, Hits@10:0.779, MR:71.953, MRR:0.637, mean_loss:34.639
+epoch:13, Hits@1:0.557, Hits@10:0.780, MR:68.918, MRR:0.632, mean_loss:34.515
+epoch:14, Hits@1:0.553, Hits@10:0.780, MR:70.441, MRR:0.631, mean_loss:34.411
+epoch:15, Hits@1:0.557, Hits@10:0.783, MR:73.628, MRR:0.636, mean_loss:34.325
+epoch:15, Hits@1:0.574, Hits@10:0.799, MR:63.549, MRR:0.654, mean_loss:34.325
+total time elapsed: 6437.7736 s

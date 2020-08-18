@@ -1,0 +1,141 @@
+(p3) weixin@weixin-All-Series:~/PycharmProjects/EA/Crosslingula-KG-Matching-master/DBP15K$ python preprocessor.py dbp_yg_15k_V1 train 20
+generating candidate file for training ...
+100%|███████████████████████████████████████| 4500/4500 [35:03<00:00,  2.14it/s]
+correct at #1 acc: 0.711528429838289
+correct at #10 acc: 0.927490871152843
+correct at #20 acc: 0.9705268648930621
+generating training data for graph matching model...
+
+10500/10500 [1:18:12<00:00,  2.24it/s]
+correct at #1 acc: 0.7937805016456702
+correct at #10 acc: 0.9737827715355806
+correct at #1000 acc: 1.0
+generating test data for graph matching model...
+
+100%|███████████████████████████████████████| 2397/2397 [03:07<00:00, 12.82it/s]
+evaluating the model on the dev data ...
+100%|███████████████████████████████████████| 8811/8811 [02:06<00:00, 69.45it/s]
+Already saved model to saved_model/dbp_yg_15k_V1_win1_1_win2_2_node1dim_100_node2dim_100_word_embedding_dim_300_layer1_1_layer2_1_first_gcn_type_mean_pooling_second_gcn_type_mean_pooling_cosine_MP_dim_10_drop_out_0.0_use_Glove_True_pm_graph_level_sample_size_per_layer_1/model-0
+writing prediction file...
+-----------------------
+time:2020-01-13T17:26:01.162092
+Epoch 1
+Loss on train:158.53197117897616
+acc @1 on Dev:0.9634547724435365
+acc @10 on Dev:0.9902394733855407
+best acc @1 on Dev:0.9634547724435365
+-----------------------
+100%|███████████████████████████████████████| 2397/2397 [03:05<00:00, 12.90it/s]
+evaluating the model on the dev data ...
+100%|███████████████████████████████████████| 8811/8811 [02:05<00:00, 70.24it/s]
+Already saved model to saved_model/dbp_yg_15k_V1_win1_1_win2_2_node1dim_100_node2dim_100_word_embedding_dim_300_layer1_1_layer2_1_first_gcn_type_mean_pooling_second_gcn_type_mean_pooling_cosine_MP_dim_10_drop_out_0.0_use_Glove_True_pm_graph_level_sample_size_per_layer_1/model-0
+writing prediction file...
+-----------------------
+time:2020-01-13T17:31:14.234983
+Epoch 2
+Loss on train:48.107631508662564
+acc @1 on Dev:0.9693564862104188
+acc @10 on Dev:0.9903529678810578
+best acc @1 on Dev:0.9693564862104188
+-----------------------
+100%|███████████████████████████████████████| 2397/2397 [03:04<00:00, 12.98it/s]
+evaluating the model on the dev data ...
+100%|███████████████████████████████████████| 8811/8811 [02:05<00:00, 70.14it/s]
+Already saved model to saved_model/dbp_yg_15k_V1_win1_1_win2_2_node1dim_100_node2dim_100_word_embedding_dim_300_layer1_1_layer2_1_first_gcn_type_mean_pooling_second_gcn_type_mean_pooling_cosine_MP_dim_10_drop_out_0.0_use_Glove_True_pm_graph_level_sample_size_per_layer_1/model-0
+writing prediction file...
+-----------------------
+time:2020-01-13T17:36:25.783393
+Epoch 3
+Loss on train:33.95685732219141
+acc @1 on Dev:0.9734422880490297
+acc @10 on Dev:0.9904664623765748
+best acc @1 on Dev:0.9734422880490297
+-----------------------
+100%|███████████████████████████████████████| 2397/2397 [03:04<00:00, 12.98it/s]
+evaluating the model on the dev data ...
+100%|███████████████████████████████████████| 8811/8811 [02:05<00:00, 70.35it/s]
+-----------------------
+time:2020-01-13T17:41:35.793305
+Epoch 4
+Loss on train:28.628895966045775
+acc @1 on Dev:0.9611848825331971
+acc @10 on Dev:0.9902394733855407
+best acc @1 on Dev:0.9734422880490297
+-----------------------
+100%|███████████████████████████████████████| 2397/2397 [03:04<00:00, 12.98it/s]
+evaluating the model on the dev data ...
+100%|███████████████████████████████████████| 8811/8811 [02:05<00:00, 70.37it/s]
+-----------------------
+Epoch 5
+Loss on train:25.462084121038288
+acc @1 on Dev:0.9586880036318238
+acc @10 on Dev:0.9900124843945068
+best acc @1 on Dev:0.9734422880490297
+-----------------------
+100%|███████████████████████████████████████| 2397/2397 [03:04<00:00, 12.99it/s]
+evaluating the model on the dev data ...
+100%|███████████████████████████████████████| 8811/8811 [02:05<00:00, 70.28it/s]
+-----------------------
+time:2020-01-13T17:51:55.667329
+Epoch 6
+Loss on train:22.013295815450647
+acc @1 on Dev:0.9632277834525026
+acc @10 on Dev:0.9903529678810578
+best acc @1 on Dev:0.9734422880490297
+-----------------------
+100%|███████████████████████████████████████| 2397/2397 [03:04<00:00, 12.99it/s]
+evaluating the model on the dev data ...
+100%|███████████████████████████████████████| 8811/8811 [02:05<00:00, 69.96it/s]
+-----------------------
+time:2020-01-13T17:57:06.273424
+Epoch 7
+Loss on train:20.515976501651835
+acc @1 on Dev:0.9535807513335604
+acc @10 on Dev:0.98989898989899
+best acc @1 on Dev:0.9734422880490297
+-----------------------
+100%|███████████████████████████████████████| 2397/2397 [03:04<00:00, 12.97it/s]
+evaluating the model on the dev data ...
+100%|███████████████████████████████████████| 8811/8811 [02:05<00:00, 70.32it/s]
+-----------------------
+time:2020-01-13T18:02:16.419019
+Epoch 8
+Loss on train:17.93401734553254
+acc @1 on Dev:0.9677675632731813
+acc @10 on Dev:0.9903529678810578
+best acc @1 on Dev:0.9734422880490297
+-----------------------
+100%|███████████████████████████████████████| 2397/2397 [03:04<00:00, 12.98it/s]
+evaluating the model on the dev data ...
+100%|███████████████████████████████████████| 8811/8811 [02:05<00:00, 70.38it/s]
+-----------------------
+time:2020-01-13T18:07:26.304586
+Epoch 9
+Loss on train:16.582242637537092
+acc @1 on Dev:0.9577800476676881
+acc @10 on Dev:0.9884235614572693
+best acc @1 on Dev:0.9734422880490297
+-----------------------
+100%|███████████████████████████████████████| 2397/2397 [03:04<00:00, 12.98it/s]
+evaluating the model on the dev data ...
+100%|███████████████████████████████████████| 8811/8811 [02:05<00:00, 70.31it/s]
+-----------------------
+time:2020-01-13T18:12:36.335337
+Epoch 10
+Loss on train:15.56994707681065
+acc @1 on Dev:0.961411871524231
+acc @10 on Dev:0.989558506412439
+best acc @1 on Dev:0.9734422880490297
+
+HEEEEEE
+HEEEEEE
+100%|███████████████████████████████████| 88110/88110 [1:11:34<00:00, 20.52it/s]
+8811
+-----------------------
+acc @1 on Test:0.9584610146407899
+acc @10 on Test:0.9979570990806946
+MRR:0.9755748580293292
+-----------------------
+writing prediction file...
+
+
